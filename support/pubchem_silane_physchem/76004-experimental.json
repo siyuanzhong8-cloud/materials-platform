@@ -1,0 +1,374 @@
+{
+  "Record": {
+    "RecordType": "CID",
+    "RecordNumber": 76004,
+    "RecordTitle": "Vinyltrimethoxysilane",
+    "Section": [
+      {
+        "TOCHeading": "Chemical and Physical Properties",
+        "Description": "Various chemical and physical properties that are experimentally determined for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+        "Section": [
+          {
+            "TOCHeading": "Experimental Properties",
+            "Description": "Various experimentally determined properties for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+            "Section": [
+              {
+                "TOCHeading": "Physical Description",
+                "Description": "The appearance or features of this compound, including color, odor, state, taste and more in general.",
+                "Information": [
+                  {
+                    "ReferenceNumber": 19,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Light yellow liquid; [Aldrich MSDS] Colorless liquid with a fruity odor; [Alfa Aesar MSDS]"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid (at standard temperature and pressure)"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Boiling Point",
+                "Description": "The temperature at which this compound changes state from liquid to gas at a given atmospheric pressure.",
+                "URL": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Miscellaneous_Techniques/6.02%3A_Boiling_Point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 30,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "123 °C @760 [mm Hg]"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "123°C at 1013 hPa (converted to 101.3 kPa) (760 mm Hg)"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Melting Point",
+                "Description": "This section provides the melting point and/or freezing point. The melting point is the temperature at which a substance changes state from solid to liquid at atmospheric pressure. When considered as the temperature of the reverse change (from liquid to solid), it is referred to as the freezing point.",
+                "URL": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "−97°C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Flash Point",
+                "Description": "The lowest temperature at which a liquid can gives off vapor to form an ignitable mixture in air near the surface of the liquid.",
+                "URL": "https://www.britannica.com/science/flash-point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "25.5°C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Solubility",
+                "Description": "The solubility of a substance is the amount of that substance that will dissolve in a given amount of solvent. The default solvent is water, if not indicated.",
+                "URL": "https://chem.libretexts.org/Courses/Purdue/Purdue%3A_Chem_26505%3A_Organic_Chemistry_I_(Lipton)/Chapter_4._Intermolecular_Forces_and_Physical_Properties/4.4_Solubility",
+                "Information": [
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Water Solubility: 1,000,000 mg/L at 20°C (modeled data).",
+                          "Markup": [
+                            {
+                              "Start": 0,
+                              "Length": 5,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/Water",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-962"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Density",
+                "Description": "This section provides information on the density (with unit) and specific gravity (without unit) of a compound. Density is mass of a unit volume of a compound and commonly expressed in units of kg/m3 or g/cm3. Specific gravity, also known as relative density, is a unit-less quantity, defined as the ratio of the density of a compound to that of a standard reference material (typically, water at 4 °C for liquids and air at room temperature [20 °C or 68 °F] for gases).",
+                "URL": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Map%3A_Fundamentals_of_General_Organic_and_Biological_Chemistry_(McMurry_et_al.)/01%3A_Matter_and_Measurements/1.12%3A_Density_and_Specific_Gravity",
+                "Information": [
+                  {
+                    "ReferenceNumber": 30,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "1.13 @25 °C"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Specific Density: 0.94 (water = 1)",
+                          "Markup": [
+                            {
+                              "Start": 24,
+                              "Length": 5,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/water",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-962"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Vapor Pressure",
+                "Description": "Vapor pressure (or equilibrium vapor pressure) is the pressure of a vapor in thermodynamic equilibrium with its condensed phases in a closed system.",
+                "URL": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/11%3A_Liquids_and_Intermolecular_Forces/11.05%3A_Vapor_Pressure",
+                "Information": [
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "11.9 hPa (converted to 1.19 kPa) at 20°C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Stability/Shelf Life",
+                "Description": "Tendency of a material to resist change or decomposition due to internal reaction, or due to the action of air, heat, light, pressure, etc. See also the Stability and Reactivity subsection under the Safety and Hazards section on this page (when available).",
+                "Information": [
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Hydrolytically unstable; at pH = 7 (20°C–25°C) half-life <0.2 h"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Autoignition Temperature",
+                "Description": "The lowest temperature at which the substance will spontaneously ignite in a normal atmosphere without an external source of ignition (e.g., spark or flame).",
+                "Information": [
+                  {
+                    "ReferenceNumber": 31,
+                    "Reference": [
+                      "doi:10.1177/07482337251315794"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "doi:10.1177/07482337251315794",
+                        "Matched": {
+                          "PCLID": 38705273,
+                          "Citation": "Workplace Environmental Exposure Level (WEEL) Committee; Occupational Alliance for Risk Science (OARS); Toxicology Excellence for Risk Assessment (TERA). Vinyltrimethoxysilane (VTMS). Toxicol Ind Health. 2025 May;41(5-6):267–75. doi: 10.1177/07482337251315794. PMID: 40260861.",
+                          "PMID": 40260861,
+                          "DOI": "10.1177/07482337251315794"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "224°C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Reference": [
+      {
+        "ReferenceNumber": 19,
+        "SourceName": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases",
+        "SourceID": "hz9585",
+        "Name": "Trimethoxyvinylsilane",
+        "Description": "Haz-Map® is an occupational health database designed for health and safety professionals and for consumers seeking information about the adverse effects of workplace exposures to chemical and biological agents.",
+        "LicenseNote": "Copyright (c) 2026 Haz-Map(R). All rights reserved.\nUnless otherwise indicated, all materials from Haz-Map are copyrighted by Haz-Map(R). No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+        "ANID": 17281693
+      },
+      {
+        "ReferenceNumber": 31,
+        "SourceName": "Pertti (Bert) Hakkinen's Toxicology and Other Annotations",
+        "SourceID": "1dcfc481c82c036f82dd39b5ff3c70e6",
+        "Name": "Vinyltrimethoxysilane",
+        "Description": "Pertti (Bert) Hakkinen's Toxicology and Other Annotations provide expert-curated annotations from the published literature.",
+        "ANID": 49687071
+      },
+      {
+        "ReferenceNumber": 30,
+        "SourceName": "PAC Chemical Database, U.S. Department of Energy",
+        "SourceID": "2768-02-7",
+        "Name": "Trimethoxyvinylsilane; (Vinyltrimethoxysilane; Silane, trimethoxyvinyl-)",
+        "Description": "",
+        "URL": "https://emhub1.energy.gov/pacteel/search#2768-02-7",
+        "LicenseURL": "https://www.energy.gov/web-policies",
+        "ANID": 56701476
+      }
+    ]
+  }
+}

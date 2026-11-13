@@ -1,0 +1,13 @@
+@media (min-width: 1051px) {
+  .platform-home .reaction-cards { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (min-width: 601px) and (max-width: 1050px) {
+  .platform-home .reaction-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.platform-home .reaction-card:last-child h2 { font-size: clamp(23px, 2.4vw, 34px); }
+.platform-home .reaction-card:last-child .reaction-card-symbol {
+  font-family: Georgia, serif;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 1;
+}

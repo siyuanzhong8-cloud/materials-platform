@@ -1,0 +1,35 @@
+# Secrets and local credentials
+config/auth.sqlite
+config/auth.sqlite-*
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.env
+.env.*
+*.pem
+*.key
+ngrok.yml
+**/ngrok.yml
+
+# Local environments and caches
+venv/
+dsvenv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Logs and runtime
+logs/
+*.log
+
+# Local data kept on the server, not in git
+data/*.sqlite
+data/staging/
+raw_datasets/
+data-chunks/
+
+# OS
+.DS_Store
+Thumbs.db

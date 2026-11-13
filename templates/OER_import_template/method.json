@@ -1,0 +1,17 @@
+{
+  "name": "UMA CHE 固定修正范本（请核对并替换真实方法）",
+  "temperature_K": 298.15,
+  "potential_V_RHE": 0.0,
+  "correction_eV": {
+    "OH": 0.35,
+    "O": 0.05,
+    "OOH": 0.4
+  },
+  "uma_gas_reference_eV": {
+    "H2": -6.95712102465768,
+    "H2O": -14.110342539548466
+  },
+  "reference_checkpoint_sha256": "b2673b85037b075674c25f55c34ffe1ff1e15db924be977b10a184765df0d5ce",
+  "scope": "固定热力学修正估算；非逐结构振动计算；不含显式溶剂",
+  "source": "https://doi.org/10.1038/s41467-020-15231-x"
+}

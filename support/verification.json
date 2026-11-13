@@ -1,0 +1,59 @@
+{
+  "result": "PASS",
+  "isolated_runtime": true,
+  "all_imports_and_paths_inside_package": true,
+  "tables_identical_to_original": [
+    {
+      "database": "oer.sqlite",
+      "table": "methods",
+      "rows": 1
+    },
+    {
+      "database": "oer.sqlite",
+      "table": "batches",
+      "rows": 1
+    },
+    {
+      "database": "oer.sqlite",
+      "table": "configurations",
+      "rows": 8997
+    },
+    {
+      "database": "oer.sqlite",
+      "table": "elements",
+      "rows": 21920
+    },
+    {
+      "database": "oer.sqlite",
+      "table": "structures",
+      "rows": 35988
+    },
+    {
+      "database": "literature.sqlite",
+      "table": "sources",
+      "rows": 16
+    },
+    {
+      "database": "literature.sqlite",
+      "table": "materials",
+      "rows": 1336
+    },
+    {
+      "database": "literature.sqlite",
+      "table": "structures",
+      "rows": 983
+    }
+  ],
+  "checks": [
+    "database integrity",
+    "all database rows and blobs identical",
+    "prediction counts",
+    "CuCl 104/108",
+    "prediction and literature OOH geometry",
+    "prediction CSV",
+    "four-state ZIP and original SHA256",
+    "literature completeness across pagination",
+    "complete literature CSV 117 rows",
+    "home page and API health"
+  ]
+}

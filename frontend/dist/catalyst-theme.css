@@ -1,0 +1,13 @@
+/* OER workbench: larger type, same restrained catalog style as the glass pages. */
+:root{font-size:16px;line-height:1.65}
+body{font-size:16px;color:#173647;background:#f3f6f8}
+button,.button{min-height:38px;padding:8px 14px;font-size:15px;border-radius:6px;box-shadow:none}
+input,select{min-height:40px;font-size:15px;border-radius:6px}
+table{font-size:15px}
+th{font-size:13px;font-weight:600;padding:12px 14px}
+td{padding:14px 12px;font-size:15px}
+h1{font-size:24px;letter-spacing:.4px;font-weight:650}
+h2{font-size:20px;font-weight:600}
+h3{font-size:17px;font-weight:600}
+small,.hint,.muted{font-size:13px;line-height:1.7}
+a{font-size:inherit}

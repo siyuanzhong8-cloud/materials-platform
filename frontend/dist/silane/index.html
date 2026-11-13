@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>硅烷偶联剂 | 材料数据库平台</title>
+  <link rel="stylesheet" href="/platform-ui.css?v=20261113-searchw3">
+  <link rel="stylesheet" href="library.css?v=20261113-noeyebrow">
+  <style id="search-bar-width">
+    .silane-page .search-hero, .silane-page .engine-wrap, .silane-page #engineForm { width: 100%; max-width: 1160px; box-sizing: border-box; }
+    .silane-page .engine-wrap, .silane-page #engineForm { max-width: 920px; }
+    .silane-page #query { flex: 1 1 auto; width: 100%; min-width: 0; -webkit-appearance: none; appearance: none; }
+  </style>
+  <script type="module" src="library.js?v=20261113-datatype"></script>
+</head>
+<body class="silane-page search-home">
+  <header class="site-header">
+    <a class="brand" href="/#home">
+      <span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span>
+      <div>
+        <h1>材料数据库平台</h1>
+        <p>材料检索 · 性质对照 · 文献追溯</p>
+      </div>
+    </a>
+    
+  </header>
+  <nav class="categories" aria-label="材料数据库分类">
+    <a class="home-tab" href="/#home">总入口</a>
+    <a class="cat-tab" href="/#catalyst">01 <span>催化材料</span></a>
+    <a class="cat-tab" href="/#glass">02 <span>玻璃数据库</span></a>
+    <a class="cat-tab active" href="/silane/" aria-current="page">03 <span>硅烷偶联剂</span><small>480种分子</small></a>
+  </nav>
+  <div class="search-hero">
+    <h2>找到你需要的偶联剂分子</h2>
+    <p class="hero-subtitle">输入名称、CAS、官能团或性质要求，从已收录的分子中查找。</p>
+    <div class="engine-wrap">
+      <form id="engineForm" class="engine-form" autocomplete="off">
+        <span class="search-symbol" aria-hidden="true">⌕</span>
+        <input id="query" maxlength="500" placeholder="例如：氨基，沸点 200～250 °C" aria-label="搜索硅烷偶联剂">
+        <button id="engineSubmit" type="submit">搜索分子 <span>→</span></button>
+      </form>
+      <div id="searchSuggestions" hidden>
+        <span class="hint">试试这些条件</span>
+        <button type="button" data-example="APTES">APTES · 3-氨丙基三乙氧基硅烷</button>
+        <button type="button" data-example="环氧，可水解">环氧 · 可水解</button>
+        <button type="button" data-example="氨基，沸点 200~250 °C">氨基 · 沸点 200～250 °C</button>
+        <button type="button" data-example="密度 1.0~1.1">密度 1.0～1.1（含相对密度）</button>
+        <button type="button" data-example="CAS 2530-83-8">按 CAS 搜索：2530-83-8</button>
+      </div>
+    </div>
+    <div class="engine-tools">
+      <button type="button" id="advancedToggle" class="text">高级筛选</button>
+      <button type="button" id="browse" class="text">浏览全部分子 ↗</button>
+    </div>
+    <div id="intentChips" class="intent-chips"></div>
+    <div id="intentError" role="alert" hidden></div>
+    <div id="stats" class="stats engine-stats"></div>
+  </div>
+  <main class="results-main">
+    <aside class="filters" id="advancedFilters" hidden>
+      <div class="heading"><h3>筛选分子</h3><button type="button" class="text" id="reset">重置条件</button></div>
+      <section class="silane-elements inline-periodic" aria-labelledby="element-heading">
+        <div class="periodic-head">
+          <h3 id="element-heading">按元素筛选</h3>
+        </div>
+        <div class="inline-periodic-scroll" role="region" aria-label="元素周期表">
+          <div id="periodic-grid" class="inline-periodic-grid"></div>
+        </div>
+        <div class="compact-filterbar">
+          <div class="selected-elements"><span>已选元素</span><div id="element-chips"></div></div>
+          <label class="match-mode">匹配方式
+            <select id="element-mode">
+              <option value="contains">包含所选元素</option>
+              <option value="exact">元素集合完全一致</option>
+            </select>
+          </label>
+          <button type="button" class="text" id="clear-elements" disabled>清空元素</button>
+        </div>
+      </section>
+      <section class="coupling-filters" aria-labelledby="coupling-filter-heading">
+        <div class="coupling-filter-heading">
+          <h3 id="coupling-filter-heading">按偶联剂结构筛选</h3>
+          <button type="button" class="text" id="clear-coupling">清空结构筛选</button>
+        </div>
+        <label>硅端水解性<select id="hydrolysis">
+          <option value="">全部</option>
+          <option value="yes">可水解</option>
+          <option value="no">不可水解</option>
+        </select></label>
+        <label>有机端官能团<select id="group"><option value="">全部</option></select></label>
+        <label>连接段组成<select id="linker-type"><option value="">全部</option></select></label>
+        <label>连接段长度<select id="linker-length"><option value="">全部</option></select></label>
+        <label>硅端可水解基团<select id="hydro-group"><option value="">全部</option></select></label>
+        <label>单个硅位点基团数<select id="site-count"><option value="">全部</option></select></label>
+        <label>全分子可水解基团总数<select id="hydro-count"><option value="">全部</option></select></label>
+      </section>
+      <section class="property-filters" aria-labelledby="property-filter-heading">
+        <h3 id="property-filter-heading">按性质与来源筛选</h3>
+        <label>需要的性质<select id="property-kind"><option value="">不限性质</option></select></label>
+        <label>最小值<input id="property-lo" type="number" step="any" placeholder="不限"></label>
+        <label>最大值<input id="property-hi" type="number" step="any" placeholder="不限"></label>
+        <label>来源<select id="source"><option value="">全部</option></select></label>
+      </section>
+    </aside>
+    <article>
+      <div class="toolbar">
+        <div>
+          <span class="eyebrow">分子目录</span>
+          <h3 id="listTitle">分子列表</h3>
+          <p id="count" class="muted" role="status">请先搜索或浏览全部分子</p>
+        </div>
+        <div class="toolbar-actions">
+          <button type="button" id="compareOpen" class="secondary compare-open" disabled>对比已选 0 / 3</button>
+          <button type="button" id="compareClear" class="secondary" hidden>清空对比</button>
+          <a class="secondary" href="molecules.json" download="silane_molecules.json">导出结果 ↓</a>
+        </div>
+      </div>
+      <ul id="molecules" class="molecule-list"></ul>
+      <nav class="pager" id="pagination" aria-label="分子列表分页" hidden>
+        <button type="button" id="previous-page" class="secondary">← 上一页</button>
+        <span id="page-number"></span>
+        <button type="button" id="next-page" class="secondary">下一页 →</button>
+      </nav>
+    </article>
+  </main>
+  <dialog id="detailDialog">
+    <div class="dialog-top">
+      <div>
+        <span class="eyebrow">分子详情</span>
+        <h2 id="label">分子详情</h2>
+      </div>
+      <button type="button" id="closeDetail" class="icon-close" aria-label="关闭分子详情">×</button>
+    </div>
+    <section class="molecule-detail" aria-label="分子详情" id="detail">
+      <div class="molecule-heading"><span id="state"></span></div>
+      <p id="name" class="molecule-name"></p>
+      <figure id="structure">
+        <img id="depiction" width="340" height="178" alt="">
+        <figcaption id="depiction-caption">二维分子结构</figcaption>
+      </figure>
+      <section class="property-section" id="coupling-section" aria-labelledby="coupling-heading">
+        <h3 id="coupling-heading">偶联剂结构</h3>
+        <dl id="coupling-summary"></dl>
+        <div id="silicon-sites" class="silicon-sites"></div>
+      </section>
+      <section class="property-section" id="reported-section" aria-labelledby="reported-heading" hidden>
+        <h3 id="reported-heading">公开理化数据</h3>
+        <dl id="reported-properties"></dl>
+        <p id="reported-empty" class="property-note" hidden>暂未收录可核对的公开数据。</p>
+      </section>
+      <section class="property-section" id="computed-section" aria-labelledby="computed-heading" hidden>
+        <div class="property-header">
+          <h3 id="computed-heading">计算描述符</h3>
+          <span id="computed-source"></span>
+        </div>
+        <dl id="computed-properties"></dl>
+      </section>
+      <section class="property-section" id="external-section" aria-labelledby="external-heading" hidden>
+        <h3 id="external-heading">外部数据</h3>
+        <dl id="external-data"></dl>
+        <p class="property-note">只读。来自外部开放数据集，按数据类型标注，不与上方数据合并。</p>
+      </section>
+      <section class="property-section" aria-labelledby="identity-heading">
+        <h3 id="identity-heading">分子标识</h3>
+        <dl id="properties"></dl>
+        <div id="catalog-references" class="catalog-references" hidden></div>
+      </section>
+      <div class="molecule-links">
+        <a id="sdf" download>下载二维 SDF ↓</a>
+        <a id="pubchem" target="_blank" rel="noopener noreferrer">查看 PubChem ↗</a>
+      </div>
+    </section>
+  </dialog>
+  <dialog id="compareDialog">
+    <div class="dialog-top">
+      <h2>分子对比</h2>
+      <button type="button" id="closeCompare" class="icon-close" aria-label="关闭分子对比">×</button>
+    </div>
+    <div id="compareContent" class="compare-content"></div>
+  </dialog>
+  <dialog id="conditionModal">
+    <div class="dialog-top">
+      <h2>数值与测试条件</h2>
+      <button type="button" id="closeCondition" class="icon-close" aria-label="关闭测试条件">×</button>
+    </div>
+    <div id="conditionContent"></div>
+  </dialog>
+</body>
+</html>

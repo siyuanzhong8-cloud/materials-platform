@@ -1,0 +1,69 @@
+{
+  "Record": {
+    "RecordType": "CID",
+    "RecordNumber": 83756,
+    "RecordTitle": "Aminopropyltrimethoxysilane",
+    "Section": [
+      {
+        "TOCHeading": "Chemical and Physical Properties",
+        "Description": "Various chemical and physical properties that are experimentally determined for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+        "Section": [
+          {
+            "TOCHeading": "Experimental Properties",
+            "Description": "Various experimentally determined properties for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+            "Section": [
+              {
+                "TOCHeading": "Physical Description",
+                "Description": "The appearance or features of this compound, including color, odor, state, taste and more in general.",
+                "Information": [
+                  {
+                    "ReferenceNumber": 10,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 18,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Clear to straw-colored liquid with an ammoniacal odor; [Gelest MSDS]"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Reference": [
+      {
+        "ReferenceNumber": 10,
+        "SourceName": "EPA Chemical Data Reporting (CDR)",
+        "SourceID": "14dca2b278fbf1cbdd3fe99b7b070322",
+        "Name": "1-Propanamine, 3-(trimethoxysilyl)-",
+        "Description": "The non-confidential content of the EPA Chemical Data Reporting.",
+        "URL": "https://www.epa.gov/chemical-data-reporting",
+        "LicenseNote": "The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes.",
+        "LicenseURL": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers#copyright",
+        "ANID": 38379559
+      },
+      {
+        "ReferenceNumber": 18,
+        "SourceName": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases",
+        "SourceID": "hz11018",
+        "Name": "3-Aminopropyltrimethoxysilane",
+        "Description": "Haz-Map® is an occupational health database designed for health and safety professionals and for consumers seeking information about the adverse effects of workplace exposures to chemical and biological agents.",
+        "LicenseNote": "Copyright (c) 2026 Haz-Map(R). All rights reserved.\nUnless otherwise indicated, all materials from Haz-Map are copyrighted by Haz-Map(R). No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+        "ANID": 17282429
+      }
+    ]
+  }
+}

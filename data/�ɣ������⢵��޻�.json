@@ -1,0 +1,406 @@
+{
+  "passed": true,
+  "cases": 10,
+  "checks": [
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "含SiO2和B2O3，密度2.3~2.6 g/cm3"
+      },
+      "seconds": 0.107
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "B2O3,SiO2",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": 2.3, \"hi\": 2.6, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.336
+    },
+    {
+      "path": "/api/glass/recipe/749",
+      "input": null,
+      "seconds": 0.047
+    },
+    {
+      "path": "/api/glass/recipe/7475",
+      "input": null,
+      "seconds": 0.029
+    },
+    {
+      "path": "/api/glass/recipe/1178",
+      "input": null,
+      "seconds": 0.03
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "找无碱硼硅玻璃，密度2.3～2.6"
+      },
+      "seconds": 0.112
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "B2O3,SiO2",
+        "exclude_components": "K2O,Li2O,Na2O",
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": 2.3, \"hi\": 2.6, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.325
+    },
+    {
+      "path": "/api/glass/recipe/306679",
+      "input": null,
+      "seconds": 0.024
+    },
+    {
+      "path": "/api/glass/recipe/306674",
+      "input": null,
+      "seconds": 0.03
+    },
+    {
+      "path": "/api/glass/recipe/306698",
+      "input": null,
+      "seconds": 0.015
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "SiO₂，密度2300-2600 kg/m³，Tg大于500°C"
+      },
+      "seconds": 0.103
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "SiO2",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": 2.3, \"hi\": 2.6, \"lo_inclusive\": true, \"hi_inclusive\": true}, {\"kind\": \"\\u73bb\\u7483\\u8f6c\\u53d8\\u6e29\\u5ea6\", \"unit\": \"\\u00b0C\", \"lo\": 500.0, \"hi\": null, \"lo_inclusive\": false, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.497
+    },
+    {
+      "path": "/api/glass/recipe/1",
+      "input": null,
+      "seconds": 0.074
+    },
+    {
+      "path": "/api/glass/recipe/1169",
+      "input": null,
+      "seconds": 0.061
+    },
+    {
+      "path": "/api/glass/recipe/1251",
+      "input": null,
+      "seconds": 0.038
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "密度小于2.5"
+      },
+      "seconds": 0.116
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": null, \"hi\": 2.5, \"lo_inclusive\": true, \"hi_inclusive\": false}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.612
+    },
+    {
+      "path": "/api/glass/recipe/1",
+      "input": null,
+      "seconds": 0.063
+    },
+    {
+      "path": "/api/glass/recipe/5143",
+      "input": null,
+      "seconds": 0.072
+    },
+    {
+      "path": "/api/glass/recipe/1197",
+      "input": null,
+      "seconds": 0.029
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "密度2.5以下"
+      },
+      "seconds": 0.112
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": null, \"hi\": 2.5, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.63
+    },
+    {
+      "path": "/api/glass/recipe/1",
+      "input": null,
+      "seconds": 0.07
+    },
+    {
+      "path": "/api/glass/recipe/5143",
+      "input": null,
+      "seconds": 0.051
+    },
+    {
+      "path": "/api/glass/recipe/1197",
+      "input": null,
+      "seconds": 0.018
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "杨氏模量大于70000 MPa"
+      },
+      "seconds": 0.105
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u6768\\u6c0f\\u6a21\\u91cf\", \"unit\": \"GPa\", \"lo\": 70.0, \"hi\": null, \"lo_inclusive\": false, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.399
+    },
+    {
+      "path": "/api/glass/recipe/1",
+      "input": null,
+      "seconds": 0.059
+    },
+    {
+      "path": "/api/glass/recipe/185110",
+      "input": null,
+      "seconds": 0.054
+    },
+    {
+      "path": "/api/glass/recipe/1169",
+      "input": null,
+      "seconds": 0.04
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "玻璃转变温度在500°C"
+      },
+      "seconds": 0.106
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u73bb\\u7483\\u8f6c\\u53d8\\u6e29\\u5ea6\", \"unit\": \"\\u00b0C\", \"lo\": 500.0, \"hi\": 500.0, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.636
+    },
+    {
+      "path": "/api/glass/recipe/1197",
+      "input": null,
+      "seconds": 0.044
+    },
+    {
+      "path": "/api/glass/recipe/16342",
+      "input": null,
+      "seconds": 0.032
+    },
+    {
+      "path": "/api/glass/recipe/1251",
+      "input": null,
+      "seconds": 0.013
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "CTE 30~60 10^-7/K"
+      },
+      "seconds": 0.093
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u7ebf\\u81a8\\u80c0\\u7cfb\\u6570\", \"unit\": \"ppm/K\", \"lo\": 3.0, \"hi\": 6.0, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.597
+    },
+    {
+      "path": "/api/glass/recipe/4529",
+      "input": null,
+      "seconds": 0.041
+    },
+    {
+      "path": "/api/glass/recipe/17305",
+      "input": null,
+      "seconds": 0.03
+    },
+    {
+      "path": "/api/glass/recipe/39035",
+      "input": null,
+      "seconds": 0.02
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "1 MHz，相对介电常数小于5"
+      },
+      "seconds": 0.115
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u76f8\\u5bf9\\u4ecb\\u7535\\u5e38\\u6570\", \"unit\": \"1\", \"lo\": null, \"hi\": 5.0, \"lo_inclusive\": true, \"hi_inclusive\": false, \"freq\": 1000000.0}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.369
+    },
+    {
+      "path": "/api/glass/recipe/1",
+      "input": null,
+      "seconds": 0.046
+    },
+    {
+      "path": "/api/glass/recipe/5684",
+      "input": null,
+      "seconds": 0.033
+    },
+    {
+      "path": "/api/glass/recipe/5805",
+      "input": null,
+      "seconds": 0.037
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "介电常数小于5，介电损耗角正切小于0.005"
+      },
+      "seconds": 0.106
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "components": "",
+        "exclude_components": "",
+        "filters": "[{\"kind\": \"\\u76f8\\u5bf9\\u4ecb\\u7535\\u5e38\\u6570\", \"unit\": \"1\", \"lo\": null, \"hi\": 5.0, \"lo_inclusive\": true, \"hi_inclusive\": false}, {\"kind\": \"\\u4ecb\\u7535\\u635f\\u8017\\u89d2\\u6b63\\u5207\", \"unit\": \"1\", \"lo\": null, \"hi\": 0.005, \"lo_inclusive\": true, \"hi_inclusive\": false}]",
+        "q": "",
+        "view": "recipes",
+        "limit": 3
+      },
+      "seconds": 0.404
+    },
+    {
+      "path": "/api/glass/recipe/1",
+      "input": null,
+      "seconds": 0.064
+    },
+    {
+      "path": "/api/glass/recipe/5143",
+      "input": null,
+      "seconds": 0.047
+    },
+    {
+      "path": "/api/glass/recipe/5786",
+      "input": null,
+      "seconds": 0.041
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "SCHOTT N-BK7"
+      },
+      "seconds": 0.116
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "密度2.5 GPa"
+      },
+      "seconds": 0.107
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "硼硅酸盐玻璃，密度2.3到2.6"
+      },
+      "seconds": 0.094
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "二氧化硅和氧化硼，密度2.3~2.6"
+      },
+      "seconds": 0.093
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "密度2.3~2.6 g/cm3"
+      },
+      "seconds": 0.107
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": 2.3, \"hi\": 2.6, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "view": "recipes",
+        "limit": 5
+      },
+      "seconds": 0.641
+    },
+    {
+      "path": "/api/glass/interpret",
+      "input": {
+        "text": "密度2300~2600 kg/m3"
+      },
+      "seconds": 0.093
+    },
+    {
+      "path": "/api/glass/search",
+      "input": {
+        "filters": "[{\"kind\": \"\\u5bc6\\u5ea6\", \"unit\": \"g/cm\\u00b3\", \"lo\": 2.3, \"hi\": 2.6, \"lo_inclusive\": true, \"hi_inclusive\": true}]",
+        "view": "recipes",
+        "limit": 5
+      },
+      "seconds": 0.646
+    }
+  ]
+}

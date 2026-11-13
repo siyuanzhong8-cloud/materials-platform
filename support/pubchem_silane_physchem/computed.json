@@ -1,0 +1,78 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 17317,
+        "ExactMass": "236.10800027",
+        "TPSA": 49.5,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 5,
+        "RotatableBondCount": 9,
+        "HeavyAtomCount": 15
+      },
+      {
+        "CID": 13521,
+        "ExactMass": "221.14472013",
+        "TPSA": 53.7,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 4,
+        "RotatableBondCount": 9,
+        "HeavyAtomCount": 14
+      },
+      {
+        "CID": 83756,
+        "ExactMass": "179.09776994",
+        "TPSA": 53.7,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 4,
+        "RotatableBondCount": 6,
+        "HeavyAtomCount": 11
+      },
+      {
+        "CID": 15659,
+        "ExactMass": "222.13996910",
+        "TPSA": 65.7,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 5,
+        "RotatableBondCount": 9,
+        "HeavyAtomCount": 14
+      },
+      {
+        "CID": 20473,
+        "ExactMass": "196.05894208",
+        "TPSA": 28.7,
+        "HBondDonorCount": 1,
+        "HBondAcceptorCount": 4,
+        "RotatableBondCount": 6,
+        "HeavyAtomCount": 11
+      },
+      {
+        "CID": 17318,
+        "ExactMass": "248.10800027",
+        "TPSA": 54,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 5,
+        "RotatableBondCount": 9,
+        "HeavyAtomCount": 16
+      },
+      {
+        "CID": 76004,
+        "ExactMass": "148.05557077",
+        "TPSA": 27.7,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3,
+        "RotatableBondCount": 4,
+        "HeavyAtomCount": 9
+      },
+      {
+        "CID": 6516,
+        "ExactMass": "190.10252097",
+        "TPSA": 27.7,
+        "HBondDonorCount": 0,
+        "HBondAcceptorCount": 3,
+        "RotatableBondCount": 7,
+        "HeavyAtomCount": 12
+      }
+    ]
+  }
+}

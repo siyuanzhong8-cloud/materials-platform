@@ -1,0 +1,392 @@
+{
+  "Record": {
+    "RecordType": "CID",
+    "RecordNumber": 13521,
+    "RecordTitle": "(3-Aminopropyl)triethoxysilane",
+    "Section": [
+      {
+        "TOCHeading": "Chemical and Physical Properties",
+        "Description": "Various chemical and physical properties that are experimentally determined for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+        "Section": [
+          {
+            "TOCHeading": "Experimental Properties",
+            "Description": "Various experimentally determined properties for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+            "Section": [
+              {
+                "TOCHeading": "Physical Description",
+                "Description": "The appearance or features of this compound, including color, odor, state, taste and more in general.",
+                "Information": [
+                  {
+                    "ReferenceNumber": 15,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid; Dry Powder; Liquid"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 25,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid; [HSDB] Colorless or light yellow liquid with a fishy odor; [CHEMINFO] Clear colorless liquid; [MSDSonline]"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Color/Form",
+                "Description": "Color is the aspect of any object that may be described in terms of hue, lightness, and saturation.",
+                "URL": "https://www.britannica.com/science/color",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57",
+                        "Matched": {
+                          "PCLID": 900019612,
+                          "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Boiling Point",
+                "Description": "The temperature at which this compound changes state from liquid to gas at a given atmospheric pressure.",
+                "URL": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Miscellaneous_Techniques/6.02%3A_Boiling_Point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57",
+                        "Matched": {
+                          "PCLID": 900019612,
+                          "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "217 °C"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 37,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "217 °C @760 [mm Hg]"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Melting Point",
+                "Description": "This section provides the melting point and/or freezing point. The melting point is the temperature at which a substance changes state from solid to liquid at atmospheric pressure. When considered as the temperature of the reverse change (from liquid to solid), it is referred to as the freezing point.",
+                "URL": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Miscellaneous_Techniques/6.01%3A_Melting_Point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "OECD SIDS; 3-Aminopropyltriethoxysilane (APTES), CAS: 919-30-2, UNEP Publications, August 2003. Available from, as of Sept 10, 2009: https://www.inchem.org/documents/sids/sids/919302.pdf"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "OECD SIDS; 3-Aminopropyltriethoxysilane (APTES), CAS: 919-30-2, UNEP Publications, August 2003. Available from, as of Sept 10, 2009: https://www.inchem.org/documents/sids/sids/919302.pdf",
+                        "Matched": {
+                          "PCLID": 906284768,
+                          "Citation": "OECD SIDS; 3-Aminopropyltriethoxysilane (APTES), CAS: 919-30-2, UNEP Publications, August 2003. Available from, as of Sept 10, 2009: https://www.inchem.org/documents/sids/sids/919302.pdf"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "-70 °C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Flash Point",
+                "Description": "The lowest temperature at which a liquid can gives off vapor to form an ignitable mixture in air near the surface of the liquid.",
+                "URL": "https://www.britannica.com/science/flash-point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Sigma-Aldrich; Safety Data Sheet for (3-Aminopropyl)triethoxysilane (Product Number: 440140) Version 3.1 (December 11, 2008). Available from, as of November 25, 2009: https://www.sigmaaldrich.com"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Sigma-Aldrich; Safety Data Sheet for (3-Aminopropyl)triethoxysilane (Product Number: 440140) Version 3.1 (December 11, 2008). Available from, as of November 25, 2009: https://www.sigmaaldrich.com",
+                        "Matched": {
+                          "PCLID": 900062113,
+                          "Citation": "Sigma-Aldrich; Safety Data Sheet for (3-Aminopropyl)triethoxysilane (Product Number: 440140) Version 3.1 (December 11, 2008). Available from, as of November 25, 2009: https://www.sigmaaldrich.com"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "98 °C (closed cup)"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Density",
+                "Description": "This section provides information on the density (with unit) and specific gravity (without unit) of a compound. Density is mass of a unit volume of a compound and commonly expressed in units of kg/m3 or g/cm3. Specific gravity, also known as relative density, is a unit-less quantity, defined as the ratio of the density of a compound to that of a standard reference material (typically, water at 4 °C for liquids and air at room temperature [20 °C or 68 °F] for gases).",
+                "URL": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Map%3A_Fundamentals_of_General_Organic_and_Biological_Chemistry_(McMurry_et_al.)/01%3A_Matter_and_Measurements/1.12%3A_Density_and_Specific_Gravity",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57",
+                        "Matched": {
+                          "PCLID": 900019612,
+                          "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 14th Edition. John Wiley & Sons, Inc. New York, NY 2001., p. 57"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "0.94 at 25 °C"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-498"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-498",
+                        "Matched": {
+                          "PCLID": 900021368,
+                          "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-498"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Density = 0.9506 g/cu m at 20 °C"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 37,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "1.01 @25 °C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Vapor Pressure",
+                "Description": "Vapor pressure (or equilibrium vapor pressure) is the pressure of a vapor in thermodynamic equilibrium with its condensed phases in a closed system.",
+                "URL": "https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/11%3A_Liquids_and_Intermolecular_Forces/11.05%3A_Vapor_Pressure",
+                "Information": [
+                  {
+                    "ReferenceNumber": 25,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "0.01 [mmHg]"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "US EPA; HPV Robust Summary Challenge Program, Aminosilanes Testing Package, 1-Propanamine, 3-(triethoxysilyl)- (CAS No. 919-30-2), Published March 16, 2000. Available from, as of Sept 15, 2009: https://www.epa.gov/chemrtk/pubs/summaries/aminosil/c12560rs.pdf"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "US EPA; HPV Robust Summary Challenge Program, Aminosilanes Testing Package, 1-Propanamine, 3-(triethoxysilyl)- (CAS No. 919-30-2), Published March 16, 2000. Available from, as of Sept 15, 2009: https://www.epa.gov/chemrtk/pubs/summaries/aminosil/c12560rs.pdf",
+                        "Matched": {
+                          "PCLID": 900161070,
+                          "Citation": "US EPA; HPV Robust Summary Challenge Program, Aminosilanes Testing Package, 1-Propanamine, 3-(triethoxysilyl)- (CAS No. 919-30-2), Published March 16, 2000. Available from, as of Sept 15, 2009: https://www.epa.gov/chemrtk/pubs/summaries/aminosil/c12560rs.pdf"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "3.3 kPa at 121 °C extrapolated to 2 Pa at 20 °C (0.015 mm Hg)"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 37,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "0.05 [mm Hg] @20 °C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Decomposition",
+                "Description": "Information on the decomposition of this compound, including the decomposition conditions and products.",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr. (ed) Sax's Dangerous Properties of Industrial Materials. 11th Edition. Wiley-Interscience, Wiley & Sons, Inc. Hoboken, NJ. 2004., p. 3544"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr. (ed) Sax's Dangerous Properties of Industrial Materials. 11th Edition. Wiley-Interscience, Wiley & Sons, Inc. Hoboken, NJ. 2004., p. 3544",
+                        "Matched": {
+                          "PCLID": 906271599,
+                          "Citation": "Lewis, R.J. Sr. (ed) Sax's Dangerous Properties of Industrial Materials. 11th Edition. Wiley-Interscience, Wiley & Sons, Inc. Hoboken, NJ. 2004., p. 3544"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "When heated to decomposition it emits toxic fumes of /nitrogen oxides/."
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Refractive Index",
+                "Description": "The refractive index (also called index of refraction) of an optical medium is a dimensionless number that quantifies the light-bending ability of that medium.",
+                "URL": "https://www.britannica.com/science/refractive-index",
+                "Information": [
+                  {
+                    "ReferenceNumber": 27,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-498"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-498",
+                        "Matched": {
+                          "PCLID": 900021368,
+                          "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-498"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Index of refraction = 1.4225 at 20 °C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Reference": [
+      {
+        "ReferenceNumber": 15,
+        "SourceName": "EPA Chemical Data Reporting (CDR)",
+        "SourceID": "d5da412a7ed76789b8685787579e2a79",
+        "Name": "1-Propanamine, 3-(triethoxysilyl)-",
+        "Description": "The non-confidential content of the EPA Chemical Data Reporting.",
+        "URL": "https://www.epa.gov/chemical-data-reporting",
+        "LicenseNote": "The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes.",
+        "LicenseURL": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers#copyright",
+        "ANID": 38379714
+      },
+      {
+        "ReferenceNumber": 25,
+        "SourceName": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases",
+        "SourceID": "hz7560",
+        "Name": "3-(Triethoxysilyl)propylamine",
+        "Description": "Haz-Map® is an occupational health database designed for health and safety professionals and for consumers seeking information about the adverse effects of workplace exposures to chemical and biological agents.",
+        "LicenseNote": "Copyright (c) 2026 Haz-Map(R). All rights reserved.\nUnless otherwise indicated, all materials from Haz-Map are copyrighted by Haz-Map(R). No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+        "ANID": 17280510
+      },
+      {
+        "ReferenceNumber": 27,
+        "SourceName": "Hazardous Substances Data Bank (HSDB)",
+        "SourceID": "5767",
+        "Name": "3-(Triethoxysilyl)propylamine",
+        "Description": "The Hazardous Substances Data Bank (HSDB) is a toxicology database that focuses on the toxicology of potentially hazardous chemicals. It provides information on human exposure, industrial hygiene, emergency handling procedures, environmental fate, regulatory requirements, nanomaterials, and related areas. The information in HSDB has been assessed by a Scientific Review Panel.",
+        "URL": "https://pubchem.ncbi.nlm.nih.gov/source/hsdb/5767",
+        "LicenseURL": "https://www.nlm.nih.gov/web_policies.html",
+        "IsToxnet": true,
+        "ANID": 3793
+      },
+      {
+        "ReferenceNumber": 37,
+        "SourceName": "PAC Chemical Database, U.S. Department of Energy",
+        "SourceID": "919-30-2",
+        "Name": "Aminopropyltriethoxysilane; (3-(Triethoxysilyl)-1-propanamine)",
+        "Description": "",
+        "URL": "https://emhub1.energy.gov/pacteel/search#919-30-2",
+        "LicenseURL": "https://www.energy.gov/web-policies",
+        "ANID": 56698634
+      }
+    ]
+  }
+}

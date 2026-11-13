@@ -1,0 +1,7352 @@
+{
+  "retrieved_on": "2026-11-12",
+  "candidate_count": 384,
+  "total_molecules": 343,
+  "outcomes": {
+    "新增": 335,
+    "多条候选待复核": 5,
+    "原有记录": 8,
+    "目录与数据库结构标注冲突": 2,
+    "目录标注为混合物、聚合物或预水解物": 7,
+    "结构不符或超出入库范围": 24,
+    "未找到 CID": 3
+  },
+  "groups": {
+    "丙烯酰胺": 2,
+    "丙烯酸酯": 8,
+    "乙烯基": 14,
+    "二硫/多硫": 2,
+    "其他烯基": 20,
+    "卤代有机基": 34,
+    "含氟有机基": 17,
+    "巯基": 5,
+    "异氰酸酯": 4,
+    "氨基": 70,
+    "氨基甲酸酯": 9,
+    "氰基": 2,
+    "烯丙基": 4,
+    "烷基/其他": 68,
+    "环氧": 10,
+    "甲基丙烯酸酯": 14,
+    "硫醚": 4,
+    "磷功能基": 6,
+    "羟基": 5,
+    "脲基": 8,
+    "芳基/芳烷基": 26,
+    "酰胺": 2,
+    "酸酐": 1,
+    "醚基": 6,
+    "醛基": 2
+  },
+  "property_response_omitted_cids": [
+    6365638
+  ],
+  "entries": [
+    {
+      "cas": "57577-96-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0146.0",
+          "name": "3-ACRYLAMIDOPROPYLTRIMETHOXYSILANE, tech-95",
+          "formula": "C9H19NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        13879166
+      ],
+      "status": "新增",
+      "cid": 13879166,
+      "group": "丙烯酰胺"
+    },
+    {
+      "cas": "123198-57-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0180.0",
+          "name": "N-(3-ACRYLOXY-2-HYDROXYPROPYL)-3-AMINOPROPYLTRIETHOXYSILANE, 50% in ethanol",
+          "formula": "C15H31NO6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        9924515
+      ],
+      "status": "新增",
+      "cid": 9924515,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "21134-38-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0182.0",
+          "name": "ACRYLOXYMETHYLTRIMETHOXYSILANE",
+          "formula": "C7H14O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        14475611
+      ],
+      "status": "新增",
+      "cid": 14475611,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "141813-19-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0184.0",
+          "name": "(ACRYLOXYMETHYL)PHENETHYLTRIMETHOXYSILANE, tech-95",
+          "formula": "C15H22O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        85643929,
+        89809866,
+        124675745
+      ],
+      "match_method": "CAS xref",
+      "status": "多条候选待复核",
+      "eligible_cids": [
+        85643929,
+        89809866
+      ]
+    },
+    {
+      "cas": "4369-14-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0200.0",
+          "name": "(3-ACRYLOXYPROPYL)TRIMETHOXYSILANE, 96%",
+          "formula": "C9H18O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A1597",
+          "name": "3-(Trimethoxysilyl)propyl Acrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/A1597"
+        }
+      ],
+      "candidate_cids": [
+        151204
+      ],
+      "status": "新增",
+      "cid": 151204,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "109213-85-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6480.73",
+          "name": "(3-METHACRYLAMIDOPROPYL)TRIETHOXYSILANE, tech-95",
+          "formula": "C13H27NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        9857164
+      ],
+      "status": "新增",
+      "cid": 9857164,
+      "group": "丙烯酰胺"
+    },
+    {
+      "cas": "115396-93-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6480.8",
+          "name": "O-(METHACRYLOXYETHYL)-N-(TRIETHOXYSILYLPROPYL)CARBAMATE, 90%",
+          "formula": "C16H31NO7Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        59297431
+      ],
+      "status": "新增",
+      "cid": 59297431,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "96132-98-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6481.1",
+          "name": "N-(3-METHACRYLOXY-2-HYDROXYPROPYL)-3-AMINOPROPYLTRIETHOXYSILANE, 50% in ethanol",
+          "formula": "C16H33NO6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        13338964
+      ],
+      "status": "新增",
+      "cid": 13338964,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "5577-72-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6482.0",
+          "name": "METHACRYLOXYMETHYLTRIETHOXYSILANE",
+          "formula": "C11H22O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3852",
+          "name": "(Triethoxysilyl)methyl Methacrylate (stabilized with MEHQ)",
+          "url": "https://www.tcichemicals.com/US/en/p/T3852"
+        }
+      ],
+      "candidate_cids": [
+        16225403
+      ],
+      "status": "新增",
+      "cid": 16225403,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "54586-78-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6483.0",
+          "name": "METHACRYLOXYMETHYLTRIMETHOXYSILANE",
+          "formula": "C8H16O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=31"
+        }
+      ],
+      "candidate_cids": [
+        16225404
+      ],
+      "status": "新增",
+      "cid": 16225404,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "21142-29-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6487.3",
+          "name": "METHACRYLOXYPROPYLTRIETHOXYSILANE",
+          "formula": "C13H26O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=32"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T2676",
+          "name": "3-(Triethoxysilyl)propyl Methacrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/T2676"
+        }
+      ],
+      "candidate_cids": [
+        88798
+      ],
+      "status": "新增",
+      "cid": 88798,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "80750-05-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6487.35",
+          "name": "METHACRYLOXYPROPYLTRIISOPROPOXYSILANE",
+          "formula": "C16H32O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=32"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M3859",
+          "name": "3-(Triisopropoxysilyl)-propyl Methacrylate (stabilized with BHT)",
+          "url": "https://www.tcichemicals.com/US/en/p/M3859"
+        }
+      ],
+      "candidate_cids": [
+        3018959
+      ],
+      "status": "新增",
+      "cid": 3018959,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "2530-85-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6487.4",
+          "name": "METHACRYLOXYPROPYLTRIMETHOXYSILANE",
+          "formula": "C10H20O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=32"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M0725",
+          "name": "3-(Trimethoxysilyl)propyl Methacrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/M0725"
+        }
+      ],
+      "candidate_cids": [
+        17318
+      ],
+      "status": "原有记录",
+      "cid": 17318
+    },
+    {
+      "cas": "57069-48-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6487.5",
+          "name": "METHACRYLOXYPROPYLTRIS(METHOXYETHOXY)SILANE, tech-80",
+          "formula": "C16H32O8Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=32"
+        }
+      ],
+      "candidate_cids": [
+        92644
+      ],
+      "status": "新增",
+      "cid": 92644,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "146666-71-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0197.0",
+          "name": "(3-ACRYLOXYPROPYL)METHYLDIETHOXYSILANE, 95%",
+          "formula": "C11H22O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=32"
+        }
+      ],
+      "candidate_cids": [
+        21946402
+      ],
+      "status": "新增",
+      "cid": 21946402,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "13732-00-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0198.0",
+          "name": "(3-ACRYLOXYPROPYL)METHYLDIMETHOXYSILANE, 95%",
+          "formula": "C9H18O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=32"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D5556",
+          "name": "3-[Dimethoxy(methyl)-silyl]propyl Acrylate (stabilized with MEHQ)",
+          "url": "https://www.tcichemicals.com/US/en/p/D5556"
+        }
+      ],
+      "candidate_cids": [
+        2756289
+      ],
+      "status": "新增",
+      "cid": 2756289,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "121177-93-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6481.43",
+          "name": "(METHACRYLOXYMETHYL)METHYLDIETHOXYSILANE",
+          "formula": "C10H20O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D5699",
+          "name": "[Dimethoxy(methyl)silyl]-methyl Methacrylate (stabilized with BHT)",
+          "url": "https://www.tcichemicals.com/US/en/p/D5699"
+        }
+      ],
+      "candidate_cids": [
+        16225406
+      ],
+      "status": "目录与数据库结构标注冲突"
+    },
+    {
+      "cas": "3978-58-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6481.46",
+          "name": "(METHACRYLOXYMETHYL)METHYLDIMETHOXYSILANE",
+          "formula": "C8H16O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        }
+      ],
+      "candidate_cids": [
+        15334986
+      ],
+      "status": "目录与数据库结构标注冲突"
+    },
+    {
+      "cas": "65100-04-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6486.8",
+          "name": "METHACRYLOXYPROPYLMETHYLDIETHOXYSILANE, 95%",
+          "formula": "C12H24O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D4679",
+          "name": "3-[Diethoxy(methyl)silyl]-propyl Methacrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/D4679"
+        }
+      ],
+      "candidate_cids": [
+        2759529
+      ],
+      "status": "新增",
+      "cid": 2759529,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "14513-34-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6486.9",
+          "name": "METHACRYLOXYPROPYLMETHYLDIMETHOXYSILANE, 95%",
+          "formula": "C10H20O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M1530",
+          "name": "3-[Dimethoxy(methyl)silyl]-propyl Methacrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/M1530"
+        }
+      ],
+      "candidate_cids": [
+        84485
+      ],
+      "status": "新增",
+      "cid": 84485,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "111918-90-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0190.0",
+          "name": "(3-ACRYLOXYPROPYL)DIMETHYLMETHOXYSILANE, 95%",
+          "formula": "C9H18O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M2525",
+          "name": "3-(Methoxydimethylsilyl)-propyl Acrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/M2525"
+        }
+      ],
+      "candidate_cids": [
+        9813088
+      ],
+      "status": "新增",
+      "cid": 9813088,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "5577-70-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6481.3",
+          "name": "(METHACRYLOXYMETHYL)DIMETHYLETHOXYSILANE",
+          "formula": "C9H18O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        }
+      ],
+      "candidate_cids": [
+        16225607
+      ],
+      "status": "新增",
+      "cid": 16225607,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "13731-98-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6486.4",
+          "name": "METHACRYLOXYPROPYLDIMETHYLETHOXYSILANE, 95%",
+          "formula": "C11H22O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        },
+        {
+          "catalog": "TCI",
+          "code": "E1400",
+          "name": "3-(Ethoxydimethylsilyl)-propyl Methacrylate (stabilized with BHT)",
+          "url": "https://www.tcichemicals.com/US/en/p/E1400"
+        }
+      ],
+      "candidate_cids": [
+        2759528
+      ],
+      "status": "新增",
+      "cid": 2759528,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "66753-64-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6486.5",
+          "name": "METHACRYLOXYPROPYLDIMETHYLMETHOXYSILANE, 95%",
+          "formula": "C10H20O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        }
+      ],
+      "candidate_cids": [
+        3017711
+      ],
+      "status": "新增",
+      "cid": 3017711,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "160185-24-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6487.42",
+          "name": "METHACRYLOXYPROPYLTRIMETHOXYSILANE, oligomeric hydrolysate",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=33"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "917773-12-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8185.3",
+          "name": "TRIETHOXYSILYLBUTYRALDEHYDE, tech-90",
+          "formula": "C10H22O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=34"
+        }
+      ],
+      "candidate_cids": [
+        44516815
+      ],
+      "status": "新增",
+      "cid": 44516815,
+      "group": "醛基"
+    },
+    {
+      "cas": "116047-42-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8194.0",
+          "name": "TRIETHOXYSILYLUNDECANAL, tech-95",
+          "formula": "C17H36O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=34"
+        }
+      ],
+      "candidate_cids": [
+        11515490
+      ],
+      "status": "新增",
+      "cid": 11515490,
+      "group": "醛基"
+    },
+    {
+      "cas": "866935-66-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8194.5",
+          "name": "TRIETHOXYSILYLUNDECANAL, ETHYLENE GLYCOL ACETAL",
+          "formula": "C19H40O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=34"
+        }
+      ],
+      "candidate_cids": [
+        66751102
+      ],
+      "status": "新增",
+      "cid": 66751102,
+      "group": "醚基"
+    },
+    {
+      "cas": "3069-30-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0587.0",
+          "name": "4-AMINOBUTYLTRIETHOXYSILANE, 95%",
+          "formula": "C10H25NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        }
+      ],
+      "candidate_cids": [
+        76483
+      ],
+      "status": "新增",
+      "cid": 76483,
+      "group": "氨基"
+    },
+    {
+      "cas": "157923-74-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0587.07",
+          "name": "4-AMINO-3,3-DIMETHYLBUTYLTRIMETHOXYSILANE",
+          "formula": "C9H23NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        }
+      ],
+      "candidate_cids": [
+        21939033
+      ],
+      "status": "新增",
+      "cid": 21939033,
+      "group": "氨基"
+    },
+    {
+      "cas": "5089-72-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0590.5",
+          "name": "N-(2-AMINOETHYL)-3-AMINOPROPYLTRIETHOXYSILANE, 95%",
+          "formula": "C11H28N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A1923",
+          "name": "3-(2-Aminoethylamino)-propyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A1923"
+        }
+      ],
+      "candidate_cids": [
+        78772
+      ],
+      "status": "新增",
+      "cid": 78772,
+      "group": "氨基"
+    },
+    {
+      "cas": "55648-29-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0598.0",
+          "name": "3-(m-AMINOPHENOXY)PROPYLTRIMETHOXYSILANE, tech-95",
+          "formula": "C12H21NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        }
+      ],
+      "candidate_cids": [
+        108743
+      ],
+      "status": "新增",
+      "cid": 108743,
+      "group": "氨基"
+    },
+    {
+      "cas": "70411-42-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0599.0",
+          "name": "m-AMINOPHENYLTRIMETHOXYSILANE, 95%",
+          "formula": "C9H15NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        }
+      ],
+      "candidate_cids": [
+        9815749
+      ],
+      "status": "新增",
+      "cid": 9815749,
+      "group": "氨基"
+    },
+    {
+      "cas": "33976-43-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0599.1",
+          "name": "p-AMINOPHENYLTRIMETHOXYSILANE, 95%",
+          "formula": "C9H15NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIA0599.2",
+          "name": "AMINOPHENYLTRIMETHOXYSILANE",
+          "formula": "C9H15NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        }
+      ],
+      "candidate_cids": [
+        118583
+      ],
+      "status": "新增",
+      "cid": 118583,
+      "group": "氨基"
+    },
+    {
+      "cas": "919-30-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0610.0",
+          "name": "3-AMINOPROPYLTRIETHOXYSILANE",
+          "formula": "C9H23NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=35"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIA0610.1",
+          "name": "3-AMINOPROPYLTRIETHOXYSILANE 99+%",
+          "formula": "C9H23NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A0439",
+          "name": "3-Aminopropyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A0439"
+        }
+      ],
+      "candidate_cids": [
+        13521
+      ],
+      "status": "原有记录",
+      "cid": 13521
+    },
+    {
+      "cas": "13822-56-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0611.0",
+          "name": "3-AMINOPROPYLTRIMETHOXYSILANE",
+          "formula": "C6H17NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T1255",
+          "name": "3-Aminopropyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T1255"
+        }
+      ],
+      "candidate_cids": [
+        83756
+      ],
+      "status": "原有记录",
+      "cid": 83756
+    },
+    {
+      "cas": "87994-64-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0614.0",
+          "name": "3-AMINOPROPYLTRIS(METHOXYETHOXYETHOXY)SILANE, 95%",
+          "formula": "C18H41NO9Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        3616943
+      ],
+      "status": "新增",
+      "cid": 3616943,
+      "group": "氨基"
+    },
+    {
+      "cas": "116821-45-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0630.0",
+          "name": "11-AMINOUNDECYLTRIETHOXYSILANE",
+          "formula": "C17H39NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        18944844
+      ],
+      "status": "新增",
+      "cid": 18944844,
+      "group": "氨基"
+    },
+    {
+      "cas": "98299-74-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6928.0",
+          "name": "2-(4-PYRIDYLETHYL)TRIETHOXYSILANE",
+          "formula": "C13H23NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        18757533
+      ],
+      "status": "新增",
+      "cid": 18757533,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "27326-65-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6930.0",
+          "name": "2-(2-PYRIDYLETHYL)TRIMETHOXYSILANE",
+          "formula": "C10H17NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        2760506
+      ],
+      "status": "新增",
+      "cid": 2760506,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "80906-67-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8410.0",
+          "name": "N-(3-TRIMETHOXYSILYLPROPYL)PYRROLE",
+          "formula": "C10H19NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        15001040
+      ],
+      "status": "新增",
+      "cid": 15001040,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "58160-99-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0608.0",
+          "name": "3-AMINOPROPYLSILANETRIOL, 22-25% in water",
+          "formula": "C3H11NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        93968
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "156849-43-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0587.05",
+          "name": "4-AMINO-3,3-DIMETHYLBUTYLMETHYLDIMETHOXYSILANE",
+          "formula": "C9H23NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=36"
+        }
+      ],
+      "candidate_cids": [
+        53984678,
+        57150957,
+        71354047
+      ],
+      "match_method": "CAS xref",
+      "status": "新增",
+      "cid": 53984678,
+      "group": "氨基"
+    },
+    {
+      "cas": "3179-76-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0605.0",
+          "name": "3-AMINOPROPYLMETHYLDIETHOXYSILANE, 95%",
+          "formula": "C8H21NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=37"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D1980",
+          "name": "3-Aminopropyldiethoxy methylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1980"
+        }
+      ],
+      "candidate_cids": [
+        18511
+      ],
+      "status": "新增",
+      "cid": 18511,
+      "group": "氨基"
+    },
+    {
+      "cas": "117559-36-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0602.0",
+          "name": "3-AMINOPROPYLDIISOPROPYLETHOXYSILANE",
+          "formula": "C11H27NOSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=37"
+        }
+      ],
+      "candidate_cids": [
+        9794415
+      ],
+      "status": "新增",
+      "cid": 9794415,
+      "group": "氨基"
+    },
+    {
+      "cas": "18306-79-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0603.0",
+          "name": "3-AMINOPROPYLDIMETHYLETHOXYSILANE",
+          "formula": "C7H19NOSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=37"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A2693",
+          "name": "(3-Aminopropyl)-dimethylethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A2693"
+        }
+      ],
+      "candidate_cids": [
+        87575
+      ],
+      "status": "新增",
+      "cid": 87575,
+      "group": "氨基"
+    },
+    {
+      "cas": "74113-77-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0588.0",
+          "name": "(AMINOETHYLAMINOMETHYL)PHENETHYLTRIMETHOXYSILANE, tech-90",
+          "formula": "C14H26N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=37"
+        }
+      ],
+      "candidate_cids": [
+        3085981
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "1760-24-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0591.0",
+          "name": "N-(2-AMINOETHYL)-3-AMINOPROPYLTRIMETHOXYSILANE, tech-95",
+          "formula": "C8H22N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=37"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIA0591.1",
+          "name": "N-(2-AMINOETHYL)-3-AMINOPROPYLTRIMETHOXYSILANE, 98%",
+          "formula": "C8H22N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=37"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A0774",
+          "name": "3-(2-Aminoethylamino)-propyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A0774"
+        }
+      ],
+      "candidate_cids": [
+        15659
+      ],
+      "status": "原有记录",
+      "cid": 15659
+    },
+    {
+      "cas": "15129-36-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0592.6",
+          "name": "N-(6-AMINOHEXYL)AMINOMETHYLTRIETHOXYSILANE, 95%",
+          "formula": "C13H32N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        }
+      ],
+      "candidate_cids": [
+        27058
+      ],
+      "status": "新增",
+      "cid": 27058,
+      "group": "氨基"
+    },
+    {
+      "cas": "51895-58-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0594.0",
+          "name": "N-(6-AMINOHEXYL)AMINOPROPYLTRIMETHOXYSILANE, 95%",
+          "formula": "C12H30N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A3128",
+          "name": "[3-(6-Aminohexylamino)-propyl]trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A3128"
+        }
+      ],
+      "candidate_cids": [
+        9925638
+      ],
+      "status": "新增",
+      "cid": 9925638,
+      "group": "氨基"
+    },
+    {
+      "cas": "121772-92-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0595.0",
+          "name": "N-(2-AMINOETHYL)-11-AMINOUNDECYLTRIMETHOXYSILANE",
+          "formula": "C16H38N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        }
+      ],
+      "candidate_cids": [
+        14171292
+      ],
+      "status": "新增",
+      "cid": 14171292,
+      "group": "氨基"
+    },
+    {
+      "cas": "209866-89-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0956.0",
+          "name": "N-(2-N-BENZYLAMINOETHYL)-3-AMINOPROPYLTRIMETHOXYSILANE, tech-90",
+          "formula": "C15H28N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        }
+      ],
+      "candidate_cids": [
+        162066
+      ],
+      "status": "新增",
+      "cid": 162066,
+      "group": "氨基"
+    },
+    {
+      "cas": "68400-09-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0590.0",
+          "name": "N-(2-AMINOETHYL)-3-AMINOPROPYLSILANETRIOL, 25% in water, mainly oligomers",
+          "formula": "C5H16N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "23410-40-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0587.5",
+          "name": "N-(2-AMINOETHYL)-3-AMINOISOBUTYLMETHYLDIMETHOXYSILANE, 95%",
+          "formula": "C9H24N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        }
+      ],
+      "candidate_cids": [
+        90922
+      ],
+      "status": "新增",
+      "cid": 90922,
+      "group": "氨基"
+    },
+    {
+      "cas": "70240-34-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0588.8",
+          "name": "N-(2-AMINOETHYL)-3-AMINOPROPYLMETHYLDIETHOXYSILANE",
+          "formula": "C10H26N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=38"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A3601",
+          "name": "[3-[(2-Aminoethyl)amino]-propyl]diethoxy(methyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/A3601"
+        }
+      ],
+      "candidate_cids": [
+        14177532
+      ],
+      "status": "新增",
+      "cid": 14177532,
+      "group": "氨基"
+    },
+    {
+      "cas": "3069-29-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0589.0",
+          "name": "N-(2-AMINOETHYL)-3-AMINOPROPYLMETHYLDIMETHOXYSILANE, tech-95",
+          "formula": "C8H22N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A0876",
+          "name": "3-(2-Aminoethylamino)-propyldimethoxymethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A0876"
+        }
+      ],
+      "candidate_cids": [
+        76482
+      ],
+      "status": "新增",
+      "cid": 76482,
+      "group": "氨基"
+    },
+    {
+      "cas": "31024-49-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0587.2",
+          "name": "N-(2-AMINOETHYL)-3-AMINOISOBUTYLDIMETHYLMETHOXYSILANE, 95%",
+          "formula": "C9H24N2OSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        53421710
+      ],
+      "status": "新增",
+      "cid": 53421710,
+      "group": "氨基"
+    },
+    {
+      "cas": "35141-30-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8398.0",
+          "name": "(3-TRIMETHOXYSILYLPROPYL)DIETHYLENETRIAMINE, tech-95",
+          "formula": "C10H27N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        118771
+      ],
+      "status": "新增",
+      "cid": 118771,
+      "group": "氨基"
+    },
+    {
+      "cas": "31024-46-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0400.0",
+          "name": "3-(N-ALLYLAMINO)PROPYLTRIMETHOXYSILANE, 95%",
+          "formula": "C9H21NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        169237
+      ],
+      "status": "新增",
+      "cid": 169237,
+      "group": "氨基"
+    },
+    {
+      "cas": "31024-56-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1932.2",
+          "name": "n-BUTYLAMINOPROPYLTRIMETHOXYSILANE",
+          "formula": "C10H25NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3733",
+          "name": "[3-(Butylamino)propyl]-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3733"
+        }
+      ],
+      "candidate_cids": [
+        160192
+      ],
+      "status": "新增",
+      "cid": 160192,
+      "group": "氨基"
+    },
+    {
+      "cas": "174219-86-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1932.3",
+          "name": "t-BUTYLAMINOPROPYLTRIMETHOXYSILANE",
+          "formula": "C10H25NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        18994466
+      ],
+      "status": "新增",
+      "cid": 18994466,
+      "group": "氨基"
+    },
+    {
+      "cas": "27445-54-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2464.16",
+          "name": "(N-CYCLOHEXYLAMINOMETHYL)METHYLDIETHOXYSILANE, 95%",
+          "formula": "C12H27NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        18468764
+      ],
+      "status": "新增",
+      "cid": 18468764,
+      "group": "氨基"
+    },
+    {
+      "cas": "26495-91-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2464.2",
+          "name": "(N-CYCLOHEXYLAMINOMETHYL)TRIETHOXYSILANE, 95%",
+          "formula": "C13H29NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        11818203
+      ],
+      "status": "新增",
+      "cid": 11818203,
+      "group": "氨基"
+    },
+    {
+      "cas": "3068-78-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2464.4",
+          "name": "(N-CYCLOHEXYLAMINOPROPYL)TRIMETHOXYSILANE",
+          "formula": "C12H27NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=39"
+        }
+      ],
+      "candidate_cids": [
+        76477
+      ],
+      "status": "新增",
+      "cid": 76477,
+      "group": "氨基"
+    },
+    {
+      "cas": "275378-62-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIE4885.8",
+          "name": "(3-(N-ETHYLAMINO)ISOBUTYL)METHYLDIETHOXYSILANE",
+          "formula": "C11H27NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        }
+      ],
+      "candidate_cids": [
+        53249482
+      ],
+      "status": "新增",
+      "cid": 53249482,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "227085-51-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIE4886.0",
+          "name": "(3-(N-ETHYLAMINO)ISOBUTYL)TRIMETHOXYSILANE",
+          "formula": "C9H23NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        }
+      ],
+      "candidate_cids": [
+        11172079
+      ],
+      "status": "新增",
+      "cid": 11172079,
+      "group": "氨基"
+    },
+    {
+      "cas": "31024-35-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6498.0",
+          "name": "N-METHYLAMINOPROPYLMETHYLDIMETHOXYSILANE",
+          "formula": "C7H19NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        }
+      ],
+      "candidate_cids": [
+        19741790
+      ],
+      "status": "新增",
+      "cid": 19741790,
+      "group": "氨基"
+    },
+    {
+      "cas": "3069-25-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6500.0",
+          "name": "N-METHYLAMINOPROPYLTRIMETHOXYSILANE",
+          "formula": "C7H19NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T2868",
+          "name": "Trimethoxy[3-(methylamino)-propyl]silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2868"
+        }
+      ],
+      "candidate_cids": [
+        76480
+      ],
+      "status": "新增",
+      "cid": 76480,
+      "group": "氨基"
+    },
+    {
+      "cas": "17890-10-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6723.67",
+          "name": "(PHENYLAMINOMETHYL)METHYLDIMETHOXYSILANE, 95%",
+          "formula": "C10H17NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        }
+      ],
+      "candidate_cids": [
+        22253193
+      ],
+      "status": "新增",
+      "cid": 22253193,
+      "group": "氨基"
+    },
+    {
+      "cas": "3473-76-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6723.7",
+          "name": "N-PHENYLAMINOMETHYLTRIETHOXYSILANE",
+          "formula": "C13H23NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        }
+      ],
+      "candidate_cids": [
+        11219420
+      ],
+      "status": "新增",
+      "cid": 11219420,
+      "group": "氨基"
+    },
+    {
+      "cas": "3068-76-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6724.0",
+          "name": "N-PHENYLAMINOPROPYLTRIMETHOXYSILANE",
+          "formula": "C12H21NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        },
+        {
+          "catalog": "TCI",
+          "code": "P1458",
+          "name": "Trimethoxy[3-(phenylamino)-propyl]silane",
+          "url": "https://www.tcichemicals.com/US/en/p/P1458"
+        }
+      ],
+      "candidate_cids": [
+        76476
+      ],
+      "status": "新增",
+      "cid": 76476,
+      "group": "氨基"
+    },
+    {
+      "cas": "7538-44-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1140.0",
+          "name": "N,N-BIS(2-HYDROXYETHYL)-3-AMINOPROPYLTRIETHOXYSILANE, 62% in ethanol",
+          "formula": "C13H31NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        }
+      ],
+      "candidate_cids": [
+        82038
+      ],
+      "status": "新增",
+      "cid": 82038,
+      "group": "氨基"
+    },
+    {
+      "cas": "31024-70-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1835.0",
+          "name": "BIS(3-TRIMETHOXYSILYLPROPYL)-N-METHYLAMINE",
+          "formula": "C13H33NO6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=40"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIB1835.0",
+          "name": "BIS(3-TRIMETHOXYSILYLPROPYL)-N-METHYLAMINE",
+          "formula": "C13H33NO6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=44"
+        }
+      ],
+      "candidate_cids": [
+        5066074
+      ],
+      "status": "新增",
+      "cid": 5066074,
+      "group": "氨基"
+    },
+    {
+      "cas": "221105-38-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2058.2",
+          "name": "3-CARBAZOLYLPROPYLTRIETHOXYSILANE",
+          "formula": "C21H29NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIC2058.2",
+          "name": "3-CARBAZOLYLPROPYLTRIETHOXYSILANE",
+          "formula": "C21H29NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=67"
+        }
+      ],
+      "candidate_cids": [
+        89548834
+      ],
+      "status": "新增",
+      "cid": 89548834,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "15180-47-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3395.4",
+          "name": "(N,N-DIETHYLAMINOMETHYL)TRIETHOXYSILANE",
+          "formula": "C11H27NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        },
+        {
+          "catalog": "TCI",
+          "code": "E1474",
+          "name": "(Diethylaminomethyl)-triethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/E1474"
+        }
+      ],
+      "candidate_cids": [
+        203781
+      ],
+      "status": "新增",
+      "cid": 203781,
+      "group": "氨基"
+    },
+    {
+      "cas": "67475-66-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3395.6",
+          "name": "(N,N-DIETHYLAMINOMETHYL)TRIMETHOXYSILANE, 95%",
+          "formula": "C8H21NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        }
+      ],
+      "candidate_cids": [
+        23065833
+      ],
+      "status": "新增",
+      "cid": 23065833,
+      "group": "氨基"
+    },
+    {
+      "cas": "41051-80-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3396.0",
+          "name": "(N,N-DIETHYL-3-AMINOPROPYL)TRIMETHOXYSILANE",
+          "formula": "C10H25NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        }
+      ],
+      "candidate_cids": [
+        170458
+      ],
+      "status": "新增",
+      "cid": 170458,
+      "group": "氨基"
+    },
+    {
+      "cas": "224638-27-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3546.92",
+          "name": "3-(N,N-DIMETHYLAMINOPROPYL)AMINOPROPYLMETHYLDIMETHOXYSILANE",
+          "formula": "C11H28N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        }
+      ],
+      "candidate_cids": [
+        88220036
+      ],
+      "status": "新增",
+      "cid": 88220036,
+      "group": "氨基"
+    },
+    {
+      "cas": "67353-42-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3546.94",
+          "name": "N,N-DIMETHYL-3-AMINOPROPYLMETHYLDIMETHOXYSILANE",
+          "formula": "C8H21NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        }
+      ],
+      "candidate_cids": [
+        12495938
+      ],
+      "status": "新增",
+      "cid": 12495938,
+      "group": "氨基"
+    },
+    {
+      "cas": "2530-86-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3547.0",
+          "name": "(N,N-DIMETHYL-3-AMINOPROPYL)TRIMETHOXYSILANE",
+          "formula": "C8H21NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D4328",
+          "name": "[3-(N,N-Dimethylamino)-propyl]trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D4328"
+        }
+      ],
+      "candidate_cids": [
+        75668
+      ],
+      "status": "新增",
+      "cid": 75668,
+      "group": "氨基"
+    },
+    {
+      "cas": "1250435-76-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8716.2",
+          "name": "TRIS(TRIETHOXYSILYLMETHYL)AMINE, tech-90",
+          "formula": "C21H51NO9Si3",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=41"
+        }
+      ],
+      "candidate_cids": [
+        18676646
+      ],
+      "status": "新增",
+      "cid": 18676646,
+      "group": "氨基"
+    },
+    {
+      "cas": "18784-74-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8716.3",
+          "name": "TRIS(TRIETHOXYSILYLPROPYL)AMINE, tech-95",
+          "formula": "C27H63NO9Si3",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=42"
+        }
+      ],
+      "candidate_cids": [
+        14818706
+      ],
+      "status": "新增",
+      "cid": 14818706,
+      "group": "氨基"
+    },
+    {
+      "cas": "623938-90-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0957.0",
+          "name": "N-(2-N-BENZYLAMINOETHYL)-3-AMINOPROPYLTRIMETHOXYSILANE hydrochloride, 50% in methanol",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=42"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "未找到 CID"
+    },
+    {
+      "cas": "68959-20-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3392.0",
+          "name": "N,N-DIDECYL-N-METHYL-N-(3-TRIMETHOXYSILYLPROPYL)AMMONIUM CHLORIDE, 40-42% in methanol",
+          "formula": "C27H60ClNO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=42"
+        }
+      ],
+      "candidate_cids": [
+        62253
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "27668-52-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIO6620.0",
+          "name": "OCTADECYLDIMETHYL(3-TRIMETHOXYSILYLPROPYL)AMMONIUM CHLORIDE, 60% in methanol",
+          "formula": "C26H58ClNO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=42"
+        }
+      ],
+      "candidate_cids": [
+        62827
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "34937-00-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIS6994.0",
+          "name": "3-(N-STYRYLMETHYL-2-AMINOETHYLAMINO)PROPYLTRIMETHOXYSILANE HYDROCHLORIDE, 40% in methanol",
+          "formula": "C17H31ClN2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=42"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIS6993.0",
+          "name": "3-(N-STYRYLMETHYL-2-AMINOETHYLAMINO)PROPYLTRIMETHOXYSILANE, 40% in methanol",
+          "formula": "C17H30N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        },
+        {
+          "catalog": "TCI",
+          "code": "V0050",
+          "name": "N-[2-(N-Vinylbenzylamino)ethyl]- 3-aminopropyltrimethoxysilane Hydrochloride (30-40% in Methanol)",
+          "url": "https://www.tcichemicals.com/US/en/p/V0050"
+        }
+      ],
+      "candidate_cids": [
+        169648
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "41591-87-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT7090.0",
+          "name": "TETRADECYLDIMETHYL(3-TRIMETHOXYSILYLPROPYL)AMMONIUM CHLORIDE, 50% in methanol",
+          "formula": "C22H50ClNO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=42"
+        }
+      ],
+      "candidate_cids": [
+        170538
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "84682-36-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8405.0",
+          "name": "S-(TRIMETHOXYSILYLPROPYL)ISOTHIOURONIUM CHLORIDE, 50% in water",
+          "formula": "C7H19ClN2O3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=43"
+        }
+      ],
+      "candidate_cids": [
+        53230138
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "35141-36-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8415.0",
+          "name": "N-TRIMETHOXYSILYLPROPYL-N,N,N-TRIMETHYLAMMONIUM CHLORIDE, 50% in methanol",
+          "formula": "C9H24ClNO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=43"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T2796",
+          "name": "Trimethyl[3-(trimethoxysilyl)-propyl]ammonium Chloride (ca. 50% in Methanol)",
+          "url": "https://www.tcichemicals.com/US/en/p/T2796"
+        }
+      ],
+      "candidate_cids": [
+        94462
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "31020-47-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1620.0",
+          "name": "BIS(METHYLDIETHOXYSILYLPROPYL)AMINE, 95%",
+          "formula": "C16H39NO4Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=43"
+        }
+      ],
+      "candidate_cids": [
+        20072127
+      ],
+      "status": "新增",
+      "cid": 20072127,
+      "group": "氨基"
+    },
+    {
+      "cas": "13497-18-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1824.5",
+          "name": "BIS(3-TRIETHOXYSILYLPROPYL)AMINE, 95%",
+          "formula": "C18H43NO6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=43"
+        },
+        {
+          "catalog": "TCI",
+          "code": "B6036",
+          "name": "Bis[3-(triethoxysilyl)-propyl]amine",
+          "url": "https://www.tcichemicals.com/US/en/p/B6036"
+        }
+      ],
+      "candidate_cids": [
+        83535
+      ],
+      "status": "新增",
+      "cid": 83535,
+      "group": "氨基"
+    },
+    {
+      "cas": "69465-84-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1828.0",
+          "name": "N,N'-BIS[3-(TRIETHOXYSILYL)PROPYL]UREA, 60% in ethanol",
+          "formula": "C19H44N2O7Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=43"
+        }
+      ],
+      "candidate_cids": [
+        4738119
+      ],
+      "status": "新增",
+      "cid": 4738119,
+      "group": "脲基"
+    },
+    {
+      "cas": "126552-46-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1832.8",
+          "name": "1,11-BIS(TRIMETHOXYSILYL)-4-OXA-8-AZAUNDECAN-6-OL, 50% in methanol",
+          "formula": "C15H37NO8Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=43"
+        }
+      ],
+      "candidate_cids": [
+        58943172
+      ],
+      "status": "新增",
+      "cid": 58943172,
+      "group": "氨基"
+    },
+    {
+      "cas": "82985-35-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1833.0",
+          "name": "BIS(3-TRIMETHOXYSILYLPROPYL)AMINE, 96%",
+          "formula": "C12H31NO6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=44"
+        },
+        {
+          "catalog": "TCI",
+          "code": "B2548",
+          "name": "Bis[3-(trimethoxysilyl)-propyl]amine",
+          "url": "https://www.tcichemicals.com/US/en/p/B2548"
+        }
+      ],
+      "candidate_cids": [
+        157882
+      ],
+      "status": "新增",
+      "cid": 157882,
+      "group": "氨基"
+    },
+    {
+      "cas": "68845-16-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1834.0",
+          "name": "N,N'-BIS[(3-TRIMETHOXYSILYL)PROPYL]ETHYLENEDIAMINE, 62% in methanol",
+          "formula": "C14H36N2O6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=44"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIB1834.1",
+          "name": "N,N'-BIS[(3-TRIMETHOXYSILYL)PROPYL]ETHYLENEDIAMINE, 95%",
+          "formula": "C14H36N2O6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=44"
+        }
+      ],
+      "candidate_cids": [
+        111651
+      ],
+      "status": "新增",
+      "cid": 111651,
+      "group": "氨基"
+    },
+    {
+      "cas": "18418-53-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1835.5",
+          "name": "N,N'-BIS(3-TRIMETHOXYSILYLPROPYL)UREA, 95%",
+          "formula": "C13H32N2O7Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=44"
+        }
+      ],
+      "candidate_cids": [
+        20227441
+      ],
+      "status": "新增",
+      "cid": 20227441,
+      "group": "脲基"
+    },
+    {
+      "cas": "116229-43-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4068.0",
+          "name": "3-(1,3-DIMETHYLBUTYLIDENE)AMINOPROPYLTRIETHOXYSILANE, tech-95",
+          "formula": "C15H33NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=44"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SID4068.1",
+          "name": "3-(1,3-DIMETHYLBUTYLIDENE)AMINOPROPYLTRIETHOXYSILANE, 98%",
+          "formula": "C15H33NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        11324143
+      ],
+      "status": "新增",
+      "cid": 11324143,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "259727-10-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4465.0",
+          "name": "N,N-DIOCTYL-N'-TRIETHOXYSILYLPROPYLUREA",
+          "formula": "C26H56N2O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        53437402
+      ],
+      "status": "新增",
+      "cid": 53437402,
+      "group": "脲基"
+    },
+    {
+      "cas": "128310-21-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIG5840.12",
+          "name": "3-(GUANIDINYL)PROPYLTRIMETHOXYSILANE",
+          "formula": "C7H19N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        18790348
+      ],
+      "status": "新增",
+      "cid": 18790348,
+      "group": "氨基"
+    },
+    {
+      "cas": "128996-12-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6828.4",
+          "name": "[3-(1-PIPERAZINYL)PROPYL]METHYLDIMETHOXYSILANE, 95%",
+          "formula": "C10H24N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        22665236
+      ],
+      "status": "新增",
+      "cid": 22665236,
+      "group": "氨基"
+    },
+    {
+      "cas": "29098-72-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6926.2",
+          "name": "3-(2-PYRIDYLETHYL)THIOPROPYLTRIMETHOXYSILANE",
+          "formula": "C13H23NO3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIP6926.2",
+          "name": "3-(2-PYRIDYLETHYL)THIOPROPYLTRIMETHOXYSILANE",
+          "formula": "C13H23NO3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        }
+      ],
+      "candidate_cids": [
+        57376777,
+        59782787
+      ],
+      "match_method": "CAS xref",
+      "status": "多条候选待复核",
+      "eligible_cids": [
+        57376777,
+        59782787
+      ]
+    },
+    {
+      "cas": "198567-47-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6926.4",
+          "name": "3-(4-PYRIDYLETHYL)THIOPROPYLTRIMETHOXYSILANE, 95%",
+          "formula": "C13H23NO3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIP6926.4",
+          "name": "3-(4-PYRIDYLETHYL)THIOPROPYLTRIMETHOXYSILANE, 95%",
+          "formula": "C13H23NO3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        }
+      ],
+      "candidate_cids": [
+        85755606
+      ],
+      "status": "新增",
+      "cid": 85755606,
+      "group": "硫醚"
+    },
+    {
+      "cas": "106868-88-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIS6944.0",
+          "name": "3-(4-SEMICARBAZIDYL)PROPYLTRIETHOXYSILANE, tech-95",
+          "formula": "C10H25N3O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        18551509
+      ],
+      "status": "新增",
+      "cid": 18551509,
+      "group": "脲基"
+    },
+    {
+      "cas": "913375-27-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8186.45",
+          "name": "4-(TRIETHOXYSILYLPROPOXY)-2,2,6,6-TETRAMETHYLPIPERIDINE N-OXIDE, tech-85",
+          "formula": "C18H38NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        121237448,
+        171371296
+      ],
+      "match_method": "CAS xref",
+      "status": "新增",
+      "cid": 121237448,
+      "group": "氨基"
+    },
+    {
+      "cas": "193417-26-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8186.7",
+          "name": "N-[3-(TRIETHOXYSILYL)PROPYL]-2-CARBOMETHOXYAZIRIDINE, 95%",
+          "formula": "C13H27NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=45"
+        }
+      ],
+      "candidate_cids": [
+        74765272
+      ],
+      "status": "新增",
+      "cid": 74765272,
+      "group": "氨基"
+    },
+    {
+      "cas": "58068-97-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8187.5",
+          "name": "N-(3-TRIETHOXYSILYLPROPYL)-4,5-DIHYDROIMIDAZOLE",
+          "formula": "C12H26N2O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        }
+      ],
+      "candidate_cids": [
+        93933
+      ],
+      "status": "新增",
+      "cid": 93933,
+      "group": "氨基"
+    },
+    {
+      "cas": "106996-32-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8394.0",
+          "name": "N-[5-(TRIMETHOXYSILYL)-2-AZA-1-OXOPENTYL]CAPROLACTAM, 95%",
+          "formula": "C13H26N2O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        }
+      ],
+      "candidate_cids": [
+        13750479
+      ],
+      "status": "新增",
+      "cid": 13750479,
+      "group": "脲基"
+    },
+    {
+      "cas": "154380-34-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8409.0",
+          "name": "N-(3-TRIMETHOXYSILYLPROPYL)PERFLUOROHEXANAMIDE",
+          "formula": "C12H16F11NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        }
+      ],
+      "candidate_cids": [
+        90242997
+      ],
+      "status": "新增",
+      "cid": 90242997,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "23779-32-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIU9055.0",
+          "name": "UREIDOPROPYLTRIETHOXYSILANE, 50% in methanol",
+          "formula": "C10H24N2O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        },
+        {
+          "catalog": "TCI",
+          "code": "U0048",
+          "name": "3-Ureidopropyltriethoxy silane (40-52% in Methanol)",
+          "url": "https://www.tcichemicals.com/US/en/p/U0048"
+        }
+      ],
+      "candidate_cids": [
+        90258
+      ],
+      "status": "新增",
+      "cid": 90258,
+      "group": "脲基"
+    },
+    {
+      "cas": "23843-64-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIU9058.0",
+          "name": "UREIDOPROPYLTRIMETHOXYSILANE",
+          "formula": "C7H18N2O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T1915",
+          "name": "(3-Ureidopropyl)-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T1915"
+        }
+      ],
+      "candidate_cids": [
+        90280
+      ],
+      "status": "新增",
+      "cid": 90280,
+      "group": "脲基"
+    },
+    {
+      "cas": "618914-49-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0415.0",
+          "name": "N-ALLYL-AZA-2,2-DIMETHOXYSILACYCLOPENTANE",
+          "formula": "C8H17NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIA0415.0",
+          "name": "N-ALLYL-AZA-2,2-DIMETHOXYSILACYCLOPENTANE",
+          "formula": "C8H17NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        }
+      ],
+      "candidate_cids": [
+        58986855
+      ],
+      "status": "新增",
+      "cid": 58986855,
+      "group": "氨基"
+    },
+    {
+      "cas": "18246-33-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0592.0",
+          "name": "N-(2-AMINOETHYL)-2,2,4-TRIMETHYL-1-AZA-2-SILACYCLOPENTANE",
+          "formula": "C8H20N2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        }
+      ],
+      "candidate_cids": [
+        58986852
+      ],
+      "status": "新增",
+      "cid": 58986852,
+      "group": "氨基"
+    },
+    {
+      "cas": "388606-32-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0604.0",
+          "name": "N-(3-AMINOPROPYLDIMETHYLSILYL)AZA-2,2-DIMETHYL-2-SILACYCLOPENTANE, 95%",
+          "formula": "C10H26N2Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        }
+      ],
+      "candidate_cids": [
+        11817097
+      ],
+      "status": "新增",
+      "cid": 11817097,
+      "group": "氨基"
+    },
+    {
+      "cas": "618914-44-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1932.4",
+          "name": "N-n-BUTYL-AZA-2,2-DIMETHOXYSILACYCLOPENTANE",
+          "formula": "C9H21NO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=46"
+        }
+      ],
+      "candidate_cids": [
+        11217949
+      ],
+      "status": "新增",
+      "cid": 11217949,
+      "group": "氨基"
+    },
+    {
+      "cas": "182008-07-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3543.0",
+          "name": "2,2-DIMETHOXY-1,6-DIAZA-2-SILACYCLOOCTANE",
+          "formula": "C7H18N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=47"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SID3543.1",
+          "name": "2,2-DIMETHOXY-1,6-DIAZA-2-SILACYCLOOCTANE, 10% in cyclohexane",
+          "formula": "C7H18N2O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=47"
+        }
+      ],
+      "candidate_cids": [
+        53422770
+      ],
+      "status": "新增",
+      "cid": 53422770,
+      "group": "氨基"
+    },
+    {
+      "cas": "1184179-50-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8187.2",
+          "name": "(1-(3-TRIETHOXYSILYL)PROPYL)-2,2-DIETHOXY-1-AZA-2-SILACYCLOPENTANE, tech-90",
+          "formula": "C16H37NO5Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=47"
+        }
+      ],
+      "candidate_cids": [
+        71225000
+      ],
+      "status": "新增",
+      "cid": 71225000,
+      "group": "氨基"
+    },
+    {
+      "cas": "93642-68-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8192.6",
+          "name": "(3-TRIETHOXYSILYL)PROPYLSUCCINIC ANHYDRIDE, 95%",
+          "formula": "C13H24O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3817",
+          "name": "[(3-Triethoxysilyl)propyl]-succinic Anhydride",
+          "url": "https://www.tcichemicals.com/US/en/p/T3817"
+        }
+      ],
+      "candidate_cids": [
+        3022158
+      ],
+      "status": "新增",
+      "cid": 3022158,
+      "group": "酸酐"
+    },
+    {
+      "cas": "1245946-78-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0770.0",
+          "name": "(AZIDOMETHYL)PHENETHYLTRIMETHOXYSILANE, tech-90",
+          "formula": "C12H19N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        }
+      ],
+      "candidate_cids": [
+        131846111
+      ],
+      "status": "新增",
+      "cid": 131846111,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "83315-74-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0774.0",
+          "name": "p-AZIDOMETHYLPHENYLTRIMETHOXYSILANE, 90%",
+          "formula": "C10H15N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        }
+      ],
+      "candidate_cids": [
+        20490159
+      ],
+      "status": "新增",
+      "cid": 20490159,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "83315-69-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0777.0",
+          "name": "3-AZIDOPROPYLTRIETHOXYSILANE",
+          "formula": "C9H21N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        }
+      ],
+      "candidate_cids": [
+        18519390
+      ],
+      "status": "新增",
+      "cid": 18519390,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "96550-26-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0780.0",
+          "name": "6-AZIDOSULFONYLHEXYLTRIETHOXYSILANE, tech-95",
+          "formula": "C12H27N3O5SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        }
+      ],
+      "candidate_cids": [
+        22045740
+      ],
+      "status": "新增",
+      "cid": 22045740,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "68479-60-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0790.0",
+          "name": "4-(AZIDOSULFONYL)PHENETHYLTRIMETHOXYSILANE, 22-25% in methanol/toluene",
+          "formula": "C11H17N3O5SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        }
+      ],
+      "candidate_cids": [
+        110353
+      ],
+      "status": "新增",
+      "cid": 110353,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "334521-23-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0795.0",
+          "name": "11-AZIDOUNDECYLTRIMETHOXYSILANE, 95%",
+          "formula": "C14H31N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=48"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A2783",
+          "name": "(11-Azidoundecyl)-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A2783"
+        }
+      ],
+      "candidate_cids": [
+        46779110
+      ],
+      "status": "新增",
+      "cid": 46779110,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "88321-11-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1824.56",
+          "name": "BIS(3-TRIETHOXYSILYLPROPYL)CARBONATE",
+          "formula": "C19H42O9Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        }
+      ],
+      "candidate_cids": [
+        57355152
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "3371-62-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1834.5",
+          "name": "BIS(3-TRIMETHOXYSILYLPROPYL) FUMARATE, 96%",
+          "formula": "C16H32O10Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIB1834.5",
+          "name": "BIS(3-TRIMETHOXYSILYLPROPYL) FUMARATE, 96%",
+          "formula": "C16H32O10Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [
+        6436929
+      ],
+      "status": "新增",
+      "cid": 6436929,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "18191-40-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2263.0",
+          "name": "CARBOXYETHYLSILANETRIOL, DISODIUM SALT, 25% in water",
+          "formula": "C3H6Na2O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        }
+      ],
+      "candidate_cids": [
+        2757371
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "126519-89-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2417.0",
+          "name": "2-(4-CHLOROSULFONYLPHENYL)ETHYLTRIMETHOXYSILANE, 50% in methylene chloride",
+          "formula": "C11H17ClO5SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIC2417.4",
+          "name": "2-(4-CHLOROSULFONYLPHENYL)ETHYLTRIMETHOXYSILANE, 50% in toluene",
+          "formula": "C11H17ClO5SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        }
+      ],
+      "candidate_cids": [
+        2733807
+      ],
+      "status": "新增",
+      "cid": 2733807,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "33525-68-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8189.8",
+          "name": "TRIETHOXYSILYLPROPYLMALEAMIC ACID, tech-90",
+          "formula": "C13H25NO6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        }
+      ],
+      "candidate_cids": [
+        5706563,
+        6197818,
+        118497
+      ],
+      "status": "新增",
+      "cid": 118497,
+      "group": "丙烯酸酯"
+    },
+    {
+      "cas": "143282-00-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8378.1",
+          "name": "TRIHYDROXYSILYLETHYL PHENYLSULPHONIC ACID, 25% in water",
+          "formula": "C8H12O6SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        }
+      ],
+      "candidate_cids": [
+        10890738
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "70942-24-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8378.3",
+          "name": "3-(TRIHYDROXYSILYL)-1-PROPANESULFONIC ACID, 30-35% in water",
+          "formula": "C3H10O6SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=49"
+        }
+      ],
+      "candidate_cids": [
+        116941
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "1309595-29-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8401.0",
+          "name": "N-(TRIMETHOXYSILYLPROPYL)ETHYLENEDIAMINETRIACETATE, TRIPOTASSIUM SALT, 30% in water",
+          "formula": "C14H25K3N2O9Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        }
+      ],
+      "candidate_cids": [
+        137700662
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "128850-89-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8402.0",
+          "name": "N-(TRIMETHOXYSILYLPROPYL)ETHYLENEDIAMINETRIACETATE, TRISODIUM SALT, 35% in water",
+          "formula": "C14H25N2Na3O9Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        }
+      ],
+      "candidate_cids": [
+        2760812
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "10217-34-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIE4668.0",
+          "name": "2-(3,4-EPOXYCYCLOHEXYL)ETHYLTRIETHOXYSILANE",
+          "formula": "C14H28O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        }
+      ],
+      "candidate_cids": [
+        154915
+      ],
+      "status": "新增",
+      "cid": 154915,
+      "group": "环氧"
+    },
+    {
+      "cas": "3388-04-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIE4670.0",
+          "name": "2-(3,4-EPOXYCYCLOHEXYL)ETHYLTRIMETHOXYSILANE",
+          "formula": "C11H22O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        },
+        {
+          "catalog": "TCI",
+          "code": "E0327",
+          "name": "2-(3,4-Epoxycyclohexyl)-ethyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/E0327"
+        }
+      ],
+      "candidate_cids": [
+        18819
+      ],
+      "status": "新增",
+      "cid": 18819,
+      "group": "环氧"
+    },
+    {
+      "cas": "86138-01-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIE4675.0",
+          "name": "5,6-EPOXYHEXYLTRIETHOXYSILANE",
+          "formula": "C12H26O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        }
+      ],
+      "candidate_cids": [
+        11207751
+      ],
+      "status": "新增",
+      "cid": 11207751,
+      "group": "环氧"
+    },
+    {
+      "cas": "2602-34-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIG5839.0",
+          "name": "(3-GLYCIDOXYPROPYL)TRIETHOXYSILANE",
+          "formula": "C12H26O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T2675",
+          "name": "Triethoxy(3-glycidyloxypropyl)-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2675"
+        }
+      ],
+      "candidate_cids": [
+        102856
+      ],
+      "status": "新增",
+      "cid": 102856,
+      "group": "环氧"
+    },
+    {
+      "cas": "2530-83-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIG5840.0",
+          "name": "(3- GLYCIDOXYPROPYL)TRIMETHOXYSILANE",
+          "formula": "C9H20O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIG5840.1",
+          "name": "(3- GLYCIDOXYPROPYL)TRIMETHOXYSILANE, 99+%",
+          "formula": "C9H20O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=50"
+        },
+        {
+          "catalog": "TCI",
+          "code": "G0210",
+          "name": "3-Glycidyloxypropyltrime thoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/G0210"
+        }
+      ],
+      "candidate_cids": [
+        17317
+      ],
+      "status": "原有记录",
+      "cid": 17317
+    },
+    {
+      "cas": "14857-35-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIE4666.0",
+          "name": "2-(3,4-EPOXYCYCLOHEXYL)ETHYLMETHYLDIETHOXYSILANE",
+          "formula": "C13H26O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        21922138
+      ],
+      "status": "新增",
+      "cid": 21922138,
+      "group": "环氧"
+    },
+    {
+      "cas": "2897-60-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIG5832.0",
+          "name": "(3-GLYCIDOXYPROPYL)METHYLDIETHOXYSILANE",
+          "formula": "C11H24O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D2632",
+          "name": "Diethoxy(3-glycidyloxypropyl)-methylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D2632"
+        }
+      ],
+      "candidate_cids": [
+        62467
+      ],
+      "status": "新增",
+      "cid": 62467,
+      "group": "环氧"
+    },
+    {
+      "cas": "65799-47-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIG5836.0",
+          "name": "(3-GLYCIDOXYPROPYL)METHYLDIMETHOXYSILANE",
+          "formula": "C9H20O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        },
+        {
+          "catalog": "TCI",
+          "code": "G0261",
+          "name": "3-Glycidyloxypropyl(dimethoxy)-methylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/G0261"
+        }
+      ],
+      "candidate_cids": [
+        2759249
+      ],
+      "status": "新增",
+      "cid": 2759249,
+      "group": "环氧"
+    },
+    {
+      "cas": "17963-04-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIG5825.0",
+          "name": "(3-GLYCIDOXYPROPYL)DIMETHYLETHOXYSILANE",
+          "formula": "C10H22O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        62719
+      ],
+      "status": "新增",
+      "cid": 62719,
+      "group": "环氧"
+    },
+    {
+      "cas": "5630-83-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0050.0",
+          "name": "ACETOXYMETHYLTRIETHOXYSILANE",
+          "formula": "C9H20O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        11528804
+      ],
+      "status": "新增",
+      "cid": 11528804,
+      "group": "醚基"
+    },
+    {
+      "cas": "65625-39-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0055.0",
+          "name": "ACETOXYMETHYLTRIMETHOXYSILANE, 95%",
+          "formula": "C6H14O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        22483725
+      ],
+      "status": "新增",
+      "cid": 22483725,
+      "group": "醚基"
+    },
+    {
+      "cas": "59004-18-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0100.0",
+          "name": "3-ACETOXYPROPYLTRIMETHOXYSILANE",
+          "formula": "C8H18O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        100924
+      ],
+      "status": "新增",
+      "cid": 100924,
+      "group": "醚基"
+    },
+    {
+      "cas": "76241-02-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0959.0",
+          "name": "BENZOYLOXYPROPYLTRIMETHOXYSILANE",
+          "formula": "C13H20O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        12603922
+      ],
+      "status": "新增",
+      "cid": 12603922,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "1211488-83-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2067.0",
+          "name": "10-(CARBOMETHOXY)DECYLDIMETHYLMETHOXYSILANE",
+          "formula": "C15H32O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=51"
+        }
+      ],
+      "candidate_cids": [
+        57362759
+      ],
+      "status": "新增",
+      "cid": 57362759,
+      "group": "醚基"
+    },
+    {
+      "cas": "76301-00-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2072.0",
+          "name": "2-(CARBOMETHOXY)ETHYLTRIMETHOXYSILANE",
+          "formula": "C7H16O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        10198197
+      ],
+      "status": "新增",
+      "cid": 10198197,
+      "group": "醚基"
+    },
+    {
+      "cas": "1041420-54-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8186.3",
+          "name": "TRIETHOXYSILYLPROPOXY(POLYETHYLENEOXY)DODECANOATE, tech-95",
+          "formula": "C27H56O8Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        121233888
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "226558-82-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1879.7",
+          "name": "4-BROMOBUTYLTRIMETHOXYSILANE",
+          "formula": "C7H17BrO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        15433593
+      ],
+      "status": "新增",
+      "cid": 15433593,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "773893-02-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1894.2",
+          "name": "5-BROMOPENTYLTRIMETHOXYSILANE",
+          "formula": "C8H19BrO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        21573811
+      ],
+      "status": "新增",
+      "cid": 21573811,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "51826-90-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1906.0",
+          "name": "3-BROMOPROPYLTRIMETHOXYSILANE",
+          "formula": "C6H15BrO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        103984
+      ],
+      "status": "新增",
+      "cid": 103984,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "17947-99-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1909.0",
+          "name": "11-BROMOUNDECYLTRIMETHOXYSILANE, 95%",
+          "formula": "C14H31BrO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        23020645
+      ],
+      "status": "新增",
+      "cid": 23020645,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "17256-27-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2280.4",
+          "name": "3-CHLOROISOBUTYLTRIMETHOXYSILANE",
+          "formula": "C7H17ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        }
+      ],
+      "candidate_cids": [
+        15456842
+      ],
+      "status": "新增",
+      "cid": 15456842,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "39197-94-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2282.0",
+          "name": "2-(CHLOROMETHYL)ALLYLTRIMETHOXYSILANE",
+          "formula": "C7H15ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=52"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIC2282.0",
+          "name": "2-(CHLOROMETHYL)ALLYLTRIMETHOXYSILANE",
+          "formula": "C7H15ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        14063782
+      ],
+      "status": "新增",
+      "cid": 14063782,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "68128-25-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2295.5",
+          "name": "((CHLOROMETHYL)PHENYLETHYL)TRIMETHOXYSILANE",
+          "formula": "C12H19ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        }
+      ],
+      "candidate_cids": [
+        109504
+      ],
+      "status": "新增",
+      "cid": 109504,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "167426-89-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2295.7",
+          "name": "CHLOROMETHYLPHENETHYLTRIS(TRIMETHYLSILOXY)SILANE, mixed m,p; α,β isomers",
+          "formula": "C18H37ClO3Si4",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "24413-04-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2296.2",
+          "name": "(p-CHLOROMETHYL)PHENYLTRIMETHOXYSILANE, 95%",
+          "formula": "C10H15ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        }
+      ],
+      "candidate_cids": [
+        90492
+      ],
+      "status": "新增",
+      "cid": 90492,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "15267-95-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2298.4",
+          "name": "CHLOROMETHYLTRIETHOXYSILANE",
+          "formula": "C7H17ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        },
+        {
+          "catalog": "TCI",
+          "code": "C1402",
+          "name": "(Chloromethyl)triethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1402"
+        }
+      ],
+      "candidate_cids": [
+        84858
+      ],
+      "status": "新增",
+      "cid": 84858,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "18162-82-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2298.5",
+          "name": "CHLOROMETHYLTRIISOPROPOXYSILANE",
+          "formula": "C10H23ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        }
+      ],
+      "candidate_cids": [
+        16217502
+      ],
+      "status": "新增",
+      "cid": 16217502,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "5926-26-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2298.6",
+          "name": "CHLOROMETHYLTRIMETHOXYSILANE",
+          "formula": "C4H11ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        },
+        {
+          "catalog": "TCI",
+          "code": "C3073",
+          "name": "(Chloromethyl)trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3073"
+        }
+      ],
+      "candidate_cids": [
+        22212
+      ],
+      "status": "新增",
+      "cid": 22212,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "5089-70-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2407.0",
+          "name": "3-CHLOROPROPYLTRIETHOXYSILANE",
+          "formula": "C9H21ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T1253",
+          "name": "3-Chloropropyl triethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T1253"
+        }
+      ],
+      "candidate_cids": [
+        78771
+      ],
+      "status": "新增",
+      "cid": 78771,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "2530-87-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2410.0",
+          "name": "3-CHLOROPROPYLTRIMETHOXYSILANE",
+          "formula": "C6H15ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        },
+        {
+          "catalog": "TCI",
+          "code": "C0840",
+          "name": "3-Chloropropyltrimethoxy silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C0840"
+        }
+      ],
+      "candidate_cids": [
+        62449
+      ],
+      "status": "新增",
+      "cid": 62449,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "120876-31-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2428.0",
+          "name": "11-CHLOROUNDECYLTRIETHOXYSILANE",
+          "formula": "C17H37ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=53"
+        }
+      ],
+      "candidate_cids": [
+        45158963
+      ],
+      "status": "新增",
+      "cid": 45158963,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "17948-05-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2429.0",
+          "name": "11-CHLOROUNDECYLTRIMETHOXYSILANE",
+          "formula": "C14H31ClO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        }
+      ],
+      "candidate_cids": [
+        14171291
+      ],
+      "status": "新增",
+      "cid": 14171291,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "14867-28-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SII6452.0",
+          "name": "3-IODOPROPYLTRIMETHOXYSILANE",
+          "formula": "C6H15IO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        },
+        {
+          "catalog": "TCI",
+          "code": "I1106",
+          "name": "(3-Iodopropyl)-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/I1106"
+        }
+      ],
+      "candidate_cids": [
+        2759373
+      ],
+      "status": "新增",
+      "cid": 2759373,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "314021-97-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8397.0",
+          "name": "(3-TRIMETHOXYSILYL)PROPYL 2-BROMO-2-METHYLPROPIONATE",
+          "formula": "C10H21BrO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3845",
+          "name": "3-(Trimethoxysilyl)propyl 2-Bromo-2-methylpropanoate",
+          "url": "https://www.tcichemicals.com/US/en/p/T3845"
+        }
+      ],
+      "candidate_cids": [
+        53406718
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "1314981-48-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9064.0",
+          "name": "VINYL(CHLOROMETHYL)DIMETHOXYSILANE",
+          "formula": "C5H11ClO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        }
+      ],
+      "candidate_cids": [
+        53405600
+      ],
+      "status": "新增",
+      "cid": 53405600,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "2212-10-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2292.0",
+          "name": "CHLOROMETHYLMETHYLDIETHOXYSILANE",
+          "formula": "C6H15ClO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        },
+        {
+          "catalog": "TCI",
+          "code": "C3257",
+          "name": "(Chloromethyl)-diethoxy(methyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3257"
+        }
+      ],
+      "candidate_cids": [
+        16650
+      ],
+      "status": "新增",
+      "cid": 16650,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "160676-60-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2295.2",
+          "name": "((CHLOROMETHYL)PHENYLETHYL)METHYLDIMETHOXYSILANE",
+          "formula": "C12H19ClO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIC2295.2",
+          "name": "((CHLOROMETHYL)PHENYLETHYL)METHYLDIMETHOXYSILANE",
+          "formula": "C12H19ClO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        68603447
+      ],
+      "status": "新增",
+      "cid": 68603447,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "13501-76-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2352.0",
+          "name": "3-CHLOROPROPYLMETHYLDIETHOXYSILANE",
+          "formula": "C8H19ClO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        },
+        {
+          "catalog": "TCI",
+          "code": "C3092",
+          "name": "(3-Chloropropyl)-diethoxy(methyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3092"
+        }
+      ],
+      "candidate_cids": [
+        83536
+      ],
+      "status": "新增",
+      "cid": 83536,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "18171-19-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2355.0",
+          "name": "3-CHLOROPROPYLMETHYLDIMETHOXYSILANE",
+          "formula": "C6H15ClO2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=54"
+        },
+        {
+          "catalog": "TCI",
+          "code": "C1168",
+          "name": "3-Chloropropyldimethoxy methylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1168"
+        }
+      ],
+      "candidate_cids": [
+        87491
+      ],
+      "status": "新增",
+      "cid": 87491,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "18244-08-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2278.0",
+          "name": "3-CHLOROISOBUTYLDIMETHYLMETHOXYSILANE",
+          "formula": "C7H17ClOSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        53421108
+      ],
+      "status": "新增",
+      "cid": 53421108,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "13508-53-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2286.0",
+          "name": "CHLOROMETHYLDIMETHYLETHOXYSILANE",
+          "formula": "C5H13ClOSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        26073
+      ],
+      "status": "新增",
+      "cid": 26073,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "13508-63-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2337.0",
+          "name": "3-CHLOROPROPYLDIMETHYLETHOXYSILANE",
+          "formula": "C7H17ClOSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        83538
+      ],
+      "status": "新增",
+      "cid": 83538,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "18171-14-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2338.0",
+          "name": "3-CHLOROPROPYLDIMETHYLMETHOXYSILANE, 95%",
+          "formula": "C6H15ClOSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        87490
+      ],
+      "status": "新增",
+      "cid": 87490,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "330457-46-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIH6172.0",
+          "name": "N-(HYDROXYETHYL)-N-METHYLAMINOPROPYLTRIMETHOXYSILANE, 75% in methanol",
+          "formula": "C9H23NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        22483729
+      ],
+      "status": "新增",
+      "cid": 22483729,
+      "group": "氨基"
+    },
+    {
+      "cas": "162781-70-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIH6175.0",
+          "name": "HYDROXYMETHYLTRIETHOXYSILANE, 50% in ethanol",
+          "formula": "C7H18O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        15987057
+      ],
+      "status": "新增",
+      "cid": 15987057,
+      "group": "羟基"
+    },
+    {
+      "cas": "104275-58-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8189.0",
+          "name": "N-(3-TRIETHOXYSILYLPROPYL)GLUCONAMIDE, 50% in ethanol",
+          "formula": "C15H33NO9Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=55"
+        }
+      ],
+      "candidate_cids": [
+        60622991
+      ],
+      "status": "新增",
+      "cid": 60622991,
+      "group": "羟基"
+    },
+    {
+      "cas": "156214-80-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8189.5",
+          "name": "N-(3-TRIETHOXYSILYLPROPYL)-4-HYDROXYBUTYRAMIDE",
+          "formula": "C13H29NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        }
+      ],
+      "candidate_cids": [
+        2760693
+      ],
+      "status": "新增",
+      "cid": 2760693,
+      "group": "羟基"
+    },
+    {
+      "cas": "74695-91-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8192.0",
+          "name": "N-(TRIETHOXYSILYLPROPYL)-O-POLYETHYLENE OXIDE URETHANE, 95%",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        }
+      ],
+      "candidate_cids": [
+        121233068
+      ],
+      "status": "新增",
+      "cid": 121233068,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "264128-94-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIH6171.5",
+          "name": "N-(HYDROXYETHYL)-N,N-BIS(TRIMETHOXYSILYLPROPYL)AMINE, 65% in methanol",
+          "formula": "C14H35NO7Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        }
+      ],
+      "candidate_cids": [
+        9908165
+      ],
+      "status": "新增",
+      "cid": 9908165,
+      "group": "氨基"
+    },
+    {
+      "cas": "75389-03-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8572.8",
+          "name": "11-(TRIMETHYLSILOXY)UNDECYLTRIETHOXYSILANE",
+          "formula": "C20H46O4Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        }
+      ],
+      "candidate_cids": [
+        53422637
+      ],
+      "status": "新增",
+      "cid": 53422637,
+      "group": "羟基"
+    },
+    {
+      "cas": "24801-88-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SII6455.0",
+          "name": "3-ISOCYANATOPROPYLTRIETHOXYSILANE, 95%",
+          "formula": "C10H21NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        },
+        {
+          "catalog": "TCI",
+          "code": "I0556",
+          "name": "(3-Isocyanatopropyl)-triethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/I0556"
+        }
+      ],
+      "candidate_cids": [
+        90613
+      ],
+      "status": "新增",
+      "cid": 90613,
+      "group": "异氰酸酯"
+    },
+    {
+      "cas": "15396-00-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SII6456.0",
+          "name": "3-ISOCYANOTOPROPYLTRIMETHOXYSILANE, 95%",
+          "formula": "C7H15NO4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T2044",
+          "name": "(3-Isocyanatopropyl)-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2044"
+        }
+      ],
+      "candidate_cids": [
+        84892
+      ],
+      "status": "新增",
+      "cid": 84892,
+      "group": "异氰酸酯"
+    },
+    {
+      "cas": "33491-28-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SII6454.45",
+          "name": "3-ISOCYANATOPROPYLMETHYLDIETHOXYSILANE, 95%",
+          "formula": "C9H19NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        }
+      ],
+      "candidate_cids": [
+        13742587
+      ],
+      "status": "新增",
+      "cid": 13742587,
+      "group": "异氰酸酯"
+    },
+    {
+      "cas": "26115-72-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SII6454.5",
+          "name": "3-ISOCYANATOPROPYLMETHYLDIMETHOXYSILANE, tech-95",
+          "formula": "C7H15NO3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=56"
+        }
+      ],
+      "candidate_cids": [
+        14273481
+      ],
+      "status": "新增",
+      "cid": 14273481,
+      "group": "异氰酸酯"
+    },
+    {
+      "cas": "34708-08-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT7908.0",
+          "name": "3-THIOCYANATOPROPYLTRIETHOXYSILANE, 96%",
+          "formula": "C10H21NO3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=57"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIT7908.0",
+          "name": "3-THIOCYANATOPROPYLTRIETHOXYSILANE, 96%",
+          "formula": "C10H21NO3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3982",
+          "name": "Triethoxy(3-thiocyanatopropyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3982"
+        }
+      ],
+      "candidate_cids": [
+        118718
+      ],
+      "status": "新增",
+      "cid": 118718,
+      "group": "硫醚"
+    },
+    {
+      "cas": "137376-38-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8186.5",
+          "name": "N-(3-TRIETHOXYSILYLPROPYL)-O-t-BUTYLCARBAMATE",
+          "formula": "C14H31NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=57"
+        }
+      ],
+      "candidate_cids": [
+        10125729,
+        22283777,
+        53420709
+      ],
+      "match_method": "CAS xref",
+      "status": "多条候选待复核",
+      "eligible_cids": [
+        10125729,
+        22283777
+      ]
+    },
+    {
+      "cas": "17945-05-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8188.0",
+          "name": "TRIETHOXYSILYLPROPYL ETHYLCARBAMATE",
+          "formula": "C12H27NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=57"
+        }
+      ],
+      "candidate_cids": [
+        87367
+      ],
+      "status": "新增",
+      "cid": 87367,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "23432-62-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8407.0",
+          "name": "N-TRIMETHOXYSILYLPROPYLMETHYLCARBAMATE",
+          "formula": "C8H19NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=57"
+        }
+      ],
+      "candidate_cids": [
+        90098
+      ],
+      "status": "新增",
+      "cid": 90098,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "1364140-50-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8411.0",
+          "name": "2-(3-TRIMETHOXYSILYLPROPYLTHIO)THIOPHENE",
+          "formula": "C10H18O3S2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=57"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIT8411.0",
+          "name": "2-(3-TRIMETHOXYSILYLPROPYLTHIO)THIOPHENE",
+          "formula": "C10H18O3S2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        }
+      ],
+      "candidate_cids": [
+        57362402
+      ],
+      "status": "新增",
+      "cid": 57362402,
+      "group": "硫醚"
+    },
+    {
+      "cas": "26115-70-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8717.0",
+          "name": "TRIS(3-TRIMETHOXYSILYLPROPYL)ISOCYANURATE, tech-95",
+          "formula": "C21H45N3O12Si3",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=57"
+        },
+        {
+          "catalog": "TCI",
+          "code": "I0602",
+          "name": "Tris[3-(trimethoxysilyl)-propyl] Isocyanurate",
+          "url": "https://www.tcichemicals.com/US/en/p/I0602"
+        }
+      ],
+      "candidate_cids": [
+        117734
+      ],
+      "status": "新增",
+      "cid": 117734,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "55289-47-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3385.0",
+          "name": "(2-DICYCLOHEXYLPHOSPHINOETHYL)TRIETHOXYSILANE",
+          "formula": "C20H41O3PSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        53413586
+      ],
+      "status": "新增",
+      "cid": 53413586,
+      "group": "磷功能基"
+    },
+    {
+      "cas": "18048-06-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3411.0",
+          "name": "(2-DIETHYLPHOSPHATOETHYL)METHYLDIETHOXYSILANE, tech-95",
+          "formula": "C11H27O5PSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        87430
+      ],
+      "status": "新增",
+      "cid": 87430,
+      "group": "磷功能基"
+    },
+    {
+      "cas": "757-44-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3412.0",
+          "name": "(2-DIETHYLPHOSPHATOETHYL)TRIETHOXYSILANE, tech-95",
+          "formula": "C12H29O6PSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        69792
+      ],
+      "status": "新增",
+      "cid": 69792,
+      "group": "磷功能基"
+    },
+    {
+      "cas": "359859-29-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4557.5",
+          "name": "(2-DIPHENYLPHOSPHINO)ETHYLDIMETHYLETHOXYSILANE",
+          "formula": "C18H25OPSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        53436544
+      ],
+      "status": "新增",
+      "cid": 53436544,
+      "group": "磷功能基"
+    },
+    {
+      "cas": "18586-39-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4558.0",
+          "name": "2-(DIPHENYLPHOSPHINO)ETHYLTRIETHOXYSILANE",
+          "formula": "C20H29O3PSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        87708
+      ],
+      "status": "新增",
+      "cid": 87708,
+      "group": "磷功能基"
+    },
+    {
+      "cas": "52090-23-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4558.2",
+          "name": "3-(DIPHENYLPHOSPHINO)PROPYLTRIETHOXYSILANE",
+          "formula": "C21H31O3PSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        13661226
+      ],
+      "status": "新增",
+      "cid": 13661226,
+      "group": "磷功能基"
+    },
+    {
+      "cas": "84962-98-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8378.5",
+          "name": "3-(TRIHYDROXYSILYL)PROPYL METHYLPHOSPHONATE, MONOSODIUM SALT, 42% in water",
+          "formula": "C4H12NaO6PSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=58"
+        }
+      ],
+      "candidate_cids": [
+        4385787
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "26903-85-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID3545.0",
+          "name": "2,2-DIMETHOXY-1-THIA-2-SILACYCLOPENTANE",
+          "formula": "C5H12O2SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        }
+      ],
+      "candidate_cids": [
+        20111954
+      ],
+      "status": "新增",
+      "cid": 20111954,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "14814-09-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6475.0",
+          "name": "3-MERCAPTOPROPYLTRIETHOXYSILANE, 95%",
+          "formula": "C9H22O3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M1505",
+          "name": "(3-Mercaptopropyl)-triethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/M1505"
+        }
+      ],
+      "candidate_cids": [
+        84658
+      ],
+      "status": "新增",
+      "cid": 84658,
+      "group": "巯基"
+    },
+    {
+      "cas": "4420-74-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6476.0",
+          "name": "3-MERCAPTOPROPYLTRIMETHOXYSILANE",
+          "formula": "C6H16O3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIM6476.1",
+          "name": "3-MERCAPTOPROPYLTRIMETHOXYSILANE, 99+%",
+          "formula": "C6H16O3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M0928",
+          "name": "(3-Mercaptopropyl)-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/M0928"
+        }
+      ],
+      "candidate_cids": [
+        20473
+      ],
+      "status": "原有记录",
+      "cid": 20473
+    },
+    {
+      "cas": "877593-17-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6480.0",
+          "name": "11-MERCAPTOUNDECYLTRIMETHOXYSILANE, 95%",
+          "formula": "C14H32O3SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        }
+      ],
+      "candidate_cids": [
+        46940464
+      ],
+      "status": "新增",
+      "cid": 46940464,
+      "group": "巯基"
+    },
+    {
+      "cas": "220727-26-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIO6704.0",
+          "name": "S-(OCTANOYL)MERCAPTOPROPYLTRIETHOXYSILANE",
+          "formula": "C17H36O4SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=59"
+        }
+      ],
+      "candidate_cids": [
+        12135713
+      ],
+      "status": "新增",
+      "cid": 12135713,
+      "group": "硫醚"
+    },
+    {
+      "cas": "55161-63-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6473.0",
+          "name": "(MERCAPTOMETHYL)METHYLDIETHOXYSILANE, 95%",
+          "formula": "C6H16O2SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        }
+      ],
+      "candidate_cids": [
+        10130226
+      ],
+      "status": "新增",
+      "cid": 10130226,
+      "group": "巯基"
+    },
+    {
+      "cas": "31001-77-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6474.0",
+          "name": "3-MERCAPTOPROPYLMETHYLDIMETHOXYSILANE, 96%",
+          "formula": "C6H16O2SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        },
+        {
+          "catalog": "TCI",
+          "code": "M1323",
+          "name": "3-Mercaptopropyl(dimethoxy)-methylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/M1323"
+        }
+      ],
+      "candidate_cids": [
+        2759524
+      ],
+      "status": "新增",
+      "cid": 2759524,
+      "group": "巯基"
+    },
+    {
+      "cas": "198087-81-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1820.5",
+          "name": "BIS[m-(2-TRIETHOXYSILYLETHYL)TOLYL]POLYSULFIDE, tech-90",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "未找到 CID"
+    },
+    {
+      "cas": "56706-10-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1824.6",
+          "name": "BIS[3-(TRIETHOXYSILYL)PROPYL]DISULFIDE, 90%",
+          "formula": "C18H42O6S2Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        }
+      ],
+      "candidate_cids": [
+        92506
+      ],
+      "status": "新增",
+      "cid": 92506,
+      "group": "二硫/多硫"
+    },
+    {
+      "cas": "40372-72-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1825.0",
+          "name": "BIS[3-(TRIETHOXYSILYL)PROPYL]TETRASULFIDE, tech-95",
+          "formula": "C18H42O6S4Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        }
+      ],
+      "candidate_cids": [
+        162012
+      ],
+      "status": "新增",
+      "cid": 162012,
+      "group": "二硫/多硫"
+    },
+    {
+      "cas": "69952-89-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1827.0",
+          "name": "N,N'-BIS[3-(TRIETHOXYSILYL)PROPYL]THIOUREA, 90%",
+          "formula": "C19H44N2O6SSi2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=60"
+        }
+      ],
+      "candidate_cids": [
+        3036295
+      ],
+      "status": "新增",
+      "cid": 3036295,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "1196453-35-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0482.0",
+          "name": "11-ALLYLOXYUNDECYLTRIMETHOXYSILANE",
+          "formula": "C17H36O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        }
+      ],
+      "candidate_cids": [
+        53421433
+      ],
+      "status": "新增",
+      "cid": 53421433,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "2550-04-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0525.0",
+          "name": "ALLYLTRIETHOXYSILANE",
+          "formula": "C9H20O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A0785",
+          "name": "Allyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A0785"
+        }
+      ],
+      "candidate_cids": [
+        75692
+      ],
+      "status": "新增",
+      "cid": 75692,
+      "group": "烯丙基"
+    },
+    {
+      "cas": "2551-83-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0540.0",
+          "name": "ALLYLTRIMETHOXYSILANE",
+          "formula": "C6H14O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        },
+        {
+          "catalog": "TCI",
+          "code": "A1504",
+          "name": "Allyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A1504"
+        }
+      ],
+      "candidate_cids": [
+        75698
+      ],
+      "status": "新增",
+      "cid": 75698,
+      "group": "烯丙基"
+    },
+    {
+      "cas": "68323-30-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0988.0",
+          "name": "[(5-BICYCLO[2.2.1]HEPT-2-ENYL)ETHYL]TRIMETHOXYSILANE, tech-95, endo/exo isomers",
+          "formula": "C12H22O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        }
+      ],
+      "candidate_cids": [
+        91654739
+      ],
+      "status": "新增",
+      "cid": 91654739,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "18245-94-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0990.0",
+          "name": "(5-BICYCLO[2.2.1]HEPT-2-ENYL)METHYLDICHLOROSILANE, 95%",
+          "formula": "C8H12Cl2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        }
+      ],
+      "candidate_cids": [
+        86686
+      ],
+      "status": "新增",
+      "cid": 86686,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "18401-43-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0992.0",
+          "name": "(5-BICYCLO[2.2.1]HEPT-2-ENYL)TRIETHOXYSILANE",
+          "formula": "C13H24O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        },
+        {
+          "catalog": "TCI",
+          "code": "B3214",
+          "name": "[Bicyclo[2.2.1]hept-5-en 2-yl]triethoxysilane (mixture of isomers)",
+          "url": "https://www.tcichemicals.com/US/en/p/B3214"
+        }
+      ],
+      "candidate_cids": [
+        86718
+      ],
+      "status": "新增",
+      "cid": 86718,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "57813-67-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1928.0",
+          "name": "3-BUTENYLTRIETHOXYSILANE, 95%",
+          "formula": "C10H22O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=61"
+        }
+      ],
+      "candidate_cids": [
+        11009451
+      ],
+      "status": "新增",
+      "cid": 11009451,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "77756-79-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2459.5",
+          "name": "[2-(3-CYCLOHEXENYL)ETHYL]TRIETHOXYSILANE",
+          "formula": "C14H28O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        11300254
+      ],
+      "status": "新增",
+      "cid": 11300254,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "67592-36-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2460.0",
+          "name": "[2-(3-CYCLOHEXENYL)ETHYL]TRIMETHOXYSILANE",
+          "formula": "C11H22O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        105462
+      ],
+      "status": "新增",
+      "cid": 105462,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "21619-76-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2464.1",
+          "name": "3-CYCLOHEXENYLTRIMETHOXYSILANE",
+          "formula": "C9H18O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        12504392
+      ],
+      "status": "新增",
+      "cid": 12504392,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "102056-64-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIC2520.0",
+          "name": "(3-CYCLOPENTADIENYLPROPYL)TRIETHOXYSILANE",
+          "formula": "C14H26O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        145379
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "330457-44-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4618.0",
+          "name": "DOCOSENYLTRIETHOXYSILANE, 95%",
+          "formula": "C28H58O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        22660433,
+        53436563
+      ],
+      "status": "新增",
+      "cid": 53436563,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "52034-14-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIH6164.2",
+          "name": "5-HEXENYLTRIETHOXYSILANE, 95%",
+          "formula": "C12H26O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        22145149
+      ],
+      "status": "新增",
+      "cid": 22145149,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "58751-56-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIH6164.3",
+          "name": "5-HEXENYLTRIMETHOXYSILANE, 95%",
+          "formula": "C9H20O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=62"
+        }
+      ],
+      "candidate_cids": [
+        93894
+      ],
+      "status": "新增",
+      "cid": 93894,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "52217-57-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIO6709.0",
+          "name": "7-OCTENYLTRIMETHOXYSILANE, tech-95",
+          "formula": "C11H24O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3359",
+          "name": "Trimethoxy(7-octen-1-yl)-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3359"
+        }
+      ],
+      "candidate_cids": [
+        104124
+      ],
+      "status": "新增",
+      "cid": 104124,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "870987-68-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6902.6",
+          "name": "O-(PROPARGYL)-N-(TRIETHOXYSILYLPROPYL) CARBAMATE, 90%",
+          "formula": "C13H25NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        },
+        {
+          "catalog": "TCI",
+          "code": "P2258",
+          "name": "2-Propynyl [3-(Triethoxysilyl)-propyl]carbamate",
+          "url": "https://www.tcichemicals.com/US/en/p/P2258"
+        }
+      ],
+      "candidate_cids": [
+        59324374
+      ],
+      "status": "新增",
+      "cid": 59324374,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "119181-19-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIS6990.0",
+          "name": "STYRYLETHYLTRIMETHOXYSILANE, tech-90",
+          "formula": "C13H20O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        }
+      ],
+      "candidate_cids": [
+        21584675
+      ],
+      "status": "新增",
+      "cid": 21584675,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "872575-06-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIU9049.0",
+          "name": "10-UNDECENYLTRIMETHOXYSILANE",
+          "formula": "C14H30O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        }
+      ],
+      "candidate_cids": [
+        22145214
+      ],
+      "status": "新增",
+      "cid": 22145214,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "159856-61-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9088.4",
+          "name": "O-(VINYLOXYBUTYL)-N-TRIETHOXYSILYLPROPYL CARBAMATE, tech-95",
+          "formula": "C16H33NO6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        }
+      ],
+      "candidate_cids": [
+        15219176
+      ],
+      "status": "新增",
+      "cid": 15219176,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "4130-08-9",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9098.0",
+          "name": "VINYLTRIACETOXYSILANE",
+          "formula": "C8H12O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        }
+      ],
+      "candidate_cids": [
+        77780
+      ],
+      "status": "新增",
+      "cid": 77780,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "5356-88-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9099.0",
+          "name": "VINYLTRI-t-BUTOXYSILANE",
+          "formula": "C14H30O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        }
+      ],
+      "candidate_cids": [
+        79317
+      ],
+      "status": "新增",
+      "cid": 79317,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "78-08-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9112.0",
+          "name": "VINYLTRIETHOXYSILANE",
+          "formula": "C8H18O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=63"
+        },
+        {
+          "catalog": "TCI",
+          "code": "V0044",
+          "name": "Triethoxyvinylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/V0044"
+        }
+      ],
+      "candidate_cids": [
+        6516
+      ],
+      "status": "原有记录",
+      "cid": 6516
+    },
+    {
+      "cas": "15332-99-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9209.0",
+          "name": "VINYLTRIISOPROPENOXYSILANE, tech-95",
+          "formula": "C11H18O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=64"
+        },
+        {
+          "catalog": "TCI",
+          "code": "V0185",
+          "name": "Tris(isopropenyloxy)- (vinyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/V0185"
+        }
+      ],
+      "candidate_cids": [
+        84872
+      ],
+      "status": "新增",
+      "cid": 84872,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "18023-33-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9210.0",
+          "name": "VINYLTRIISOPROPOXYSILANE",
+          "formula": "C11H24O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=64"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3694",
+          "name": "Triisopropoxy(vinyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3694"
+        }
+      ],
+      "candidate_cids": [
+        87409
+      ],
+      "status": "新增",
+      "cid": 87409,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "2768-02-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9220.0",
+          "name": "VINYLTRIMETHOXYSILANE",
+          "formula": "C5H12O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=64"
+        },
+        {
+          "catalog": "TCI",
+          "code": "V0042",
+          "name": "Vinyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/V0042"
+        }
+      ],
+      "candidate_cids": [
+        76004
+      ],
+      "status": "原有记录",
+      "cid": 76004
+    },
+    {
+      "cas": "1067-53-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9275.0",
+          "name": "VINYLTRIS(2-METHOXYETHOXY)SILANE",
+          "formula": "C11H24O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=64"
+        },
+        {
+          "catalog": "TCI",
+          "code": "V0048",
+          "name": "Vinyltris(2-methoxyethoxy)-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/V0048"
+        }
+      ],
+      "candidate_cids": [
+        14025
+      ],
+      "status": "新增",
+      "cid": 14025,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "303746-21-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9277.0",
+          "name": "VINYLTRIS(1-METHOXY-2-PROPOXY)SILANE",
+          "formula": "C14H30O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=64"
+        }
+      ],
+      "candidate_cids": [
+        20229954,
+        21742057
+      ],
+      "match_method": "CAS xref",
+      "status": "多条候选待复核",
+      "eligible_cids": [
+        20229954,
+        21742057
+      ]
+    },
+    {
+      "cas": "2224-33-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9280.0",
+          "name": "VINYLTRIS(METHYLETHYLKETOXIMINO)SILANE, tech-95",
+          "formula": "C14H27N3O3Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=64"
+        }
+      ],
+      "candidate_cids": [
+        75211
+      ],
+      "status": "新增",
+      "cid": 75211,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "67681-66-7",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0485.0",
+          "name": "ALLYLMETHYLDIMETHOXYSILANE, tech-95",
+          "formula": "C6H14O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        }
+      ],
+      "candidate_cids": [
+        6365638,
+        22033799,
+        22228991,
+        53442132,
+        57352543
+      ],
+      "match_method": "CAS xref",
+      "status": "新增",
+      "cid": 22033799,
+      "group": "烯丙基"
+    },
+    {
+      "cas": "113276-73-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0990.3",
+          "name": "(5-BICYCLO[2.2.1]HEPT-2-ENYL)METHYLDIETHOXYSILANE",
+          "formula": "C12H22O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        }
+      ],
+      "candidate_cids": [
+        14985012,
+        69651382,
+        71337106,
+        92016285
+      ],
+      "match_method": "CAS xref",
+      "status": "多条候选待复核",
+      "eligible_cids": [
+        14985012,
+        92016285
+      ]
+    },
+    {
+      "cas": "5507-44-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9085.0",
+          "name": "VINYLMETHYLDIETHOXYSILANE",
+          "formula": "C7H16O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D2318",
+          "name": "Diethoxymethylvinylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D2318"
+        }
+      ],
+      "candidate_cids": [
+        79646
+      ],
+      "status": "新增",
+      "cid": 79646,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "16753-62-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9086.0",
+          "name": "VINYLMETHYLDIMETHOXYSILANE",
+          "formula": "C5H12O2Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        },
+        {
+          "catalog": "TCI",
+          "code": "D3386",
+          "name": "Dimethoxymethylvinylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D3386"
+        }
+      ],
+      "candidate_cids": [
+        85589
+      ],
+      "status": "新增",
+      "cid": 85589,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "899823-76-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB0981.0",
+          "name": "(5-BICYCLO[2.2.1]HEPT-2-ENYL)DIMETHYLETHOXYSILANE",
+          "formula": "C11H20OSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        }
+      ],
+      "candidate_cids": [
+        22228963
+      ],
+      "status": "新增",
+      "cid": 22228963,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "193828-96-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8732.0",
+          "name": "TRIVINYLMETHOXYSILANE, 95%",
+          "formula": "C7H12OSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        }
+      ],
+      "candidate_cids": [
+        21835992
+      ],
+      "status": "新增",
+      "cid": 21835992,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "5356-83-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9072.0",
+          "name": "VINYLDIMETHYLETHOXYSILANE",
+          "formula": "C6H14OSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=65"
+        },
+        {
+          "catalog": "TCI",
+          "code": "V0046",
+          "name": "Dimethylethoxyvinylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/V0046"
+        }
+      ],
+      "candidate_cids": [
+        79315
+      ],
+      "status": "新增",
+      "cid": 79315,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "124279-15-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1618.0",
+          "name": "1,2-BIS(METHYLDIETHOXYSILYL)ETHYLENE",
+          "formula": "C12H28O4Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [
+        14295371
+      ],
+      "status": "新增",
+      "cid": 14295371,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "87061-56-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1820.0",
+          "name": "1,2-BIS(TRIETHOXYSILYL)ETHYLENE, 95%",
+          "formula": "C14H32O6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [
+        11089496,
+        53700341
+      ],
+      "status": "新增",
+      "cid": 53700341,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "143727-20-2",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1832.5",
+          "name": "1,1-BIS(TRIMETHOXYSILYLMETHYL)ETHYLENE, tech-95",
+          "formula": "C10H24O6Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [
+        22222918
+      ],
+      "status": "新增",
+      "cid": 22222918,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "29434-25-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9112.2",
+          "name": "VINYLTRIETHOXYSILANE, oligomeric hydrolysate",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "201615-10-3",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9112.3",
+          "name": "VINYLTRIETHOXYSILANE-PROPYLTRIETHOXYSILANE, oligomeric co-hydrolysate",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "131298-48-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIV9220.2",
+          "name": "VINYLTRIMETHOXYSILANE, oligomeric hydrolysate",
+          "formula": null,
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=66"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "947329-82-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIB1824.8",
+          "name": "1,7-BIS(4-TRIETHOXYSILYLPROPOXY-3-METHOXYPHENYL)-1,6-HEPTADIENE-3,5-DIONE, tech-90",
+          "formula": "C39H60O12Si2",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=67"
+        }
+      ],
+      "candidate_cids": [
+        131888239
+      ],
+      "status": "新增",
+      "cid": 131888239,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "71783-41-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SID4352.0",
+          "name": "3-(2,4-DINITROPHENYLAMINO)PROPYLTRIETHOXYSILANE, 95%",
+          "formula": "C15H25N3O7Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=67"
+        }
+      ],
+      "candidate_cids": [
+        11463352
+      ],
+      "status": "新增",
+      "cid": 11463352,
+      "group": "氨基"
+    },
+    {
+      "cas": "79876-59-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIH6200.0",
+          "name": "2-HYDROXY-4-(3-TRIETHOXYSILYLPROPOXY)DIPHENYLKETONE, tech-90",
+          "formula": "C22H30O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=68"
+        }
+      ],
+      "candidate_cids": [
+        22222930
+      ],
+      "status": "新增",
+      "cid": 22222930,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "129119-78-4",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIM6502.0",
+          "name": "O-4-METHYLCOUMARINYL-N-[3-(TRIETHOXYSILYL)PROPYL]CARBAMATE",
+          "formula": "C20H29NO7Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=68"
+        }
+      ],
+      "candidate_cids": [
+        14646912
+      ],
+      "status": "新增",
+      "cid": 14646912,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "188541-09-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIN6597.25",
+          "name": "NITROVERATRYLOXYCARBONYLAMIDOPROPYLTRIETHOXYSILANE, 10% in tetrahydrofuran",
+          "formula": "C19H32N2O9Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=68"
+        }
+      ],
+      "candidate_cids": [
+        101187244
+      ],
+      "status": "新增",
+      "cid": 101187244,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "945761-08-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8186.2",
+          "name": "7-TRIETHOXYSILYLPROPOXY-5-HYDROXYFLAVONE, 50% in xylene",
+          "formula": "C24H30O7Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=68"
+        }
+      ],
+      "candidate_cids": [
+        57360719
+      ],
+      "status": "新增",
+      "cid": 57360719,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "70880-05-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8187.0",
+          "name": "N-(TRIETHOXYSILYLPROPYL)DANSYLAMIDE",
+          "formula": "C21H34N2O5SSi",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=68"
+        }
+      ],
+      "candidate_cids": [
+        116921
+      ],
+      "status": "新增",
+      "cid": 116921,
+      "group": "氨基"
+    },
+    {
+      "cas": "60871-86-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8191.0",
+          "name": "3-(TRIETHOXYSILYLPROPYL)-p-NITROBENZAMIDE",
+          "formula": "C16H26N2O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=69"
+        }
+      ],
+      "candidate_cids": [
+        109028
+      ],
+      "status": "新增",
+      "cid": 109028,
+      "group": "氨基"
+    },
+    {
+      "cas": "200946-85-6",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8192.4",
+          "name": "(R)-N-TRIETHOXYSILYLPROPYL-O-QUININEURETHANE, 95%",
+          "formula": "C30H45N3O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=69"
+        },
+        {
+          "catalog": "Gelest",
+          "code": "SIT8192.4",
+          "name": "(R)-N-TRIETHOXYSILYLPROPYL-O-QUININEURETHANE, 95%",
+          "formula": "C30H45N3O6Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=69"
+        }
+      ],
+      "candidate_cids": [
+        67605677
+      ],
+      "status": "新增",
+      "cid": 67605677,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "131206-15-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIP6731.5",
+          "name": "(R)-N-1-PHENYLETHYL-N'-TRIETHOXYSILYLPROPYLUREA",
+          "formula": "C18H32N2O4Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=69"
+        }
+      ],
+      "candidate_cids": [
+        20746337
+      ],
+      "status": "新增",
+      "cid": 20746337,
+      "group": "脲基"
+    },
+    {
+      "cas": "68479-61-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT8190.0",
+          "name": "(S)-N-TRIETHOXYSILYLPROPYL-O-MENTHOCARBAMATE",
+          "formula": "C20H41NO5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=69"
+        }
+      ],
+      "candidate_cids": [
+        109404
+      ],
+      "status": "新增",
+      "cid": 109404,
+      "group": "氨基甲酸酯"
+    },
+    {
+      "cas": "1274903-53-5",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0120.2",
+          "name": "N-(ACETYLGLYCYL)-3-AMINOPROPYLTRIMETHOXYSILANE, 5% in methanol",
+          "formula": "C10H22N2O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=70"
+        }
+      ],
+      "candidate_cids": [
+        87064791
+      ],
+      "status": "新增",
+      "cid": 87064791,
+      "group": "酰胺"
+    },
+    {
+      "cas": "1300591-79-0",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0126.0",
+          "name": "3-(N-ACETYL-4-HYDROXYPROLYLOXY)PROPYLTRIETHOXYSILANE, 25% in ethanol",
+          "formula": "C16H31NO7Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=70"
+        }
+      ],
+      "candidate_cids": [
+        121237422
+      ],
+      "status": "新增",
+      "cid": 121237422,
+      "group": "羟基"
+    },
+    {
+      "cas": "1367348-25-1",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIA0127.0",
+          "name": "N-(N-ACETYLLEUCYL)-3-AMINOPROPYLTRIETHOXYSILANE, 12-15% in ethanol",
+          "formula": "C17H36N2O5Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=70"
+        }
+      ],
+      "candidate_cids": [
+        121237423
+      ],
+      "status": "新增",
+      "cid": 121237423,
+      "group": "酰胺"
+    },
+    {
+      "cas": "879197-67-8",
+      "catalog_references": [
+        {
+          "catalog": "Gelest",
+          "code": "SIT7909.7",
+          "name": "(3-(3-THYMINYL)PROPIONOXY)PROPYLTRIMETHOXYSILANE",
+          "formula": "C14H24N2O7Si",
+          "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf#page=70"
+        }
+      ],
+      "candidate_cids": [
+        127258093
+      ],
+      "status": "新增",
+      "cid": 127258093,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "1719-58-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1208",
+          "name": "Chlorodimethylvinylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1208"
+        }
+      ],
+      "candidate_cids": [
+        519368
+      ],
+      "status": "新增",
+      "cid": 519368,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "75-94-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T0407",
+          "name": "Trichlorovinylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T0407"
+        }
+      ],
+      "candidate_cids": [
+        6413
+      ],
+      "status": "新增",
+      "cid": 6413,
+      "group": "乙烯基"
+    },
+    {
+      "cas": "5356-84-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H1613",
+          "name": "Tris(trimethylsiloxy)(vinyl)-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/H1613"
+        }
+      ],
+      "candidate_cids": [
+        79316
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "4028-23-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "A1275",
+          "name": "Allylchlorodimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A1275"
+        }
+      ],
+      "candidate_cids": [
+        77646
+      ],
+      "status": "新增",
+      "cid": 77646,
+      "group": "烯丙基"
+    },
+    {
+      "cas": "17096-07-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M1324",
+          "name": "3-[Tris(trimethylsilyloxy)silyl]-propyl Methacrylate",
+          "url": "https://www.tcichemicals.com/US/en/p/M1324"
+        }
+      ],
+      "candidate_cids": [
+        123371
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "24636-31-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3435",
+          "name": "3-(Chlorodimethylsilyl)-propyl Methacrylate (stabilized with BHT)",
+          "url": "https://www.tcichemicals.com/US/en/p/C3435"
+        }
+      ],
+      "candidate_cids": [
+        2759527
+      ],
+      "status": "新增",
+      "cid": 2759527,
+      "group": "甲基丙烯酸酯"
+    },
+    {
+      "cas": "17096-12-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T4411",
+          "name": "3-Tris(trimethylsilyloxy)-silylpropyl Acrylate (stabilized with BHT)",
+          "url": "https://www.tcichemicals.com/US/en/p/T4411"
+        }
+      ],
+      "candidate_cids": [
+        9822746
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "1239602-38-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "G0469",
+          "name": "[8-(Glycidyloxy)-n-octyl]-trimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/G0469"
+        }
+      ],
+      "candidate_cids": [
+        102529357
+      ],
+      "status": "新增",
+      "cid": 102529357,
+      "group": "环氧"
+    },
+    {
+      "cas": "3663-44-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "A2628",
+          "name": "3-Aminopropyldimethoxy methylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/A2628"
+        }
+      ],
+      "candidate_cids": [
+        77233
+      ],
+      "status": "新增",
+      "cid": 77233,
+      "group": "氨基"
+    },
+    {
+      "cas": "6044-50-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3242",
+          "name": "3-(Methylamino)-propyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3242"
+        }
+      ],
+      "candidate_cids": [
+        80142
+      ],
+      "status": "新增",
+      "cid": 80142,
+      "group": "氨基"
+    },
+    {
+      "cas": "84901-27-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2246",
+          "name": "Trimethyl[3-(triethoxysilyl)-propyl]ammonium Chloride",
+          "url": "https://www.tcichemicals.com/US/en/p/T2246"
+        }
+      ],
+      "candidate_cids": [
+        23002981
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "856925-70-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M3446",
+          "name": "1-Methyl 3-[3-(trimethoxysilyl)propyl]- 1H-imidazol-3-ium Chloride",
+          "url": "https://www.tcichemicals.com/US/en/p/M3446"
+        }
+      ],
+      "candidate_cids": [
+        72736048
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "75-77-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C0306",
+          "name": "Chlorotrimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C0306"
+        }
+      ],
+      "candidate_cids": [
+        6397
+      ],
+      "status": "新增",
+      "cid": 6397,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "75-79-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M0450",
+          "name": "Trichloro(methyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/M0450"
+        }
+      ],
+      "candidate_cids": [
+        6399
+      ],
+      "status": "新增",
+      "cid": 6399,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "1185-55-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M0660",
+          "name": "Trimethoxy(methyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/M0660"
+        }
+      ],
+      "candidate_cids": [
+        14456
+      ],
+      "status": "新增",
+      "cid": 14456,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "2031-67-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M0451",
+          "name": "Triethoxymethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/M0451"
+        }
+      ],
+      "candidate_cids": [
+        16241
+      ],
+      "status": "新增",
+      "cid": 16241,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "17928-28-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H1612",
+          "name": "Methyltris(trimethylsiloxy)-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/H1612"
+        }
+      ],
+      "candidate_cids": [
+        28838
+      ],
+      "status": "结构不符或超出入库范围"
+    },
+    {
+      "cas": "6917-76-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D0135",
+          "name": "Dimethylethylchlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D0135"
+        }
+      ],
+      "candidate_cids": [
+        138863
+      ],
+      "status": "新增",
+      "cid": 138863,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "994-30-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T0589",
+          "name": "Chlorotriethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T0589"
+        }
+      ],
+      "candidate_cids": [
+        13819
+      ],
+      "status": "新增",
+      "cid": 13819,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "115-21-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "E0188",
+          "name": "Ethyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/E0188"
+        }
+      ],
+      "candidate_cids": [
+        8260
+      ],
+      "status": "新增",
+      "cid": 8260,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "5314-55-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "E0789",
+          "name": "Ethyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/E0789"
+        }
+      ],
+      "candidate_cids": [
+        79204
+      ],
+      "status": "新增",
+      "cid": 79204,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "78-07-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "E0189",
+          "name": "Triethoxyethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/E0189"
+        }
+      ],
+      "candidate_cids": [
+        6515
+      ],
+      "status": "新增",
+      "cid": 6515,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "17477-29-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1590",
+          "name": "Chlorodimethylpropylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1590"
+        }
+      ],
+      "candidate_cids": [
+        87130
+      ],
+      "status": "新增",
+      "cid": 87130,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "141-57-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "P0371",
+          "name": "Trichloro(propyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/P0371"
+        }
+      ],
+      "candidate_cids": [
+        8850
+      ],
+      "status": "新增",
+      "cid": 8850,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "4518-94-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D5568",
+          "name": "Dichloro(methyl)propylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D5568"
+        }
+      ],
+      "candidate_cids": [
+        78275
+      ],
+      "status": "新增",
+      "cid": 78275,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "1067-25-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T1801",
+          "name": "Trimethoxy(propyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T1801"
+        }
+      ],
+      "candidate_cids": [
+        61254
+      ],
+      "status": "新增",
+      "cid": 61254,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "2550-02-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2867",
+          "name": "Triethoxy(propyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2867"
+        }
+      ],
+      "candidate_cids": [
+        75691
+      ],
+      "status": "新增",
+      "cid": 75691,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3634-56-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1594",
+          "name": "Dimethylisopropylchlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1594"
+        }
+      ],
+      "candidate_cids": [
+        5102883
+      ],
+      "status": "新增",
+      "cid": 5102883,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "107149-56-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D2262",
+          "name": "Chlorodiethylisopropylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D2262"
+        }
+      ],
+      "candidate_cids": [
+        4486980
+      ],
+      "status": "新增",
+      "cid": 4486980,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "13154-24-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T1078",
+          "name": "Chlorotriisopropylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T1078"
+        }
+      ],
+      "candidate_cids": [
+        139400
+      ],
+      "status": "新增",
+      "cid": 139400,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "1000-50-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B2010",
+          "name": "Butylchlorodimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B2010"
+        }
+      ],
+      "candidate_cids": [
+        66079
+      ],
+      "status": "新增",
+      "cid": 66079,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "1067-57-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B6394",
+          "name": "Butyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B6394"
+        }
+      ],
+      "candidate_cids": [
+        70601
+      ],
+      "status": "新增",
+      "cid": 70601,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "4781-99-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B5858",
+          "name": "Butyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B5858"
+        }
+      ],
+      "candidate_cids": [
+        525734
+      ],
+      "status": "新增",
+      "cid": 525734,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18169-57-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "I0452",
+          "name": "Isobutyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/I0452"
+        }
+      ],
+      "candidate_cids": [
+        87489
+      ],
+      "status": "新增",
+      "cid": 87489,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "17980-47-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3734",
+          "name": "Triethoxy(isobutyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3734"
+        }
+      ],
+      "candidate_cids": [
+        87391
+      ],
+      "status": "新增",
+      "cid": 87391,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18162-48-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B0995",
+          "name": "tert-Butyldimethylchlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B0995"
+        }
+      ],
+      "candidate_cids": [
+        28928
+      ],
+      "status": "新增",
+      "cid": 28928,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3634-59-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3415",
+          "name": "Chloro(hexyl)dimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3415"
+        }
+      ],
+      "candidate_cids": [
+        2733540
+      ],
+      "status": "新增",
+      "cid": 2733540,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "928-65-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H0547",
+          "name": "Trichlorohexylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/H0547"
+        }
+      ],
+      "candidate_cids": [
+        13571
+      ],
+      "status": "新增",
+      "cid": 13571,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3069-19-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H0879",
+          "name": "Hexyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/H0879"
+        }
+      ],
+      "candidate_cids": [
+        76478
+      ],
+      "status": "新增",
+      "cid": 76478,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18166-37-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H1158",
+          "name": "Hexyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/H1158"
+        }
+      ],
+      "candidate_cids": [
+        4437318
+      ],
+      "status": "新增",
+      "cid": 4437318,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3634-67-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3556",
+          "name": "Chlorotrihexylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3556"
+        }
+      ],
+      "candidate_cids": [
+        77188
+      ],
+      "status": "新增",
+      "cid": 77188,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "67373-56-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2116",
+          "name": "Chloro(dimethyl)thexylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2116"
+        }
+      ],
+      "candidate_cids": [
+        144239
+      ],
+      "status": "新增",
+      "cid": 144239,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "143487-47-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3589",
+          "name": "Cyclopentyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3589"
+        }
+      ],
+      "candidate_cids": [
+        9855701
+      ],
+      "status": "新增",
+      "cid": 9855701,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "98-12-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C0892",
+          "name": "Cyclohexyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C0892"
+        }
+      ],
+      "candidate_cids": [
+        60987
+      ],
+      "status": "新增",
+      "cid": 60987,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "71864-47-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3608",
+          "name": "Chlorocyclohexyldimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3608"
+        }
+      ],
+      "candidate_cids": [
+        564559
+      ],
+      "status": "新增",
+      "cid": 564559,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "17865-54-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C2280",
+          "name": "Cyclohexyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C2280"
+        }
+      ],
+      "candidate_cids": [
+        10998130
+      ],
+      "status": "新增",
+      "cid": 10998130,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18162-84-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1827",
+          "name": "Dimethyl-n-octylchlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1827"
+        }
+      ],
+      "candidate_cids": [
+        87482
+      ],
+      "status": "新增",
+      "cid": 87482,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "5283-66-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "O0168",
+          "name": "n-Octyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/O0168"
+        }
+      ],
+      "candidate_cids": [
+        21354
+      ],
+      "status": "新增",
+      "cid": 21354,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "93804-29-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M3217",
+          "name": "Methoxy(dimethyl)-n-octylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/M3217"
+        }
+      ],
+      "candidate_cids": [
+        175558
+      ],
+      "status": "新增",
+      "cid": 175558,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "85712-15-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D5673",
+          "name": "Dimethoxy(methyl)-n-octylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D5673"
+        }
+      ],
+      "candidate_cids": [
+        4178497
+      ],
+      "status": "新增",
+      "cid": 4178497,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3069-40-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2875",
+          "name": "Trimethoxy-n-octylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2875"
+        }
+      ],
+      "candidate_cids": [
+        76485
+      ],
+      "status": "新增",
+      "cid": 76485,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "2943-75-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "O0171",
+          "name": "Triethoxy-n-octylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/O0171"
+        }
+      ],
+      "candidate_cids": [
+        76262
+      ],
+      "status": "新增",
+      "cid": 76262,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "35435-21-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3883",
+          "name": "Isooctyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3883"
+        }
+      ],
+      "candidate_cids": [
+        169694
+      ],
+      "status": "新增",
+      "cid": 169694,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "38051-57-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1468",
+          "name": "Chloro(decyl)dimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1468"
+        }
+      ],
+      "candidate_cids": [
+        2758020
+      ],
+      "status": "新增",
+      "cid": 2758020,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "13829-21-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1486",
+          "name": "Decyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1486"
+        }
+      ],
+      "candidate_cids": [
+        83764
+      ],
+      "status": "新增",
+      "cid": 83764,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "2943-73-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D5197",
+          "name": "Decyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D5197"
+        }
+      ],
+      "candidate_cids": [
+        76261
+      ],
+      "status": "新增",
+      "cid": 76261,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "66604-31-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1469",
+          "name": "Chloro(dodecyl)dimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1469"
+        }
+      ],
+      "candidate_cids": [
+        2758731
+      ],
+      "status": "新增",
+      "cid": 2758731,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "4484-72-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1509",
+          "name": "Dodecyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1509"
+        }
+      ],
+      "candidate_cids": [
+        20568
+      ],
+      "status": "新增",
+      "cid": 20568,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3069-21-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D3383",
+          "name": "Dodecyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D3383"
+        }
+      ],
+      "candidate_cids": [
+        76479
+      ],
+      "status": "新增",
+      "cid": 76479,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18536-91-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1510",
+          "name": "Dodecyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1510"
+        }
+      ],
+      "candidate_cids": [
+        87696
+      ],
+      "status": "新增",
+      "cid": 87696,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "5894-60-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3532",
+          "name": "Trichloro(hexadecyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3532"
+        }
+      ],
+      "candidate_cids": [
+        22184
+      ],
+      "status": "新增",
+      "cid": 22184,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "16415-12-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H1376",
+          "name": "Hexadecyltrimethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/H1376"
+        }
+      ],
+      "candidate_cids": [
+        85406
+      ],
+      "status": "新增",
+      "cid": 85406,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "16415-13-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "H1685",
+          "name": "Hexadecyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/H1685"
+        }
+      ],
+      "candidate_cids": [
+        85407
+      ],
+      "status": "新增",
+      "cid": 85407,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18643-08-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1560",
+          "name": "Dimethyloctadecylchlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1560"
+        }
+      ],
+      "candidate_cids": [
+        87738
+      ],
+      "status": "新增",
+      "cid": 87738,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "112-04-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "O0079",
+          "name": "Trichlorooctadecylsilane (>85.0%)",
+          "url": "https://www.tcichemicals.com/US/en/p/O0079"
+        },
+        {
+          "catalog": "TCI",
+          "code": "T3815",
+          "name": "Trichlorooctadecylsilane (>99.0%)",
+          "url": "https://www.tcichemicals.com/US/en/p/T3815"
+        }
+      ],
+      "candidate_cids": [
+        8157
+      ],
+      "status": "新增",
+      "cid": 8157,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "71808-65-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "M3011",
+          "name": "Methoxy(dimethyl)-octadecylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/M3011"
+        }
+      ],
+      "candidate_cids": [
+        172903
+      ],
+      "status": "新增",
+      "cid": 172903,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "3069-42-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "O0256",
+          "name": "Octadecyltrimethoxysilane (>85.0%)",
+          "url": "https://www.tcichemicals.com/US/en/p/O0256"
+        },
+        {
+          "catalog": "TCI",
+          "code": "O0708",
+          "name": "Octadecyltrimethoxysilane (>99.0%)",
+          "url": "https://www.tcichemicals.com/US/en/p/O0708"
+        }
+      ],
+      "candidate_cids": [
+        76486
+      ],
+      "status": "新增",
+      "cid": 76486,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "7399-00-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "O0165",
+          "name": "Octadecyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/O0165"
+        }
+      ],
+      "candidate_cids": [
+        81885
+      ],
+      "status": "新增",
+      "cid": 81885,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18418-72-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3936",
+          "name": "Bis(triethoxysilyl)methane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3936"
+        }
+      ],
+      "candidate_cids": [
+        9798044
+      ],
+      "status": "新增",
+      "cid": 9798044,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "18406-41-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B2927",
+          "name": "1,2-Bis(trimethoxysilyl)ethane",
+          "url": "https://www.tcichemicals.com/US/en/p/B2927"
+        }
+      ],
+      "candidate_cids": [
+        87627
+      ],
+      "status": "新增",
+      "cid": 87627,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "16068-37-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B4123",
+          "name": "1,2-Bis(triethoxysilyl)ethane",
+          "url": "https://www.tcichemicals.com/US/en/p/B4123"
+        }
+      ],
+      "candidate_cids": [
+        85266
+      ],
+      "status": "新增",
+      "cid": 85266,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "87135-01-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B5039",
+          "name": "1,6-Bis(trimethoxysilyl)hexane",
+          "url": "https://www.tcichemicals.com/US/en/p/B5039"
+        }
+      ],
+      "candidate_cids": [
+        159046
+      ],
+      "status": "新增",
+      "cid": 159046,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "13083-94-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B5923",
+          "name": "1,6-Bis(trichlorosilyl)hexane",
+          "url": "https://www.tcichemicals.com/US/en/p/B5923"
+        }
+      ],
+      "candidate_cids": [
+        83123
+      ],
+      "status": "新增",
+      "cid": 83123,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "52034-16-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B6035",
+          "name": "1,6-Bis(triethoxysilyl)hexane",
+          "url": "https://www.tcichemicals.com/US/en/p/B6035"
+        }
+      ],
+      "candidate_cids": [
+        13542751
+      ],
+      "status": "新增",
+      "cid": 13542751,
+      "group": "烷基/其他"
+    },
+    {
+      "cas": "768-33-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D1147",
+          "name": "Chlorodimethylphenylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D1147"
+        }
+      ],
+      "candidate_cids": [
+        13029
+      ],
+      "status": "新增",
+      "cid": 13029,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "98-13-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "P0240",
+          "name": "Phenyltrichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/P0240"
+        }
+      ],
+      "candidate_cids": [
+        7372
+      ],
+      "status": "新增",
+      "cid": 7372,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "3027-21-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D2319",
+          "name": "Dimethoxymethylphenylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D2319"
+        }
+      ],
+      "candidate_cids": [
+        18193
+      ],
+      "status": "新增",
+      "cid": 18193,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "775-56-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D3760",
+          "name": "Diethoxy(methyl)phenylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D3760"
+        }
+      ],
+      "candidate_cids": [
+        69891
+      ],
+      "status": "新增",
+      "cid": 69891,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "2996-92-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "P0857",
+          "name": "Trimethoxyphenylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/P0857"
+        }
+      ],
+      "candidate_cids": [
+        18137
+      ],
+      "status": "新增",
+      "cid": 18137,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "780-69-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "P0735",
+          "name": "Triethoxyphenylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/P0735"
+        }
+      ],
+      "candidate_cids": [
+        13075
+      ],
+      "status": "新增",
+      "cid": 13075,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "17873-01-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2560",
+          "name": "Trimethoxy(p-tolyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2560"
+        }
+      ],
+      "candidate_cids": [
+        2760672
+      ],
+      "status": "新增",
+      "cid": 2760672,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "18001-13-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3185",
+          "name": "Trimethoxy(4-vinylphenyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3185"
+        }
+      ],
+      "candidate_cids": [
+        15606295
+      ],
+      "status": "新增",
+      "cid": 15606295,
+      "group": "其他烯基"
+    },
+    {
+      "cas": "1833-31-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B2334",
+          "name": "Benzylchlorodimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B2334"
+        }
+      ],
+      "candidate_cids": [
+        15780
+      ],
+      "status": "新增",
+      "cid": 15780,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "2549-99-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B3282",
+          "name": "Benzyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B3282"
+        }
+      ],
+      "candidate_cids": [
+        75690
+      ],
+      "status": "新增",
+      "cid": 75690,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "772-65-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D5569",
+          "name": "Dichloro(methyl)- (phenethyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/D5569"
+        }
+      ],
+      "candidate_cids": [
+        69878
+      ],
+      "status": "新增",
+      "cid": 69878,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "49539-88-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3542",
+          "name": "Trimethoxy(phenylethyl)silane (mixture of 1-phenylethyl- and 2-phenylethyl-)",
+          "url": "https://www.tcichemicals.com/US/en/p/T3542"
+        }
+      ],
+      "candidate_cids": [
+        170789
+      ],
+      "status": "目录标注为混合物、聚合物或预水解物"
+    },
+    {
+      "cas": "17146-09-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1488",
+          "name": "Chlorodimethyl(3-phenyl propyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1488"
+        }
+      ],
+      "candidate_cids": [
+        86971
+      ],
+      "status": "新增",
+      "cid": 86971,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "18035-33-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2854",
+          "name": "Trichloro(6-phenylhexyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2854"
+        }
+      ],
+      "candidate_cids": [
+        53427322
+      ],
+      "status": "新增",
+      "cid": 53427322,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "18052-76-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3292",
+          "name": "Trimethoxy(1-naphthyl)-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3292"
+        }
+      ],
+      "candidate_cids": [
+        11954884
+      ],
+      "status": "新增",
+      "cid": 11954884,
+      "group": "芳基/芳烷基"
+    },
+    {
+      "cas": "675-62-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D4729",
+          "name": "(3,3,3-Trifluoropropyl)-methyldichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/D4729"
+        }
+      ],
+      "candidate_cids": [
+        12666
+      ],
+      "status": "新增",
+      "cid": 12666,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "358-67-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "D5328",
+          "name": "Dimethoxy(methyl)- (3,3,3-trifluoropropyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/D5328"
+        }
+      ],
+      "candidate_cids": [
+        67751
+      ],
+      "status": "新增",
+      "cid": 67751,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "592-09-6",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3518",
+          "name": "Trichloro(3,3,3-trifluoropropyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3518"
+        }
+      ],
+      "candidate_cids": [
+        68963
+      ],
+      "status": "新增",
+      "cid": 68963,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "429-60-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2720",
+          "name": "Trimethoxy(3,3,3-trifluoropropyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2720"
+        }
+      ],
+      "candidate_cids": [
+        67933
+      ],
+      "status": "新增",
+      "cid": 67933,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "85877-79-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2918",
+          "name": "Trimethoxy(1H,1H,2H,2H nonafluorohexyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2918"
+        }
+      ],
+      "candidate_cids": [
+        15651659
+      ],
+      "status": "新增",
+      "cid": 15651659,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "102390-98-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2860",
+          "name": "Triethoxy(1H,1H,2H,2H nonafluorohexyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2860"
+        }
+      ],
+      "candidate_cids": [
+        53437828
+      ],
+      "status": "新增",
+      "cid": 53437828,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "102488-47-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1857",
+          "name": "Chlorodimethyl- (3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluoro-n-octyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1857"
+        }
+      ],
+      "candidate_cids": [
+        145382
+      ],
+      "status": "新增",
+      "cid": 145382,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "78560-45-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T2577",
+          "name": "Trichloro(1H,1H,2H,2H tridecafluoro-n-octyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T2577"
+        }
+      ],
+      "candidate_cids": [
+        123578
+      ],
+      "status": "新增",
+      "cid": 123578,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "85857-16-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3560",
+          "name": "Trimethoxy(1H,1H,2H,2H perfluoro-n-octyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3560"
+        }
+      ],
+      "candidate_cids": [
+        2776334
+      ],
+      "status": "新增",
+      "cid": 2776334,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "51851-37-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T1770",
+          "name": "Triethoxy-1H,1H,2H,2H tridecafluoro-n-octylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/T1770"
+        }
+      ],
+      "candidate_cids": [
+        103991
+      ],
+      "status": "新增",
+      "cid": 103991,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "130676-81-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3246",
+          "name": "Triethoxy[5,5,6,6,7,7,7-heptafluoro-4,4-bis(trifluoro methyl)heptyl]silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3246"
+        }
+      ],
+      "candidate_cids": [
+        14794618
+      ],
+      "status": "新增",
+      "cid": 14794618,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "20082-71-7",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "P0854",
+          "name": "Pentafluorophenyldimethyl chlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/P0854"
+        }
+      ],
+      "candidate_cids": [
+        88361
+      ],
+      "status": "新增",
+      "cid": 88361,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "223668-64-2",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3352",
+          "name": "Trimethoxy- (pentafluorophenyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3352"
+        }
+      ],
+      "candidate_cids": [
+        2782640
+      ],
+      "status": "新增",
+      "cid": 2782640,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "20083-34-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3134",
+          "name": "Triethoxy- (pentafluorophenyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3134"
+        }
+      ],
+      "candidate_cids": [
+        2782625
+      ],
+      "status": "新增",
+      "cid": 2782625,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "157499-19-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C2700",
+          "name": "Chlorodimethyl[3-(2,3,4,5,6-pentafluorophenyl)propyl]-silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C2700"
+        }
+      ],
+      "candidate_cids": [
+        2760297
+      ],
+      "status": "新增",
+      "cid": 2760297,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "78900-02-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3030",
+          "name": "Trichloro[3-(pentafluoro phenyl)propyl]silane",
+          "url": "https://www.tcichemicals.com/US/en/p/T3030"
+        }
+      ],
+      "candidate_cids": [
+        2760298
+      ],
+      "status": "新增",
+      "cid": 2760298,
+      "group": "含氟有机基"
+    },
+    {
+      "cas": "1719-57-9",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C0605",
+          "name": "Chloro(chloromethyl)-dimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C0605"
+        }
+      ],
+      "candidate_cids": [
+        74393
+      ],
+      "status": "新增",
+      "cid": 74393,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "2212-11-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3256",
+          "name": "(Chloromethyl)-dimethoxy(methyl)silane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3256"
+        }
+      ],
+      "candidate_cids": [
+        4077521
+      ],
+      "status": "新增",
+      "cid": 4077521,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "2550-06-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C0844",
+          "name": "3-Chloropropyl trichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C0844"
+        }
+      ],
+      "candidate_cids": [
+        75693
+      ],
+      "status": "新增",
+      "cid": 75693,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "10605-40-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C3426",
+          "name": "Chloro(3-chloropropyl)-dimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C3426"
+        }
+      ],
+      "candidate_cids": [
+        82765
+      ],
+      "status": "新增",
+      "cid": 82765,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "16532-02-8",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B0847",
+          "name": "(Bromomethyl)chloro dimethylsilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B0847"
+        }
+      ],
+      "candidate_cids": [
+        85476
+      ],
+      "status": "新增",
+      "cid": 85476,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "13883-39-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B5679",
+          "name": "(3-Bromopropyl)-trichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B5679"
+        }
+      ],
+      "candidate_cids": [
+        83792
+      ],
+      "status": "新增",
+      "cid": 83792,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "79769-48-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B5680",
+          "name": "(11-Bromoundecyl)-trichlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B5680"
+        }
+      ],
+      "candidate_cids": [
+        15895053
+      ],
+      "status": "新增",
+      "cid": 15895053,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "18156-15-5",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1207",
+          "name": "(3-Cyanopropyl)dimethyl chlorosilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1207"
+        }
+      ],
+      "candidate_cids": [
+        87478
+      ],
+      "status": "新增",
+      "cid": 87478,
+      "group": "氰基"
+    },
+    {
+      "cas": "919-31-3",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "C1259",
+          "name": "2-Cyanoethyltriethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/C1259"
+        }
+      ],
+      "candidate_cids": [
+        13522
+      ],
+      "status": "新增",
+      "cid": 13522,
+      "group": "氰基"
+    },
+    {
+      "cas": "2938943-51-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T4468",
+          "name": "2-[[3-(Triethoxysilyl)-propyl]thio]ethanesulfonyl Fluoride",
+          "url": "https://www.tcichemicals.com/US/en/p/T4468"
+        }
+      ],
+      "candidate_cids": [],
+      "status": "未找到 CID"
+    },
+    {
+      "cas": "688359-84-4",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3844",
+          "name": "3-(Trichlorosilyl)propyl 2-Bromo-2-methylpropanoate",
+          "url": "https://www.tcichemicals.com/US/en/p/T3844"
+        }
+      ],
+      "candidate_cids": [
+        16744148
+      ],
+      "status": "新增",
+      "cid": 16744148,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "880339-31-1",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "T3846",
+          "name": "3-(Triethoxysilyl)propyl 2-Bromo-2-methylpropanoate",
+          "url": "https://www.tcichemicals.com/US/en/p/T3846"
+        }
+      ],
+      "candidate_cids": [
+        53230135
+      ],
+      "status": "新增",
+      "cid": 53230135,
+      "group": "卤代有机基"
+    },
+    {
+      "cas": "904704-23-0",
+      "catalog_references": [
+        {
+          "catalog": "TCI",
+          "code": "B5594",
+          "name": "3-[Bis[(diphenylphosphino)-methyl]amino]propyl triethoxysilane",
+          "url": "https://www.tcichemicals.com/US/en/p/B5594"
+        }
+      ],
+      "candidate_cids": [
+        102256625
+      ],
+      "status": "新增",
+      "cid": 102256625,
+      "group": "氨基"
+    }
+  ],
+  "source_catalogs": [
+    {
+      "name": "Gelest",
+      "url": "https://gelest.com/wp-content/uploads/Silane_Coupling_Agents.pdf",
+      "pdf_pages": "31–70"
+    },
+    {
+      "name": "TCI",
+      "url": "https://www.tcichemicals.com/assets/brochure-pdfs/Brochure_F2030_E.pdf"
+    }
+  ]
+}

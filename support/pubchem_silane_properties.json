@@ -1,0 +1,86 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 17317,
+        "MolecularFormula": "C9H20O5Si",
+        "MolecularWeight": "236.34",
+        "SMILES": "CO[Si](CCCOCC1CO1)(OC)OC",
+        "InChI": "InChI=1S/C9H20O5Si/c1-10-15(11-2,12-3)6-4-5-13-7-9-8-14-9/h9H,4-8H2,1-3H3",
+        "InChIKey": "BPSIOYPQMFLKFR-UHFFFAOYSA-N",
+        "IUPACName": "trimethoxy-[3-(oxiran-2-ylmethoxy)propyl]silane",
+        "Title": "Glycidoxypropyltrimethoxysilane"
+      },
+      {
+        "CID": 13521,
+        "MolecularFormula": "C9H23NO3Si",
+        "MolecularWeight": "221.37",
+        "SMILES": "CCO[Si](CCCN)(OCC)OCC",
+        "InChI": "InChI=1S/C9H23NO3Si/c1-4-11-14(12-5-2,13-6-3)9-7-8-10/h4-10H2,1-3H3",
+        "InChIKey": "WYTZZXDRDKSJID-UHFFFAOYSA-N",
+        "IUPACName": "3-triethoxysilylpropan-1-amine",
+        "Title": "(3-Aminopropyl)triethoxysilane"
+      },
+      {
+        "CID": 83756,
+        "MolecularFormula": "C6H17NO3Si",
+        "MolecularWeight": "179.29",
+        "SMILES": "CO[Si](CCCN)(OC)OC",
+        "InChI": "InChI=1S/C6H17NO3Si/c1-8-11(9-2,10-3)6-4-5-7/h4-7H2,1-3H3",
+        "InChIKey": "SJECZPVISLOESU-UHFFFAOYSA-N",
+        "IUPACName": "3-trimethoxysilylpropan-1-amine",
+        "Title": "Aminopropyltrimethoxysilane"
+      },
+      {
+        "CID": 15659,
+        "MolecularFormula": "C8H22N2O3Si",
+        "MolecularWeight": "222.36",
+        "SMILES": "CO[Si](CCCNCCN)(OC)OC",
+        "InChI": "InChI=1S/C8H22N2O3Si/c1-11-14(12-2,13-3)8-4-6-10-7-5-9/h10H,4-9H2,1-3H3",
+        "InChIKey": "PHQOGHDTIVQXHL-UHFFFAOYSA-N",
+        "IUPACName": "N'-(3-trimethoxysilylpropyl)ethane-1,2-diamine",
+        "Title": "(Trimethoxysilylpropyl)ethylenediamine"
+      },
+      {
+        "CID": 20473,
+        "MolecularFormula": "C6H16O3SSi",
+        "MolecularWeight": "196.34",
+        "SMILES": "CO[Si](CCCS)(OC)OC",
+        "InChI": "InChI=1S/C6H16O3SSi/c1-7-11(8-2,9-3)6-4-5-10/h10H,4-6H2,1-3H3",
+        "InChIKey": "UUEWCQRISZBELL-UHFFFAOYSA-N",
+        "IUPACName": "3-trimethoxysilylpropane-1-thiol",
+        "Title": "(3-Mercaptopropyl)trimethoxysilane"
+      },
+      {
+        "CID": 17318,
+        "MolecularFormula": "C10H20O5Si",
+        "MolecularWeight": "248.35",
+        "SMILES": "CC(=C)C(=O)OCCC[Si](OC)(OC)OC",
+        "InChI": "InChI=1S/C10H20O5Si/c1-9(2)10(11)15-7-6-8-16(12-3,13-4)14-5/h1,6-8H2,2-5H3",
+        "InChIKey": "XDLMVUHYZWKMMD-UHFFFAOYSA-N",
+        "IUPACName": "3-trimethoxysilylpropyl 2-methylprop-2-enoate",
+        "Title": "3-(Trimethoxysilyl)propyl methacrylate"
+      },
+      {
+        "CID": 76004,
+        "MolecularFormula": "C5H12O3Si",
+        "MolecularWeight": "148.23",
+        "SMILES": "CO[Si](C=C)(OC)OC",
+        "InChI": "InChI=1S/C5H12O3Si/c1-5-9(6-2,7-3)8-4/h5H,1H2,2-4H3",
+        "InChIKey": "NKSJNEHGWDZZQF-UHFFFAOYSA-N",
+        "IUPACName": "ethenyl(trimethoxy)silane",
+        "Title": "Vinyltrimethoxysilane"
+      },
+      {
+        "CID": 6516,
+        "MolecularFormula": "C8H18O3Si",
+        "MolecularWeight": "190.31",
+        "SMILES": "CCO[Si](C=C)(OCC)OCC",
+        "InChI": "InChI=1S/C8H18O3Si/c1-5-9-12(8-4,10-6-2)11-7-3/h8H,4-7H2,1-3H3",
+        "InChIKey": "FWDBOZPQNFPOLF-UHFFFAOYSA-N",
+        "IUPACName": "ethenyl(triethoxy)silane",
+        "Title": "Vinyltriethoxysilane"
+      }
+    ]
+  }
+}

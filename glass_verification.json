@@ -1,0 +1,24 @@
+{
+  "说明": "原平台旧数据核查记录，仅适用于旧版glass.sqlite；本次全量统计见data/catalog_summary.json。",
+  "原记录": {
+    "api_checks": "passed",
+    "source_catalyst_unchanged": {
+      "data/oer.sqlite": false,
+      "data/literature.sqlite": true,
+      "frontend/dist/assets/index-DCNK4B19.js": true,
+      "frontend/dist/assets/index-BwyqSAEf.css": true,
+      "data/oer.sqlite logical_rows": true,
+      "data/literature.sqlite logical_rows": true
+    },
+    "glass_summary": {
+      "systems": 2998,
+      "recipes": 14776,
+      "glass_ids": 14761,
+      "tables": 1907,
+      "observations": 126104
+    },
+    "exact_binary_recipes": 140,
+    "pcb_recipes": 91,
+    "filtered_dielectric_recipes": 670
+  }
+}

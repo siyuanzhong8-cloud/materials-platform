@@ -1,0 +1,500 @@
+{
+  "Record": {
+    "RecordType": "CID",
+    "RecordNumber": 17318,
+    "RecordTitle": "3-(Trimethoxysilyl)propyl methacrylate",
+    "Section": [
+      {
+        "TOCHeading": "Chemical and Physical Properties",
+        "Description": "Various chemical and physical properties that are experimentally determined for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+        "Section": [
+          {
+            "TOCHeading": "Experimental Properties",
+            "Description": "Various experimentally determined properties for this compound.  See also the Safety and Hazard Properties section (if available), which has additional properties pertinent to chemical safety and hazards.",
+            "Section": [
+              {
+                "TOCHeading": "Physical Description",
+                "Description": "The appearance or features of this compound, including color, odor, state, taste and more in general.",
+                "Information": [
+                  {
+                    "ReferenceNumber": 11,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Dry Powder; Liquid"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 20,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid; [HSDB] Colorless liquid; [MSDSonline]"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Color/Form",
+                "Description": "Color is the aspect of any object that may be described in terms of hue, lightness, and saturation.",
+                "URL": "https://www.britannica.com/science/color",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504",
+                        "Matched": {
+                          "PCLID": 900025331,
+                          "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Liquid"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Boiling Point",
+                "Description": "The temperature at which this compound changes state from liquid to gas at a given atmospheric pressure.",
+                "URL": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/06%3A_Miscellaneous_Techniques/6.02%3A_Boiling_Point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Dean, J.A. Handbook of Organic Chemistry. New York, NY: McGraw-Hill Book Co., 1987., p. 1-370"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Dean, J.A. Handbook of Organic Chemistry. New York, NY: McGraw-Hill Book Co., 1987., p. 1-370",
+                        "Matched": {
+                          "PCLID": 900007298,
+                          "Citation": "Dean, J.A. Handbook of Organic Chemistry. New York, NY: McGraw-Hill Book Co., 1987., p. 1-370"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "190 °C"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 809"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 809",
+                        "Matched": {
+                          "PCLID": 900129980,
+                          "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 809"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Boiling point = 80 °C at 1 mm Hg"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 32,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "190 °C @760 [mm Hg]"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Flash Point",
+                "Description": "The lowest temperature at which a liquid can gives off vapor to form an ignitable mixture in air near the surface of the liquid.",
+                "URL": "https://www.britannica.com/science/flash-point",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Sigma-Aldrich; Safety Data Sheet for 3-(Trimethoxysilyl)propyl methacrylate (Product Number: M6514) Version 3.0 (August 22, 2009). Available from, as of November 25, 2009: https://www.sigmaaldrich.com"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Sigma-Aldrich; Safety Data Sheet for 3-(Trimethoxysilyl)propyl methacrylate (Product Number: M6514) Version 3.0 (August 22, 2009). Available from, as of November 25, 2009: https://www.sigmaaldrich.com",
+                        "Matched": {
+                          "PCLID": 900127300,
+                          "Citation": "Sigma-Aldrich; Safety Data Sheet for 3-(Trimethoxysilyl)propyl methacrylate (Product Number: M6514) Version 3.0 (August 22, 2009). Available from, as of November 25, 2009: https://www.sigmaaldrich.com"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "92 °C (198 °F) (closed cup)"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Solubility",
+                "Description": "The solubility of a substance is the amount of that substance that will dissolve in a given amount of solvent. The default solvent is water, if not indicated.",
+                "URL": "https://chem.libretexts.org/Courses/Purdue/Purdue%3A_Chem_26505%3A_Organic_Chemistry_I_(Lipton)/Chapter_4._Intermolecular_Forces_and_Physical_Properties/4.4_Solubility",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504",
+                        "Matched": {
+                          "PCLID": 900025331,
+                          "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Sol in acetone, benzene, ether, methanol, and hydrocarbons.",
+                          "Markup": [
+                            {
+                              "Start": 7,
+                              "Length": 7,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/acetone",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-180"
+                            },
+                            {
+                              "Start": 16,
+                              "Length": 7,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/benzene",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-241"
+                            },
+                            {
+                              "Start": 32,
+                              "Length": 8,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/methanol",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-887"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Density",
+                "Description": "This section provides information on the density (with unit) and specific gravity (without unit) of a compound. Density is mass of a unit volume of a compound and commonly expressed in units of kg/m3 or g/cm3. Specific gravity, also known as relative density, is a unit-less quantity, defined as the ratio of the density of a compound to that of a standard reference material (typically, water at 4 °C for liquids and air at room temperature [20 °C or 68 °F] for gases).",
+                "URL": "https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Map%3A_Fundamentals_of_General_Organic_and_Biological_Chemistry_(McMurry_et_al.)/01%3A_Matter_and_Measurements/1.12%3A_Density_and_Specific_Gravity",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 809"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 809",
+                        "Matched": {
+                          "PCLID": 900129980,
+                          "Citation": "Lewis, R.J. Sr.; Hawley's Condensed Chemical Dictionary 15th  Edition. John Wiley & Sons, Inc. New York, NY 2007., p. 809"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "1.045 at 25 °C"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 32,
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "1.045 @25 °C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Autoignition Temperature",
+                "Description": "The lowest temperature at which the substance will spontaneously ignite in a normal atmosphere without an external source of ignition (e.g., spark or flame).",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Material Safety Data Sheet, rev #9 (June 19, 2008): 3-(Trimethoxysilyl)propyl methacrylate, ACC# 59817. Available from, as of October 25, 2009: https://fscimage.fishersci.com/msds/59817.htm"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Material Safety Data Sheet, rev #9 (June 19, 2008): 3-(Trimethoxysilyl)propyl methacrylate, ACC# 59817. Available from, as of October 25, 2009: https://fscimage.fishersci.com/msds/59817.htm",
+                        "Matched": {
+                          "PCLID": 900023681,
+                          "Citation": "Material Safety Data Sheet, rev #9 (June 19, 2008): 3-(Trimethoxysilyl)propyl methacrylate, ACC# 59817. Available from, as of October 25, 2009: https://fscimage.fishersci.com/msds/59817.htm"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "265 °C ( 509 °F)"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Decomposition",
+                "Description": "Information on the decomposition of this compound, including the decomposition conditions and products.",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lewis, R.J. Sr. (ed) Sax's Dangerous Properties of Industrial Materials. 11th Edition. Wiley-Interscience, Wiley & Sons, Inc. Hoboken, NJ. 2004., p. 3576"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lewis, R.J. Sr. (ed) Sax's Dangerous Properties of Industrial Materials. 11th Edition. Wiley-Interscience, Wiley & Sons, Inc. Hoboken, NJ. 2004., p. 3576",
+                        "Matched": {
+                          "PCLID": 900072059,
+                          "Citation": "Lewis, R.J. Sr. (ed) Sax's Dangerous Properties of Industrial Materials. 11th Edition. Wiley-Interscience, Wiley & Sons, Inc. Hoboken, NJ. 2004., p. 3576"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "When heated to decomposition it emits acrid smoke and irrtating fumes."
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Material Safety Data Sheet, rev #9 (June 19, 2008): 3-(Trimethoxysilyl)propyl methacrylate, ACC# 59817. Available from, as of October 25, 2009: https://fscimage.fishersci.com/msds/59817.htm"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Material Safety Data Sheet, rev #9 (June 19, 2008): 3-(Trimethoxysilyl)propyl methacrylate, ACC# 59817. Available from, as of October 25, 2009: https://fscimage.fishersci.com/msds/59817.htm",
+                        "Matched": {
+                          "PCLID": 900023681,
+                          "Citation": "Material Safety Data Sheet, rev #9 (June 19, 2008): 3-(Trimethoxysilyl)propyl methacrylate, ACC# 59817. Available from, as of October 25, 2009: https://fscimage.fishersci.com/msds/59817.htm"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Hazardous decomposition products: carbon monoxide, carbon monoxide, carbon dioxide, silicon dioxide.",
+                          "Markup": [
+                            {
+                              "Start": 34,
+                              "Length": 15,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbon%20monoxide",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-281"
+                            },
+                            {
+                              "Start": 51,
+                              "Length": 15,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbon%20monoxide",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-281"
+                            },
+                            {
+                              "Start": 68,
+                              "Length": 14,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/carbon%20dioxide",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-280"
+                            },
+                            {
+                              "Start": 84,
+                              "Length": 15,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/silicon%20dioxide",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-24261"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Polymerization",
+                "Description": "Polymerization is a process of reacting monomer molecules together in a chemical reaction to form polymer chains or three-dimensional networks.",
+                "URL": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Map%3A_Organic_Chemistry_(Smith)/13%3A_Radical_Reactions/13.14%3A_Polymers_and_Polymerization",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lefaux, R. Practical Toxicology of Plastics. Cleveland: CRC Press Inc., 1968., p. 88"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lefaux, R. Practical Toxicology of Plastics. Cleveland: CRC Press Inc., 1968., p. 88",
+                        "Matched": {
+                          "PCLID": 900044826,
+                          "Citation": "Lefaux, R. Practical Toxicology of Plastics. Cleveland: CRC Press Inc., 1968., p. 88"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "... In general the methacrylic esters, polymerize much less readily than the corresponding ordinary acrylates. Nonetheless, they are stabilized by adding hydroquinone or pyrogallol, particularly in the presence of metallic copper. /Methacrylates/",
+                          "Markup": [
+                            {
+                              "Start": 154,
+                              "Length": 12,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/hydroquinone",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-785"
+                            },
+                            {
+                              "Start": 170,
+                              "Length": 10,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/compound/pyrogallol",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "CID-1057"
+                            },
+                            {
+                              "Start": 223,
+                              "Length": 6,
+                              "URL": "https://pubchem.ncbi.nlm.nih.gov/element/Copper",
+                              "Type": "PubChem Internal Link",
+                              "Extra": "Element-Copper"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "TOCHeading": "Refractive Index",
+                "Description": "The refractive index (also called index of refraction) of an optical medium is a dimensionless number that quantifies the light-bending ability of that medium.",
+                "URL": "https://www.britannica.com/science/refractive-index",
+                "Information": [
+                  {
+                    "ReferenceNumber": 21,
+                    "Description": "PEER REVIEWED",
+                    "Reference": [
+                      "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504"
+                    ],
+                    "ExtendedReference": [
+                      {
+                        "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504",
+                        "Matched": {
+                          "PCLID": 900025331,
+                          "Citation": "Lide, D.R. CRC Handbook of Chemistry and Physics 88TH    Edition 2007-2008. CRC Press, Taylor & Francis, Boca Raton,    FL 2007, p. 3-504"
+                        }
+                      }
+                    ],
+                    "Value": {
+                      "StringWithMarkup": [
+                        {
+                          "String": "Index of refraction: 1.4285 at 25 °C"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Reference": [
+      {
+        "ReferenceNumber": 11,
+        "SourceName": "EPA Chemical Data Reporting (CDR)",
+        "SourceID": "f95e5fb03299ecf51b88aa23855e13b5",
+        "Name": "2-Propenoic acid, 2-methyl-, 3-(trimethoxysilyl)propyl ester",
+        "Description": "The non-confidential content of the EPA Chemical Data Reporting.",
+        "URL": "https://www.epa.gov/chemical-data-reporting",
+        "LicenseNote": "The U.S. Government retains a nonexclusive, royalty-free license to publish or reproduce these documents, or allow others to do so, for U.S. Government purposes. These documents may be freely distributed and used for non-commercial, scientific and educational purposes.",
+        "LicenseURL": "https://www.epa.gov/web-policies-and-procedures/epa-disclaimers#copyright",
+        "ANID": 38386350
+      },
+      {
+        "ReferenceNumber": 20,
+        "SourceName": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases",
+        "SourceID": "hz7605",
+        "Name": "Trimethoxysilylpropyl methacrylate",
+        "Description": "Haz-Map® is an occupational health database designed for health and safety professionals and for consumers seeking information about the adverse effects of workplace exposures to chemical and biological agents.",
+        "LicenseNote": "Copyright (c) 2026 Haz-Map(R). All rights reserved.\nUnless otherwise indicated, all materials from Haz-Map are copyrighted by Haz-Map(R). No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+        "ANID": 17280537
+      },
+      {
+        "ReferenceNumber": 21,
+        "SourceName": "Hazardous Substances Data Bank (HSDB)",
+        "SourceID": "5468",
+        "Name": "Trimethoxysilylpropyl methacrylate",
+        "Description": "The Hazardous Substances Data Bank (HSDB) is a toxicology database that focuses on the toxicology of potentially hazardous chemicals. It provides information on human exposure, industrial hygiene, emergency handling procedures, environmental fate, regulatory requirements, nanomaterials, and related areas. The information in HSDB has been assessed by a Scientific Review Panel.",
+        "URL": "https://pubchem.ncbi.nlm.nih.gov/source/hsdb/5468",
+        "LicenseURL": "https://www.nlm.nih.gov/web_policies.html",
+        "IsToxnet": true,
+        "ANID": 3527
+      },
+      {
+        "ReferenceNumber": 32,
+        "SourceName": "PAC Chemical Database, U.S. Department of Energy",
+        "SourceID": "2530-85-0",
+        "Name": "Trimethoxysilylpropyl methacrylate, 3-; (Silane A-174)",
+        "Description": "",
+        "URL": "https://emhub1.energy.gov/pacteel/search#2530-85-0",
+        "LicenseURL": "https://www.energy.gov/web-policies",
+        "ANID": 56701474
+      }
+    ]
+  }
+}

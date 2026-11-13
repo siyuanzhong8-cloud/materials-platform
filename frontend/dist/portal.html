@@ -1,0 +1,212 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102b3a"><title>材料数据库平台</title><link rel="stylesheet" href="/portal.css?v=20261113-type"><link rel="stylesheet" href="/platform-ui.css?v=20261113-noeyebrow"><link rel="stylesheet" href="/catalyst-search.css?v=20261113-rxn"></head><body class="search-home">
+<header class="site-header"><a class="brand" href="#home"><span class="brand-symbol" aria-hidden="true"><i></i><i></i><i></i></span><div><h1>材料数据库平台</h1><p>材料检索 · 性质对照 · 文献追溯</p></div></a></header>
+<nav class="categories" aria-label="材料数据库分类"><a id="home-tab" class="home-tab active" href="#home" aria-current="page">总入口</a><button id="cat">01 <span>催化材料</span></button><button id="gla">02 <span>玻璃数据库</span></button><button id="silane-tab">03 <span>硅烷偶联剂</span><small>480种分子</small></button><span class="nav-caption">从组成到性质，保留每一项数据的出处</span></nav>
+<section id="home" class="home-landing">
+<div class="home-intro">
+  <span class="eyebrow">材料数据库平台</span>
+  <h2>选择要查阅的数据库</h2>
+  <p class="hero-subtitle">从总入口分别进入三个独立栏目。检索与结果展示都在各栏目自己的页面里完成。</p>
+</div>
+<div class="system-grid home-grid">
+  <a class="system-card" href="#catalyst">
+    <div>
+      <span class="eyebrow">01</span>
+      <h3>催化材料</h3>
+      <p>析氧反应（OER）材料。可按元素、过电位、电解液和实验/计算条件检索，并查看出处与测试条件。</p>
+    </div>
+    <div class="card-bottom"><span>进入栏目</span><span class="arrow">→</span></div>
+  </a>
+  <a class="system-card" href="#glass">
+    <div>
+      <span class="eyebrow">02</span>
+      <h3>玻璃数据库</h3>
+      <p>按组分、型号和性能要求检索配方，查看关键物性、来源与测试条件。</p>
+    </div>
+    <div class="card-bottom"><span>进入栏目</span><span class="arrow">→</span></div>
+  </a>
+  <a class="system-card" href="/silane/">
+    <div>
+      <span class="eyebrow">03</span>
+      <h3>硅烷偶联剂</h3>
+      <p>约 480 种分子。可按名称、CAS、官能团和沸点、密度等性质条件检索。</p>
+    </div>
+    <div class="card-bottom"><span>进入栏目</span><span class="arrow">→</span></div>
+  </a>
+</div>
+</section>
+
+<section id="catalysis" class="search-home" hidden>
+<div class="search-hero">
+    <h2>找到你需要的催化材料</h2>
+  <div class="engine-wrap" id="oerEngineWrap">
+    <form id="oerEngineForm" class="engine-form" autocomplete="off">
+      <div class="reaction-picker" id="oerReactionPicker">
+        <button type="button" id="oerReactionBtn" class="reaction-picker-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="oerReactionMenu" aria-label="选择反应">
+          <span id="oerReactionLabel">OER</span><span class="reaction-caret" aria-hidden="true">▾</span>
+        </button>
+        <div id="oerReactionMenu" class="reaction-menu" hidden role="listbox" aria-multiselectable="true" aria-label="反应类型">
+          <label><input type="checkbox" name="oerReaction" value="OER" checked> <span>OER</span> <small>析氧反应</small></label>
+          <label><input type="checkbox" name="oerReaction" value="ORR"> <span>ORR</span> <small>氧还原反应</small></label>
+          <label><input type="checkbox" name="oerReaction" value="CO2RR"> <span>CO2RR</span> <small>二氧化碳还原</small></label>
+        </div>
+      </div>
+      <span class="search-symbol" aria-hidden="true">⌕</span>
+      <input id="oerIntent" class="oer-intent" aria-label="搜索催化材料与筛选条件" maxlength="500" placeholder="例如：含Ni，实验过电位小于0.3 V，碱性电解液">
+      <button id="oerSubmit" class="oer-submit" type="submit">搜索材料 <span>→</span></button>
+    </form>
+    <div id="oerSuggestions" class="oer-suggestions" hidden>
+      <button type="button" data-example="含Ni，实验过电位小于0.3 V">含镍材料 · 实验过电位小于 0.3 V</button>
+      <button type="button" data-example="碱性电解液，含Ni">碱性电解液 · 含镍</button>
+      <button type="button" data-example="IrO2">按化学式搜索：IrO2</button>
+      <button type="button" data-example="过电位小于0.4 V，含Ru">含钌 · 理论过电位小于 0.4 V</button>
+      <button type="button" data-example="酸性，实验报道">酸性条件 · 实验报道</button>
+    </div>
+  </div>
+  <div class="engine-tools">
+    <button type="button" id="oerOpenElements" class="secondary">元素表 <span id="oerElementCount">多选元素</span></button>
+    <button type="button" id="oerAdvancedToggle" class="text">高级筛选</button>
+    <button type="button" id="oerBrowse" class="text">浏览全部数据</button>
+    <a class="text tool-link" href="/catalyst">构型与结构工作台</a>
+  </div>
+  <div id="oerChips" class="intent-chips"></div>
+  <p id="oerNote" class="interpret-note" hidden></p>
+  <div id="oerError" class="oer-error" role="alert" hidden></div>
+  <div id="oerStats" class="stats engine-stats"><div><strong>—</strong><span>正在载入本地数据</span></div></div>
+</div>
+<main>
+  <aside class="filters">
+    <div class="heading"><h3>筛选材料</h3><button type="button" class="text" id="oerReset">重置条件</button></div>
+    <label for="oerQuery">关键词</label>
+    <input id="oerQuery" placeholder="材料名称、化学式、DOI 或文献题名">
+    <label>元素</label>
+    <button type="button" id="oerOpenElementsAside" class="secondary full">打开元素表</button>
+    <div id="oerSelectedPreview" class="oer-element-chips"></div>
+    <label for="oerMatch">元素匹配</label>
+    <select id="oerMatch">
+      <option value="contains">包含所选元素</option>
+      <option value="exact">仅包含所选元素</option>
+    </select>
+    <label for="oerStatus">数据类别</label>
+    <select id="oerStatus">
+      <option value="all">全部类别</option>
+      <option value="experimentally_verified">实验报道</option>
+      <option value="computational_only">文献计算</option>
+      <option value="unknown">待核对</option>
+    </select>
+    <label for="oerElectrolyte">电解液</label>
+    <select id="oerElectrolyte">
+      <option value="">不限电解液</option>
+      <option value="alkaline">碱性</option>
+      <option value="acidic">酸性</option>
+      <option value="neutral">中性</option>
+    </select>
+    <label for="oerSource">文献来源</label>
+    <select id="oerSource"><option value="">全部来源</option></select>
+    <label for="oerCompleteness">数据完整性</label>
+    <select id="oerCompleteness">
+      <option value="all">全部材料</option>
+      <option value="complete">数据较完整</option>
+      <option value="missing">保留原始缺失信息</option>
+    </select>
+    <label for="oerDataClass">数据类型</label>
+    <select id="oerDataClass">
+      <option value="">全部类型（分组显示）</option>
+      <option value="experimental">实验数据</option>
+      <option value="computed">计算数据</option>
+      <option value="predicted">预测数据</option>
+    </select>
+    <label for="oerExpJ">实验过电位口径（电流密度）</label>
+    <select id="oerExpJ"><option value="">不限（按口径分组显示）</option></select>
+    <label for="oerCorpus">检索范围</label>
+    <select id="oerCorpus">
+      <option value="all">文献与预测构型</option>
+      <option value="literature">仅文献与实验材料</option>
+      <option value="computed">仅预测构型</option>
+    </select>
+    <div class="filter-divider"></div>
+    <label>理论 / 预测过电位（V）</label>
+    <div class="range">
+      <label for="oerEtaLo">最小值<input id="oerEtaLo" type="number" step="any" placeholder="不限"></label>
+      <label for="oerEtaHi">最大值<input id="oerEtaHi" type="number" step="any" placeholder="不限"></label>
+    </div>
+    <label>实验过电位（V）</label>
+    <div class="range">
+      <label for="oerExpEtaLo">最小值<input id="oerExpEtaLo" type="number" step="any" placeholder="不限"></label>
+      <label for="oerExpEtaHi">最大值<input id="oerExpEtaHi" type="number" step="any" placeholder="不限"></label>
+    </div>
+    <label>pH</label>
+    <div class="range">
+      <label for="oerPhLo">最小值<input id="oerPhLo" type="number" step="any" placeholder="不限"></label>
+      <label for="oerPhHi">最大值<input id="oerPhHi" type="number" step="any" placeholder="不限"></label>
+    </div>
+    <button type="button" id="oerApply" class="full primary">查找材料 <span>→</span></button>
+  </aside>
+  <article>
+    <div class="toolbar">
+      <div>
+        <span class="eyebrow" id="oerViewLabel">文献数据</span>
+        <h3 id="oerListTitle">检索结果</h3>
+        <p id="oerFound" class="muted" role="status">输入条件后检索本地数据</p>
+      </div>
+      <div class="toolbar-actions">
+        <div class="segmented">
+          <button type="button" id="oerTabLit" class="on">文献与实验</button>
+          <button type="button" id="oerTabComp">预测构型</button>
+          <button type="button" id="oerTabVolcano">火山图</button>
+        </div>
+        <button type="button" id="oerExport" class="secondary">导出结果 ↓</button>
+      </div>
+    </div>
+    <div id="oerResults" aria-live="polite"></div>
+    <div class="pager" id="oerPager">
+      <button type="button" id="oerPrev" class="secondary">← 上一页</button>
+      <span id="oerPage"></span>
+      <button type="button" id="oerNext" class="secondary">下一页 →</button>
+    </div>
+  </article>
+</main>
+
+<dialog id="oerDetailModal">
+  <div class="dialog-top"><div><span class="eyebrow">材料详情</span><h2 id="oerDetailTitle">组成、性质与出处</h2></div><button type="button" id="oerCloseDetail" class="icon-close" aria-label="关闭材料详情">×</button></div>
+  <div id="oerDetail"></div>
+</dialog>
+<dialog id="oerConditionModal">
+  <div class="dialog-top"><h2>数值与测试条件</h2><button type="button" id="oerCloseCondition" class="icon-close" aria-label="关闭测试条件">×</button></div>
+  <div id="oerConditionContent"></div>
+</dialog>
+<dialog id="oerElementModal">
+  <div class="dialog-top"><div><span class="eyebrow">元素 · 多选检索</span><h2>元素表</h2></div><button type="button" id="oerCloseElements" class="icon-close" aria-label="关闭元素表">×</button></div>
+  <div class="ingredient-body">
+    <div class="ingredient-controls"><input id="oerElementQuery" aria-label="查找元素" placeholder="查找元素，如 Ni、Ru、Ir"></div>
+    <div id="oerElementGrid"></div>
+    <div id="oerSelectedElements" class="chips"></div>
+  </div>
+  <div class="ingredient-footer">
+    <button type="button" id="oerClearElements" class="text">清空所选元素</button>
+    <span id="oerElementStatus" class="hint"></span>
+    <button type="button" id="oerApplyElements">按已选元素查找 →</button>
+  </div>
+</dialog>
+</section>
+<section id="glass" hidden>
+<div class="search-hero"><h2>找到你需要的玻璃材料</h2>
+<div class="engine-wrap"><form id="engineForm" autocomplete="off"><span class="search-symbol" aria-hidden="true">⌕</span><input id="intent" aria-label="搜索材料与性质要求" maxlength="500" placeholder="例如：含SiO2和B2O3，密度2.3～2.6 g/cm³"><button id="engineSubmit" type="submit">搜索材料 <span>→</span></button></form><div id="searchSuggestions" hidden><button data-example="含SiO2和B2O3，密度2.3~2.6 g/cm3">硼硅玻璃 · 密度2.3～2.6 g/cm³</button><button data-example="SiO2，密度2.3~2.6 g/cm3，Tg大于500°C">SiO₂ · 密度范围 + 转变温度</button><button data-example="介电常数小于5，介电损耗角正切小于0.005">低介电常数 · 低介电损耗</button><button data-example="SCHOTT N-BK7">按厂商型号搜索：SCHOTT N-BK7</button></div></div>
+<div class="engine-tools"><button id="openIngredients" class="secondary">▦ 原料组分表 <span id="ingredientCount">多选组分</span></button><button id="advancedToggle" class="text">高级筛选</button><button id="browse" class="text">浏览全部数据 ↗</button></div><div id="intentChips" class="intent-chips"></div><p id="interpretNote" class="interpret-note" hidden></p><div id="intentError" role="alert" hidden></div><div id="stats" class="stats engine-stats"><div><strong>—</strong><span>正在载入本地数据</span></div></div></div>
+<main><aside class="filters"><div class="heading"><h3>筛选材料</h3><button class="text" id="reset">重置条件</button></div>
+<label for="query">关键词</label><div class="search-input"><input id="query" placeholder="玻璃编号、作者、DOI或产品型号"><span aria-hidden="true">⌕</span></div>
+<label>组成组分</label><button id="openIngredientsAside" class="secondary full">打开原料组分表 ▦</button><div class="suggestions" id="quick" hidden></div><select hidden id="component" aria-label="添加组成组分"><option value="">添加其他组分</option></select><div id="chips" class="chips"></div>
+<label for="match">组分匹配</label><select id="match"><option value="contains">包含所选组分</option><option value="exact">仅包含所选组分</option></select>
+<label for="family">材料类别</label><select id="family"><option value="">全部类别</option></select>
+<label for="source">数据来源</label><select id="source"><option value="">全部来源</option></select>
+<div class="filter-divider"></div><label for="kind">需要的性质</label><select id="kind"><option value="">不限性质</option></select><div class="range"><label for="lo">最小值<input id="lo" type="number" step="any" placeholder="不限"></label><label for="hi">最大值<input id="hi" type="number" step="any" placeholder="不限"></label></div><p class="hint" id="unitHint">选择性质后可按对应单位筛选。</p>
+<label class="check"><input type="checkbox" id="pcb">有明确PCB用途标注</label><button id="apply" class="full primary">查找材料 <span>→</span></button></aside>
+<article><div class="toolbar"><div><span class="eyebrow" id="viewLabel">组成目录</span><h3 id="listTitle">浏览组分组合</h3><p id="found" class="muted" role="status">正在载入…</p></div><div class="toolbar-actions"><div class="segmented"><button id="all" class="on">组分组合</button><button id="listView">材料列表</button></div><label class="sort-label" for="sortBy">排序 <select id="sortBy" aria-label="结果排序"><option value="property_count:desc">性质记录多到少</option><option value="records:desc">来源记录多到少</option><option value="match:asc">所筛性质：由低到高</option><option value="match:desc">所筛性质：由高到低</option><option value="id:asc">按材料编号</option><option value="name:asc">按名称 / 组分组合</option></select></label><button id="export" class="secondary">导出结果 ↓</button></div></div>
+<div id="breadcrumb" class="breadcrumb" hidden></div><div id="error" role="alert" hidden></div><div id="results" aria-live="polite"></div><div class="pager"><button id="prev" class="secondary">← 上一页</button><span id="page"></span><button id="next" class="secondary">下一页 →</button></div>
+<div class="comparebar"><div><span class="compare-label">配方对照</span><span id="compareText">选择2至4条配方进行比较</span></div><div><button id="compare" class="secondary" disabled>查看对比</button><button id="clear" class="text">清空</button></div></div>
+</article></main>
+</section>
+<section id="silane" hidden><iframe title="硅烷偶联剂分子库" src="/silane/?v=20261113-noeyebrow" loading="lazy"></iframe></section>
+<dialog id="recipeModal"><div class="dialog-top"><div><span class="eyebrow">材料详情</span><h2 id="detailTitle">配方与性质</h2></div><button id="closeRecipe" class="icon-close" aria-label="关闭材料详情">×</button></div><div id="detail"></div></dialog>
+<dialog id="conditionModal"><div class="dialog-top"><h2>数值与测试条件</h2><button id="closeCondition" class="icon-close" aria-label="关闭测试条件">×</button></div><div id="conditionContent"></div></dialog>
+<dialog id="modal"><div class="dialog-top"><h2 id="modalTitle">数据说明</h2><button id="close" class="icon-close" aria-label="关闭窗口">×</button></div><div id="modalContent"></div></dialog>
+<link rel="stylesheet" href="/search-engine.css?v=20261113-type"><link rel="stylesheet" href="/glass-extras.css?v=20261113-g6"><dialog id="ingredientModal"><div class="dialog-top"><div><span class="eyebrow">完整原料 · 多选检索</span><h2>原料组分表</h2></div><button id="closeIngredients" class="icon-close" aria-label="关闭原料组分表">×</button></div><div class="ingredient-body"><p class="hint">每格是一种数据库中的组分。点击多选，再按组分组合或性能要求检索。</p><div class="ingredient-controls"><input id="ingredientQuery" aria-label="查找原料" placeholder="查找原料，如SiO2、氧化硅"><div id="ingredientTabs" role="group" aria-label="原料类别"></div></div><div id="ingredientGrid"></div><div id="ingredientSelected" class="chips"></div></div><div class="ingredient-footer"><button id="clearIngredients" class="text">清空所选原料</button><span id="ingredientStatus" class="hint"></span><button id="applyIngredients">按已选原料查找 →</button></div></dialog><script src="/portal.js?v=20261113-g6"></script><script src="/silane-tabs.js?v=20261113-home"></script><script src="/search-engine.js?v=20261113-type"></script><script src="/glass-extras.js?v=20261113-g6"></script><script src="/catalyst-search.js?v=20261113-rxn2"></script></body></html>

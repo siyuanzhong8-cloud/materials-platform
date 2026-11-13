@@ -1,0 +1,49 @@
+{
+  "materials": {
+    "rows": 343321,
+    "logical_values_unchanged": true,
+    "sha256": "f21734e760f98f097bcacca43cd842589246746ed21da4983a1462433a6cfea2"
+  },
+  "entries": {
+    "rows": 426664,
+    "logical_values_unchanged": true,
+    "sha256": "6adb48e85c8178d3af63e729aaedfe6f9575ab9d1cf26a6ea109b4bc9acab26a"
+  },
+  "conditions": {
+    "rows": 912640,
+    "logical_values_unchanged": true,
+    "sha256": "7fb3391b7ee8abdea3968defcdbfd63a19db64a0b6e1ebd28e2026a3638495df"
+  },
+  "properties": {
+    "rows": 1850731,
+    "logical_values_unchanged": true,
+    "sha256": "32b4c253ce4a6540f65227dae9b94620b1282e0f05070d2fe18b9d0eac622097"
+  },
+  "attachments": {
+    "rows": 22,
+    "logical_values_unchanged": true,
+    "sha256": "00f16cc8408ac5e0f80642c7a354ce50dfc4bbe4cc64455644e431938ea5971b"
+  },
+  "import_stats": {
+    "rows": 5,
+    "logical_values_unchanged": true,
+    "sha256": "d6f0869431da4a4f31236655d057d4004fc7ff0e9596b90f330b8e8c7d446e9a"
+  },
+  "optical_data": {
+    "rows": 1813,
+    "logical_values_unchanged": true,
+    "sha256": "2a712d11b6605edb05d2aba042c17a3de147001ec3c0d5fda28dd7851a51980d"
+  },
+  "component_members": {
+    "rows": 1549094,
+    "logical_values_unchanged": true,
+    "sha256": "f23c6e5e033fd7fdd89e83d40c64bd960df464a0c9620f4a978b9845d36e5939"
+  },
+  "catalog_systems": {
+    "rows": 46257,
+    "logical_values_unchanged": true,
+    "sha256": "1ea48e55c023917b6200fe0cbaaaf7c0ab1684bcfb348a9bbbe2de493d7ade14"
+  },
+  "sqlite_integrity": "ok",
+  "fulltext_examples_unchanged": true
+}
