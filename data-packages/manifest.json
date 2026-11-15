@@ -1,0 +1,105 @@
+{
+  "files": [
+    {
+      "name": "glass.sqlite",
+      "sha256": "be37896d768efc15ab88f847c4c868eebdb83c5bb2746a959e0318e6d0f86cc8",
+      "bytes": 44412928,
+      "parts": [
+        "glass.sqlite.xz.00"
+      ],
+      "compressed_bytes": 4806648
+    },
+    {
+      "name": "glass_archive.sqlite",
+      "sha256": "b3bedb6f13c04f6961ba4d246a40cd069f54ddd400d799ca4dbd5e1f8af47ad6",
+      "bytes": 282787840,
+      "parts": [
+        "glass_archive.sqlite.xz.00"
+      ],
+      "compressed_bytes": 40354004
+    },
+    {
+      "name": "glass_catalog.sqlite",
+      "sha256": "9bd493a937830b488b4ecc88a5edb222aa5984321adb94a988806a395d9d441b",
+      "bytes": 1065947136,
+      "parts": [
+        "glass_catalog.sqlite.xz.00",
+        "glass_catalog.sqlite.xz.01"
+      ],
+      "compressed_bytes": 140251060
+    },
+    {
+      "name": "glass_mlip_catalog.sqlite",
+      "sha256": "98c8a3139277ea41b0edd3580f3a4cdff0f180a5f8915caf5f907df269fd1056",
+      "bytes": 28672,
+      "parts": [
+        "glass_mlip_catalog.sqlite.xz.00"
+      ],
+      "compressed_bytes": 6272
+    },
+    {
+      "name": "literature.sqlite",
+      "sha256": "5d718422f575281f6893010a4c06d5180c77abcc7b8dac4a01bcda3906415f8f",
+      "bytes": 53440512,
+      "parts": [
+        "literature.sqlite.xz.00"
+      ],
+      "compressed_bytes": 6921580
+    },
+    {
+      "name": "oc22_catalog.sqlite",
+      "sha256": "fce18a96c6afcb4b0274916297734470b313efdb54ccdc253caba28d7ee10761",
+      "bytes": 22450176,
+      "parts": [
+        "oc22_catalog.sqlite.xz.00"
+      ],
+      "compressed_bytes": 4671972
+    },
+    {
+      "name": "oer.sqlite",
+      "sha256": "f04b5ceb84f4a7b9c7b3fa974ffde43049a7521e9f8fadfdb5a073f595c0b9ee",
+      "bytes": 140505088,
+      "parts": [
+        "oer.sqlite.xz.00"
+      ],
+      "compressed_bytes": 73851736
+    },
+    {
+      "name": "silane_external.sqlite",
+      "sha256": "33c4f61b88b043d9d809bc9acf0cfe21f3c7028eda32cc31b5534499cea95956",
+      "bytes": 2228224,
+      "parts": [
+        "silane_external.sqlite.xz.00"
+      ],
+      "compressed_bytes": 609076
+    },
+    {
+      "name": "DATASETS.md",
+      "sha256": "d3d62ddcf86bd4cba4f162a0ad9f516819eefae508b02250399e101554fa2331",
+      "bytes": 5441,
+      "parts": [
+        "DATASETS.md"
+      ],
+      "compressed_bytes": 5441
+    },
+    {
+      "name": "catalog_summary.json",
+      "sha256": "a1c1ee0c8a0511cae661ec5d22f4b8a97004b562686864f020980c7bf58a5d54",
+      "bytes": 135220,
+      "parts": [
+        "catalog_summary.json"
+      ],
+      "compressed_bytes": 135220
+    },
+    {
+      "name": "glass_summary.json",
+      "sha256": "f3963592a0e88a446104223d6f389968136055776c5d617e7954e7bda22ea04b",
+      "bytes": 239,
+      "parts": [
+        "glass_summary.json"
+      ],
+      "compressed_bytes": 239
+    }
+  ],
+  "note": "Account database config/auth.sqlite is intentionally excluded."
+}

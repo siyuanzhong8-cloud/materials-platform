@@ -1,13 +1,18 @@
 # 材料数据库平台
 
-这是材料数据库平台的**源码仓库**，供协作修改代码使用。当前线上服务仍在云电脑上运行；这里的修改不会自动上线，需要部署后才会生效。
+这是材料数据库平台的**私有仓库**。仓库现包含源代码，以及各栏目数据库（已压缩存放在 `data-packages/`）。当前线上服务仍在云电脑上运行；这里的代码修改不会自动部署到线上服务器。
 
-本仓库**不包含**：
-- 各栏目的 SQLite 数据库（`data/*.sqlite`）
-- 登录账号库（`config/auth.sqlite`）
+原始 SQLite 文件超过 GitHub 的 100 MB 单文件限制，因此已用 xz 压缩，并拆成每份不超过 90 MB 的分卷。克隆后在仓库根目录执行：
+
+```bash
+python3 data-packages/restore.py data
+```
+
+本仓库**仍不包含**：
+- 登录账号库 `config/auth.sqlite`（协作者须用 `manage_users.py` 自行创建管理员）
 - 本地虚拟环境、日志和密钥
 
-本地运行前，请把数据库文件放到 `data/`，在 `config/` 用 `manage_users.py` 初始化管理员，并安装 `requirements-lock.txt` 中的依赖。启动入口是 `serve_web.py`（监听 `8886` 端口）。
+本地运行前，请先用上面的命令把数据库恢复到 `data/`，在 `config/` 用 `manage_users.py` 初始化管理员，并安装 `requirements-lock.txt` 中的依赖。启动入口是 `serve_web.py`（监听 `8886` 端口）。
 
 ---
 
